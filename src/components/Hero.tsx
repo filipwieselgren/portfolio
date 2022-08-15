@@ -18,7 +18,7 @@ const Hero = () => {
         <div className="hero-intro-container">
           <div className="hero-intro-txt">
             Glad to see you here! My name is Filip, I’m a front end
-            developer-student. I have skills in ...
+            developer-student with skills in ...
           </div>
           <div className="pg-lang-container">{languageHtml}</div>
         </div>
