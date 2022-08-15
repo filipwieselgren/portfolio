@@ -11,8 +11,10 @@ html {
 body {
   font-family: "Roboto", sans-serif;
   font-size: 1.6rem;
+  overflow: hidden;
 }
 
+/*--------NAVBAR--------*/
 .navbar {
   width: 100vw;
   display: flex;
@@ -25,10 +27,29 @@ body {
   width: 150vw;
 }
 
-.nav-text {
+.nav-text-container {
   position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-text {
   color: #93b5b3;
-  font-size: 2.4rem;
+  font-size: 2em;
   text-align: center;
   font-weight: 600;
+}
+
+@media only screen and (min-width: 1024px) {
+  .navbar {
+    margin-top: 2vh;
+  }
+  .navbar-img {
+    width: 60vw;
+  }
+
+  .nav-text {
+    font-size: 1.5em;
+  }
 }
