@@ -11,7 +11,6 @@ html {
 body {
   font-family: "Roboto", sans-serif;
   font-size: 1.6rem;
-  overflow: hidden;
 }
 
 /*--------NAVBAR--------*/
@@ -27,14 +26,14 @@ body {
   width: 150vw;
 }
 
-.nav-text-container {
+.nav-txt-container {
   position: absolute;
   width: 100%;
   display: flex;
   justify-content: center;
 }
 
-.nav-text {
+.nav-txt {
   color: #93b5b3;
   font-size: 1.5em;
   text-align: center;
@@ -49,7 +48,26 @@ body {
     width: 60vw;
   }
 
-  .nav-text {
+  .nav-txt {
     font-size: 1.5em;
   }
+}
+
+/*--------HERO--------*/
+
+.hero-container {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+.hero-intro-container {
+  width: 100%;
+}
+.pg-lang-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.pg-lang {
+  width: 15%;
+  margin: 1em;
 }

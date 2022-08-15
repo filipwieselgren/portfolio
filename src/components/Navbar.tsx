@@ -9,8 +9,8 @@ const Navbar = () => {
           src={navimg}
           alt="Navbar background image"
         />
-        <div className="nav-text-container">
-          <span className="nav-text">Welcome to my portfolio</span>
+        <div className="nav-txt-container">
+          <span className="nav-txt">Welcome to my portfolio</span>
         </div>
       </nav>
     </>
