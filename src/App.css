@@ -15,5 +15,20 @@ body {
 
 .navbar {
   width: 100vw;
-  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5vh;
+}
+
+.navbar-img {
+  width: 150vw;
+}
+
+.nav-text {
+  position: absolute;
+  color: #93b5b3;
+  font-size: 2.4rem;
+  text-align: center;
+  font-weight: 600;
 }
