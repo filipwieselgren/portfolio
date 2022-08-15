@@ -74,10 +74,11 @@ body {
 .pg-lang-container {
   border: 1px solid blue;
   display: flex;
+  align-items: center;
   flex-wrap: wrap;
   width: 80%;
 }
 .pg-lang {
-  width: 15%;
+  width: 3em;
   margin: 1em;
 }
