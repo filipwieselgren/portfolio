@@ -1,7 +1,11 @@
+('import navimg from "*.png"');
+
 const Navbar = () => {
   return (
     <>
-      <nav className="navbar">Välkommen hit</nav>
+      <nav className="navbar">
+        <img src="" alt="Navbar background image" />
+      </nav>
     </>
   );
 };
