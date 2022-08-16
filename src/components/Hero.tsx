@@ -1,4 +1,5 @@
 import { langImages } from "../models/languages";
+import me from "../assets/me.png";
 
 const Hero = () => {
   const languageHtml = langImages.map((lang) => {
@@ -22,7 +23,16 @@ const Hero = () => {
           </div>
           <div className="pg-lang-container">{languageHtml}</div>
         </div>
+        <div className="box-con">
+          <img className="me" src={me} alt="Image of me" />
+          <div className="green-box"></div>
+        </div>
       </section>
+
+      <button>See my work</button>
+      <button>Download my CV</button>
+      <button>Read more abot me</button>
+      <button>Contact me</button>
     </>
   );
 };
