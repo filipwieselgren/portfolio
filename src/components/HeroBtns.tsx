@@ -2,10 +2,10 @@ const HeroBtns = () => {
   return (
     <>
       <div className="btn-container">
-        <button>See my work</button>
-        <button>Download my CV</button>
-        <button>Read more abot me</button>
-        <button>Contact me</button>
+        <button className="btn-hero">See my work</button>
+        <button className="btn-hero">Download my CV</button>
+        <button className="btn-hero">Read more abot me</button>
+        <button className="btn-hero">Contact me</button>
       </div>
     </>
   );

@@ -19,7 +19,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 20vh;
+  margin-top: 5vh;
   overflow: hidden;
 }
 
@@ -89,7 +89,7 @@ body {
 
 .box-con {
   width: 100%;
-  height: 40%;
+  /* height: 40%; */
   z-index: -2;
   display: flex;
   align-items: flex-end;
@@ -99,12 +99,12 @@ body {
 
 .green-box {
   width: 100%;
-  height: 50vh;
-  transform: skew(40deg) rotate(10deg);
+  height: 40vh;
+  transform: skew(40deg) rotate(2deg);
   background-color: #93b5b3;
   position: absolute;
   left: -40%;
-  top: 0.5%;
+  top: 0.00001em;
   z-index: -1;
 }
 
@@ -114,12 +114,19 @@ body {
   align-self: flex-end;
 }
 
+.nav-text-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .btn-container {
   width: 100vw;
   height: 20%;
 }
 
-button {
+.btn-hero {
   width: 100%;
   z-index: 99;
   font-size: 1.5em;
@@ -130,4 +137,19 @@ button {
   border-radius: none;
   background-color: #121820;
   color: #93b5b3;
+}
+
+@media only screen and (min-width: 768px) {
+  .btn-container {
+    display: flex;
+  }
+  .btn-hero {
+    width: 25vw;
+    font-size: 1em;
+    padding: 1rem;
+  }
+
+  .nav-text-btn {
+    left: 20em;
+  }
 }
