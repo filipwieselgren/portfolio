@@ -118,4 +118,5 @@ button {
   z-index: 99;
   font-size: 1.5em;
   padding: 3rem;
+  border-radius: none;
 }
