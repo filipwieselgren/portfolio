@@ -117,7 +117,7 @@ body {
   width: 10em;
   z-index: 99;
   align-self: flex-end;
-  margin-right: 1em;
+  margin-right: 0.5em;
 }
 
 .nav-text-btn {
@@ -157,6 +157,13 @@ body {
     width: 25vw;
     font-size: 1em;
     padding: 1rem;
+  }
+
+  .me {
+    width: 10em;
+    z-index: 99;
+    align-self: flex-end;
+    margin-right: 1em;
   }
 
   .nav-text-btn {
