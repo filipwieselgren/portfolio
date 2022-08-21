@@ -122,4 +122,6 @@ button {
   -webkit-border-radius: none;
   -moz-border-radius: none;
   border-radius: none;
+  background-color: #121820;
+  color: #93b5b3;
 }
