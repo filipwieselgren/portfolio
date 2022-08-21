@@ -28,9 +28,8 @@ const Hero = () => {
           <div className="green-box"></div>
           <img className="me" src={me} alt="Image of me" />
         </div>
+        <HeroBtns />
       </section>
-
-      <HeroBtns />
     </>
   );
 };
