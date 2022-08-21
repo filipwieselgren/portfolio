@@ -118,5 +118,8 @@ button {
   z-index: 99;
   font-size: 1.5em;
   padding: 3rem;
+  border: 0.5px solid #93b5b3;
+  -webkit-border-radius: none;
+  -moz-border-radius: none;
   border-radius: none;
 }
