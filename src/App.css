@@ -111,18 +111,18 @@ body {
 .content-green-box-con {
   width: 100vw;
   display: flex;
+  align-items: flex-end;
 }
 
 .me {
   width: 10em;
   z-index: 99;
   align-self: flex-end;
-  /* margin-right: 0.5em; */
 }
 
 .nav-text-btn {
-  align-self: center;
   font-weight: 900;
+  margin: 0 0 5em 1em;
 }
 
 .btn-container {
@@ -143,12 +143,6 @@ body {
   color: #93b5b3;
 }
 
-@media only screen and (min-width: 414px) {
-  .nav-text-btn {
-    top: 40%;
-  }
-}
-
 @media only screen and (min-width: 768px) {
   .btn-container {
     display: flex;
@@ -164,10 +158,5 @@ body {
     z-index: 99;
     align-self: flex-end;
     margin-right: 1em;
-  }
-
-  .nav-text-btn {
-    left: 15em;
-    top: 50%;
   }
 }
