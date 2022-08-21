@@ -1,15 +1,34 @@
 import { langImages } from "../models/languages";
 import me from "../assets/me.png";
 import HeroBtns from "./HeroBtns";
+import { useEffect, useState } from "react";
 
 const Hero = () => {
+  const [scale, setScale] = useState<boolean>(false);
+
+  useEffect(() => {
+    setTimeout(() => {
+      scaleImg();
+    }, 2000);
+  }, []);
+
+  const scaleImg = () => {
+    setScale(true);
+  };
+
+  let scaleLang: string = "pg-lang";
+
+  if (scale === true) {
+    scaleLang = "pg-lang-scale";
+  }
+
   const languageHtml = langImages.map((lang) => {
     return (
       <img
         key={lang.id}
         src={lang.photo}
         alt="Images of programming languages"
-        className="pg-lang"
+        className={scaleLang}
       />
     );
   });
