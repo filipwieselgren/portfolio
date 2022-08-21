@@ -26,8 +26,10 @@ const Hero = () => {
         </div>
         <div className="box-con">
           <div className="green-box"></div>
-          <img className="me" src={me} alt="Image of me" />
-          <span className="nav-text-btn">What would you like to do?</span>
+          <div className="content-green-box-con">
+            <img className="me" src={me} alt="Image of me" />
+            <span className="nav-text-btn">What would you like to do?</span>
+          </div>
         </div>
         <HeroBtns />
       </section>
