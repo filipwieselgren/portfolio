@@ -119,7 +119,7 @@ body {
   z-index: 99;
   align-self: flex-end;
   border: 1px solid red;
-  margin-right: 2em;
+  margin-right: 1.5em;
 }
 
 .nav-text-btn {
