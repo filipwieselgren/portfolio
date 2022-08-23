@@ -1,4 +1,4 @@
-import { langImages } from "../models/languages";
+import { langImages } from "../models/Ilanguages";
 import me from "../assets/me.png";
 import HeroBtns from "./HeroBtns";
 import { useEffect, useState } from "react";

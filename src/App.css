@@ -120,6 +120,7 @@ body {
   left: -40%;
   top: 0.1em;
   z-index: -1;
+  border: 1px solid #121820;
 }
 
 .content-green-box-con {
