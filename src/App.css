@@ -87,6 +87,11 @@ body {
   margin: 1em;
 }
 
+.project-img {
+  width: 2em;
+  margin: 1em;
+}
+
 .pg-lang-scale {
   width: 2em;
   margin: 1em;
@@ -175,4 +180,10 @@ body {
     align-self: flex-end;
     margin-right: 1em;
   }
+}
+
+/* MAIN */
+
+.link-to-p {
+  display: block;
 }

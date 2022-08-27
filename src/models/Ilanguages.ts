@@ -6,6 +6,7 @@ import node from "../assets/node.js.png";
 import sass from "../assets/sass.logo.png";
 import css from "../assets/css-logo.png";
 import html from "../assets/html-logo.png";
+import vue from "../assets/Vue.js.png";
 
 export const langImages = [
   { photo: react, id: 1 },
@@ -16,4 +17,5 @@ export const langImages = [
   { photo: sass, id: 6 },
   { photo: css, id: 7 },
   { photo: html, id: 8 },
+  { photo: vue, id: 9 },
 ];
