@@ -1,8 +1,10 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
+import { ILangSymbols } from "../models/ILangSymbols";
 import { IProjects } from "../models/IProjects";
+import { langImages } from "../models/Ilanguages";
 
-const api = "https://api.github.com/users/filipwieselgren/repos";
+const api: string = "https://api.github.com/users/filipwieselgren/repos";
 
 const Main = () => {
   const [projects, setProjects] = useState<IProjects[]>([]);
@@ -16,7 +18,12 @@ const Main = () => {
   const showProject = projects.map((project) => {
     return (
       <div key={project.id}>
-        <div>{project.name}</div>
+        <>
+          <div>{project.name}</div>
+          {project.topics.map((pt) => {
+            <div>{pt}</div>;
+          })}
+        </>
       </div>
     );
   });

@@ -5,4 +5,5 @@ export interface IProjects {
   html_url: string;
   languages_url: string;
   description: string;
+  topics: [];
 }
