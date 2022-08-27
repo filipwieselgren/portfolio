@@ -61,7 +61,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 80vh;
 }
 
 .hero-intro-container {
@@ -183,6 +182,10 @@ body {
 }
 
 /* MAIN */
+
+.main-wrapper {
+  margin: 5em;
+}
 
 .link-to-p {
   display: block;
