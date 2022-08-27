@@ -187,6 +187,10 @@ body {
   margin: 5em;
 }
 
+h2 {
+  margin: 2em 0em 0.5em 0em;
+}
+
 .link-to-p {
   display: block;
   margin: 1em 0;

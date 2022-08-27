@@ -71,8 +71,13 @@ const Main = () => {
               </a>
               <h5>Build with</h5>
               {project.topics.map((pt) => {
-                return <img className="project-img" src={pt} />;
+                return (
+                  <>
+                    <img className="project-img" src={pt} />
+                  </>
+                );
               })}
+              <hr />
             </>
           </div>
         );
