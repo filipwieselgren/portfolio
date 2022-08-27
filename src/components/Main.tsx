@@ -69,7 +69,7 @@ const Main = () => {
               <a className="link-to-p" href={project.html_url} target="_blank">
                 Test it
               </a>
-              <h3>Build with</h3>
+              <h5>Build with</h5>
               {project.topics.map((pt) => {
                 return <img className="project-img" src={pt} />;
               })}
