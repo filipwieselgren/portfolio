@@ -117,9 +117,9 @@ body {
 }
 
 .green-box {
-  width: 100%;
+  width: 80%;
   height: 40vh;
-  transform: skew(40deg) rotate(2deg);
+  transform: skew(40deg);
   background-color: #93b5b3;
   position: absolute;
   left: -40%;
