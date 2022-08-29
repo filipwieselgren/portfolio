@@ -121,6 +121,7 @@ body {
   height: 40vh;
   transform: skew(40deg);
   background-color: #93b5b3;
+  border-radius: 0 5px 0 0;
   position: absolute;
   left: -40%;
   top: 0.1em;
