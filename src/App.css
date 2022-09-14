@@ -58,7 +58,6 @@ body {
 
 .hero-container {
   width: 100vw;
-  height: 88vh;
   display: flex;
   flex-direction: column;
   align-items: center;
