@@ -56,8 +56,6 @@ const Main = () => {
   //   <div> {project.topics}</div>;
   // });
 
-  console.log(langImages);
-
   return (
     <div className="main-wrapper">
       {projects.map((project) => {
