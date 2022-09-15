@@ -3,15 +3,16 @@ import { langImages } from "../models/Ilanguages";
 import { heroText } from "../models/IHeroText";
 import me from "../assets/me.png";
 import IHeroTextInterface from "../models/IHeroTextInterface";
-import { useDispatch } from "react-redux";
-import { setLanguage } from "../store/actions/langActions";
+import { useDispatch, useSelector } from "react-redux";
 
 export const HeroContent = () => {
   const [languageText, setLanguageText] = useState<IHeroTextInterface[]>(
     heroText.heroEnglishText
   );
 
-  const [chooseLang, setChooseLang] = useState("EN");
+  const test = useSelector((state) => state);
+
+  // const [chooseLang, setChooseLang] = useState("EN");
 
   useEffect(() => {
     if (localStorage.getItem("heroTextLocalStorage") != null) {
@@ -34,17 +35,9 @@ export const HeroContent = () => {
     );
   });
 
-  const dispatch = useDispatch();
+  // const dispatch = useDispatch();
 
-  const changeLanguage = (value: string) => {
-    if (value === "EN") {
-      dispatch(setLanguage("SV"));
-      setChooseLang("SV");
-    } else if (value === "SV") {
-      dispatch(setLanguage("EN"));
-      setChooseLang("EN");
-    }
-  };
+  const changeLanguage = (value: string) => {};
 
   const setLocalStorage = (text: IHeroTextInterface[]) => {
     localStorage.setItem("heroTextLocalStorage", JSON.stringify(text));
@@ -62,7 +55,7 @@ export const HeroContent = () => {
 
             <button
               className="change-lang-btn"
-              onClick={() => changeLanguage(chooseLang)}
+              // onClick={() => changeLanguage()}
             >
               {text.changeLanguageText}
             </button>
