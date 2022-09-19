@@ -61,22 +61,20 @@ const Main = () => {
       {projects.map((project) => {
         return (
           <div key={project.id}>
-            <>
-              <h2>{project.name}</h2>
-              <div>{project.description}</div>
-              <a className="link-to-p" href={project.html_url} target="_blank">
-                Test it
-              </a>
-              <h5>Build with</h5>
-              {project.topics.map((pt) => {
-                return (
-                  <>
-                    <img className="project-img" src={pt} />
-                  </>
-                );
-              })}
-              <hr />
-            </>
+            <h2>{project.name}</h2>
+            <div>{project.description}</div>
+            <a className="link-to-p" href={project.html_url} target="_blank">
+              Test it
+            </a>
+            <h5>Build with</h5>
+            {project.topics.map((pt) => {
+              return (
+                <>
+                  <img className="project-img" src={pt} />
+                </>
+              );
+            })}
+            <hr />
           </div>
         );
       })}

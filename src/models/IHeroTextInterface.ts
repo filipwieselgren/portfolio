@@ -1,4 +1,4 @@
-interface IHeroEnglishText {
+interface IHeroText {
   id: number;
   using: boolean;
   welcome: string;
@@ -25,4 +25,4 @@ interface IHeroEnglishText {
   ];
 }
 
-export default IHeroEnglishText;
+export default IHeroText;
