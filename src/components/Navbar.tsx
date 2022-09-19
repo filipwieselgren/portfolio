@@ -28,9 +28,9 @@ const Navbar = () => {
               <li className="nav-item">📩 Contact me</li>
             </ul>
             <div onClick={navToggle} className={toggleIcon}>
-              <div className="line1"></div>
-              <div className="line2"></div>
-              <div className="line3"></div>
+              <div onClick={navToggle} className="line1"></div>
+              <div onClick={navToggle} className="line2"></div>
+              <div onClick={navToggle} className="line3"></div>
             </div>
           </div>
 
