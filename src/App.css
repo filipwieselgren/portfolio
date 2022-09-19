@@ -8,6 +8,14 @@ html {
   font-size: 62.5%;
 }
 
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   font-size: 1.6rem;
@@ -16,15 +24,77 @@ body {
 /*--------NAVBAR--------*/
 .navbar {
   width: 100vw;
+  border: 1px solid red;
+  height: 25vh;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 5vh;
-  overflow: hidden;
 }
 
 .navbar-img {
-  width: 150vw;
+  align-self: flex-end;
+  width: 10em;
+}
+
+.name-nav-options-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.navbar-name-container {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+.nav-menu-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.nav-menu {
+  position: fixed;
+  right: 0;
+  width: 67vw;
+  height: 93vh;
+  background-color: #93b5b3;
+  transform: translateX(100%);
+  transition: 0.5s ease-in;
+}
+
+.nav-toggler {
+  display: block;
+}
+
+.nav-toggler div {
+  width: 4.5rem;
+  height: 0.2rem;
+  margin: 0.4rem;
+  background-color: #121820;
+  transition: 0.2s ease-in;
+  z-index: 10;
+}
+
+.nav-active {
+  transform: translateX(0);
+}
+
+.toggle .line1 {
+  transform: rotate(-45deg);
+  position: absolute;
+  background-color: #121820;
+  top: 16px;
+}
+.toggle .line2 {
+  opacity: 0;
+}
+.toggle .line3 {
+  transform: rotate(45deg);
+  position: absolute;
+  background-color: #121820;
+  right: -0.5px;
+  top: 17px;
 }
 
 .nav-txt-container {
@@ -41,12 +111,24 @@ body {
   font-weight: 900;
 }
 
-@media only screen and (min-width: 1024px) {
-  .navbar {
-    margin-top: 2vh;
+@media only screen and (min-width: 768px) {
+  .nav-toggler {
+    display: none;
   }
+
+  .nav-menu {
+    display: flex;
+    top: 0;
+    justify-content: space-around;
+    background-color: rgba(255, 255, 255, 0);
+    transform: translate(0%);
+    transition: none;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
   .navbar-img {
-    width: 60vw;
+    width: 10%;
   }
 
   .nav-txt {
