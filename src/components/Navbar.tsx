@@ -40,6 +40,7 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
+      <div className="img-underline"></div>
     </>
   );
 };

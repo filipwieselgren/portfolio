@@ -24,14 +24,17 @@ body {
 /*--------NAVBAR--------*/
 .navbar {
   width: 100vw;
-  border: 1px solid red;
-  height: 35vh;
   display: flex;
 }
 
 .navbar-img {
   align-self: flex-end;
   width: 10em;
+}
+
+.img-underline {
+  width: 90%;
+  border-bottom: 1px solid #121820;
 }
 
 .name-nav-options-container {
@@ -70,6 +73,7 @@ body {
 .nav-toggler {
   display: block;
   margin: 2em;
+  cursor: pointer;
 }
 
 .nav-toggler div {
@@ -83,7 +87,6 @@ body {
 
 .nav-active {
   transform: translateX(0);
-  box-shadow: 1px 1px 10px 0.5px #121820;
   border-radius: 0px 0px 0px 5px;
 }
 
@@ -147,13 +150,17 @@ body {
   .nav-menu li {
     display: block;
   }
+
+  .nav-active li:nth-child(-n + 3) {
+    margin: 3rem 5rem 1rem 3rem;
+  }
+
+  .navbar-img {
+    width: 15em;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
-  .navbar-img {
-    width: 10%;
-  }
-
   .nav-txt {
     font-size: 1.5em;
   }
