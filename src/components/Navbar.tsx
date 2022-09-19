@@ -23,9 +23,9 @@ const Navbar = () => {
         <div className="name-nav-options-container">
           <div className="nav-menu-container">
             <ul className={active}>
-              <li className="nav-item">📖 Read more about me</li>
-              <li className="nav-item">📄 See my resume</li>
-              <li className="nav-item">📩 Contact me</li>
+              <li className="nav-item">Read more about me</li>
+              <li className="nav-item">See my resume</li>
+              <li className="nav-item">Contact me</li>
             </ul>
             <div onClick={navToggle} className={toggleIcon}>
               <div onClick={navToggle} className="line1"></div>
