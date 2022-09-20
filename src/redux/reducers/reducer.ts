@@ -1,24 +1,29 @@
 import { heroText } from "../../models/IActiveLanguage";
 import { createSlice } from "@reduxjs/toolkit";
 
+export interface IState {
+  changeLanguage: IValue;
+}
+export interface IValue {
+  value: string; // Ändra denna så den stämmer överens med mitt value i mitt initialState
+}
+
 export const changeLanguageSlice = createSlice({
   name: "languages",
   initialState: {
-    value: {
-      language: heroText.heroEnglishText,
-    },
+    value: "english", // Gör om till ett objekt med srpåkobjekten och min string "english"
   },
   reducers: {
-    swedish: (state, action) => {
-      state.value.language = heroText.heroSwedishText;
+    toggleLanguage: (state) => {
+      state.value === "swedish"
+        ? (state.value = "english")
+        : (state.value = "swedish");
     },
 
-    english: (state, action) => {
-      state.value.language = heroText.heroEnglishText;
-    },
+    // lägg till en funktion för mitt språkobjekt
   },
 });
 
-export const { swedish, english } = changeLanguageSlice.actions;
+export const { toggleLanguage } = changeLanguageSlice.actions;
 
 export default changeLanguageSlice.reducer;

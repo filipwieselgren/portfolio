@@ -1,10 +1,15 @@
 import { useState } from "react";
 import me from "../assets/me.png";
+import { heroText } from "../models/IActiveLanguage";
+import IHeroTextInterface from "../models/IHeroTextInterface";
 import { HamburgerNav } from "./HamburgerNav";
 
 const Navbar = () => {
   const [active, setActive] = useState<string>("nav-menu");
   const [toggleIcon, setToggleIcon] = useState<string>("nav-toggler");
+  // const [language, setLanguage] = useState<IHeroTextInterface[]>(
+  //   heroText.heroEnglishText
+  // );
 
   const navToggle = () => {
     active === "nav-menu"

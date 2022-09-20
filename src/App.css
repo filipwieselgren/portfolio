@@ -22,6 +22,15 @@ body {
 }
 
 /*--------NAVBAR--------*/
+
+button {
+  border: 1px solid #93b5b3;
+  border-radius: 5px;
+  background-color: transparent;
+  padding: 0.8em;
+  color: #fff;
+  margin: 3rem 5rem 1rem 5rem;
+}
 .navbar {
   width: 100vw;
   display: flex;

@@ -4,7 +4,9 @@ interface IHeroText {
   welcome: string;
   maintext: string;
   askvisitor: string;
+  language: string;
   changeLanguageText: string;
+  frontEnd: string;
   btntext: [
     {
       btnid: number;
