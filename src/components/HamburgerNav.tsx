@@ -19,7 +19,7 @@ export const HamburgerNav = (props: IActive) => {
     heroText.heroSwedishText,
   ]); // Flytta detta till min reducer
 
-  const language = useSelector((state: IState) => state.changeLanguage.value);
+  let language = useSelector((state: IState) => state.changeLanguage.value);
 
   const dispatch = useDispatch();
 
@@ -45,14 +45,20 @@ export const HamburgerNav = (props: IActive) => {
       </div>
     </>
   );
-  console.log("Språk:", language);
+
+  useEffect(() => {
+    localStorage.setItem("activeLanguage", JSON.stringify(language));
+  }, [language]);
 
   return (
     <>
       <ul className={props.active}>
         {props.active !== "nav-menu" ? meInActiveNav : <></>}
         {props.active !== "nav-menu" ? (
-          <button onClick={() => dispatch(toggleLanguage())}>
+          <button
+            onClick={() => dispatch(toggleLanguage())}
+            className="switchLang-btn"
+          >
             Switch to Swedish
           </button>
         ) : (
@@ -67,7 +73,7 @@ export const HamburgerNav = (props: IActive) => {
             <></>
           );
         })}
-        ;{props.active !== "nav-menu" ? gitLinkedActive : <></>}
+        {props.active !== "nav-menu" ? gitLinkedActive : <></>}
       </ul>
 
       <div onClick={triggerNavToggle} className={props.toggleIcon}>
