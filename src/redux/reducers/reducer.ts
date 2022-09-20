@@ -1,6 +1,4 @@
-import { IAction } from "../../models/IAction";
-import IHeroTextInterface from "../../models/IHeroTextInterface";
-import { heroText } from "../../models/IHeroText";
+import { heroText } from "../../models/IActiveLanguage";
 import { createSlice } from "@reduxjs/toolkit";
 
 export const changeLanguageSlice = createSlice({

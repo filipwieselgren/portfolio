@@ -1,6 +1,9 @@
 import me from "../assets/me.png";
 import github from "../assets/github.png";
 import linkedin from "../assets/Linkedin-logo-icon-png.png";
+import { heroText } from "../models/IActiveLanguage";
+import { useState } from "react";
+import IHeroTextInterface from "../models/IHeroTextInterface";
 
 interface IActive {
   navToggle(): void;
@@ -8,6 +11,10 @@ interface IActive {
   toggleIcon: string;
 }
 export const HamburgerNav = (props: IActive) => {
+  const [language, setLanguage] = useState<IHeroTextInterface[]>(
+    heroText.heroEnglishText
+  );
+
   const triggerNavToggle = () => {
     props.navToggle();
   };
@@ -29,13 +36,16 @@ export const HamburgerNav = (props: IActive) => {
       </div>
     </>
   );
+
   return (
     <>
       <ul className={props.active}>
         {props.active !== "nav-menu" ? meInActiveNav : <></>}
-        <li className="nav-item">Read more about me</li>
-        <li className="nav-item">See my resume</li>
-        <li className="nav-item">Contact me</li>
+        {language.map((lang) => {
+          return lang.btntext.map((btn) => {
+            return <li key={btn.btnid}>{btn.text}</li>;
+          });
+        })}
         {props.active !== "nav-menu" ? gitLinkedActive : <></>}
       </ul>
 

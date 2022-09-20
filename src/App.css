@@ -114,9 +114,6 @@ body {
 .nav-active li:nth-child(n + 2) {
   margin: 3rem 5rem 1rem 5rem;
 }
-.nav-active li:nth-child(n + 5) {
-  margin-bottom: 10rem;
-}
 
 .some-con {
   width: 100%;
