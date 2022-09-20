@@ -1,9 +1,7 @@
 import me from "../assets/me.png";
 import github from "../assets/github.png";
 import linkedin from "../assets/Linkedin-logo-icon-png.png";
-import { heroText } from "../models/IActiveLanguage";
 import { useEffect, useState } from "react";
-import IHeroTextInterface from "../models/IHeroTextInterface";
 import { useDispatch, useSelector } from "react-redux";
 import { IState, toggleLanguage } from "../redux/reducers/reducer";
 

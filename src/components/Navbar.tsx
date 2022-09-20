@@ -1,12 +1,19 @@
 import { useState } from "react";
+import { useSelector } from "react-redux";
 import me from "../assets/me.png";
 import { heroText } from "../models/IActiveLanguage";
 import IHeroTextInterface from "../models/IHeroTextInterface";
+import { IState } from "../redux/reducers/reducer";
 import { HamburgerNav } from "./HamburgerNav";
 
 const Navbar = () => {
   const [active, setActive] = useState<string>("nav-menu");
   const [toggleIcon, setToggleIcon] = useState<string>("nav-toggler");
+
+  const languageArray = useSelector(
+    (state: IState) => state.changeLanguage.languages
+  );
+  let language = useSelector((state: IState) => state.changeLanguage.value);
 
   const navToggle = () => {
     active === "nav-menu"
@@ -33,7 +40,13 @@ const Navbar = () => {
 
           <div className="navbar-name-container">
             <div className="navbar-name">Filip Wieselgren</div>
-            <div className="navbar-name">Front End Developer</div>
+            {languageArray.map((lang) => {
+              return lang.language == language ? (
+                <div className="navbar-name">{lang.frontEnd}</div>
+              ) : (
+                <></>
+              );
+            })}
           </div>
         </div>
       </nav>
