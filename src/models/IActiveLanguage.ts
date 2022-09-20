@@ -5,7 +5,7 @@ const heroEnglishText: IHeroText = {
   language: "english",
   welcome: "Welcome to my portfolio",
   maintext:
-    "Glad to see you here! My name is Filip, I’m a front end developer-student with skills in ...",
+    "Glad to see you here!  I study front end development at Medieinstitutet in Stockholm and currently have skills in  ...",
   askvisitor: "What would you like to do?",
   changeLanguageText: "Switch to Swedish",
   frontEnd: "Front End Developer",
@@ -33,7 +33,7 @@ const heroSwedishText: IHeroText = {
   language: "swedish",
   welcome: "Välkommen till min portfolio",
   maintext:
-    "Kul att se dig här! Mitt namn är Filip, jag är en front end utvecklare-student med kunskap inom ...",
+    "Kul att se dig här! Jag studerar frontend-utveckling på Medieinstitutet i Stockholm och har för tillfället kompetens inom ...",
   askvisitor: "Vad vill du göra?",
   changeLanguageText: "Ändra till engelska",
   frontEnd: "Front End Utvecklare",
