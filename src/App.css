@@ -131,7 +131,6 @@ body {
 
 .nav-active {
   transform: translateX(0);
-  overflow: scroll;
 }
 
 .nav-active li {
