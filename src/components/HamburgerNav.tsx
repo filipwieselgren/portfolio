@@ -14,13 +14,14 @@ interface IActive {
 }
 
 export const HamburgerNav = (props: IActive) => {
-  const [switchLangBtn, setSwitchLangBtn] = useState<boolean>(false);
-  const [languages, setLanguage] = useState<IHeroTextInterface[]>([
-    heroText.heroEnglishText,
-    heroText.heroSwedishText,
-  ]); // Flytta detta till min reducer
-
+  // useSelector
+  const languageArray = useSelector(
+    (state: IState) => state.changeLanguage.languages
+  );
   let language = useSelector((state: IState) => state.changeLanguage.value);
+
+  //useState
+  const [switchLangBtn, setSwitchLangBtn] = useState<boolean>(false);
 
   const dispatch = useDispatch();
 
@@ -28,6 +29,10 @@ export const HamburgerNav = (props: IActive) => {
     props.navToggle();
     setSwitchLangBtn(!switchLangBtn);
   };
+
+  languageArray.map((l) => {
+    return l.language;
+  });
 
   const meInActiveNav = (
     <>
@@ -72,7 +77,7 @@ export const HamburgerNav = (props: IActive) => {
       <ul className={props.active}>
         {props.active !== "nav-menu" ? meInActiveNav : <></>}
 
-        {languages.map((lang) => {
+        {languageArray.map((lang) => {
           return lang.language === language ? (
             lang.btntext.map((btn) => {
               return <li key={btn.btnid}>▷ {btn.text}</li>;

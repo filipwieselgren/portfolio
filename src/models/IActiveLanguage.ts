@@ -3,7 +3,6 @@ import IHeroText from "./IHeroTextInterface";
 const heroEnglishText: IHeroText = {
   id: 1,
   language: "english",
-  using: false,
   welcome: "Welcome to my portfolio",
   maintext:
     "Glad to see you here! My name is Filip, I’m a front end developer-student with skills in ...",
@@ -31,9 +30,8 @@ const heroEnglishText: IHeroText = {
 };
 const heroSwedishText: IHeroText = {
   id: 2,
-  using: false,
-  welcome: "Välkommen till min portfolio",
   language: "swedish",
+  welcome: "Välkommen till min portfolio",
   maintext:
     "Kul att se dig här! Mitt namn är Filip, jag är en front end utvecklare-student med kunskap inom ...",
   askvisitor: "Vad vill du göra?",

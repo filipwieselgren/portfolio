@@ -1,10 +1,9 @@
 interface IHeroText {
   id: number;
-  using: boolean;
+  language: string;
   welcome: string;
   maintext: string;
   askvisitor: string;
-  language: string;
   changeLanguageText: string;
   frontEnd: string;
   btntext: [
