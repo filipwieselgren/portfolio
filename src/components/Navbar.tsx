@@ -7,9 +7,6 @@ import { HamburgerNav } from "./HamburgerNav";
 const Navbar = () => {
   const [active, setActive] = useState<string>("nav-menu");
   const [toggleIcon, setToggleIcon] = useState<string>("nav-toggler");
-  // const [language, setLanguage] = useState<IHeroTextInterface[]>(
-  //   heroText.heroEnglishText
-  // );
 
   const navToggle = () => {
     active === "nav-menu"

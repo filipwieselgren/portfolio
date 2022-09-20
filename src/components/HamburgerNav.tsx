@@ -14,6 +14,7 @@ interface IActive {
 }
 
 export const HamburgerNav = (props: IActive) => {
+  const [switchLangBtn, setSwitchLangBtn] = useState<boolean>(false);
   const [languages, setLanguage] = useState<IHeroTextInterface[]>([
     heroText.heroEnglishText,
     heroText.heroSwedishText,
@@ -25,6 +26,7 @@ export const HamburgerNav = (props: IActive) => {
 
   const triggerNavToggle = () => {
     props.navToggle();
+    setSwitchLangBtn(!switchLangBtn);
   };
 
   const meInActiveNav = (
@@ -46,6 +48,21 @@ export const HamburgerNav = (props: IActive) => {
     </>
   );
 
+  let switchLang: string = "";
+
+  if (switchLangBtn) {
+    switchLang = "switchLang-btn-active";
+  } else {
+    switchLang = "switchLang-btn-noshow";
+  }
+
+  let switchLangbtnText: string;
+  if (language === "english") {
+    switchLangbtnText = "Byt till Svenska";
+  } else {
+    switchLangbtnText = "Switch to English";
+  }
+
   useEffect(() => {
     localStorage.setItem("activeLanguage", JSON.stringify(language));
   }, [language]);
@@ -54,16 +71,7 @@ export const HamburgerNav = (props: IActive) => {
     <>
       <ul className={props.active}>
         {props.active !== "nav-menu" ? meInActiveNav : <></>}
-        {props.active !== "nav-menu" ? (
-          <button
-            onClick={() => dispatch(toggleLanguage())}
-            className="switchLang-btn"
-          >
-            Switch to Swedish
-          </button>
-        ) : (
-          <></>
-        )}
+
         {languages.map((lang) => {
           return lang.language === language ? (
             lang.btntext.map((btn) => {
@@ -73,6 +81,12 @@ export const HamburgerNav = (props: IActive) => {
             <></>
           );
         })}
+        <button
+          onClick={() => dispatch(toggleLanguage())}
+          className={switchLang}
+        >
+          {switchLangbtnText}
+        </button>
         {props.active !== "nav-menu" ? gitLinkedActive : <></>}
       </ul>
 

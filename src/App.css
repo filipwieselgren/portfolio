@@ -24,14 +24,35 @@ body {
 
 /*--------NAVBAR--------*/
 
-.switchLang-btn {
+.switchLang-btn-active {
   border: 1px solid #93b5b3;
   border-radius: 5px;
   background-color: transparent;
-  padding: 0.8em;
   color: #fff;
   margin: 3rem 5rem 1rem 5rem;
+  text-align: center;
+  height: 2.5em;
+  width: 11em;
+  cursor: pointer;
+  font-size: 1rem;
 }
+
+.switchLang-btn-active:hover {
+  transform: scale(1.1);
+  transition: 0.2s ease-in-out;
+  background-color: #93b5b3;
+  color: #fff;
+}
+
+.switchLang-btn-active:active {
+  transform: scale(1);
+  transition: 0.2s ease-in-out;
+}
+
+.switchLang-btn-noshow {
+  display: none;
+}
+
 .navbar {
   width: 100vw;
   display: flex;
@@ -76,16 +97,10 @@ body {
   align-items: flex-end;
 }
 
-/* width: 50vw;
-background: rgb(0, 33, 65);
-flex-direction: column;
-transform: translateX(100%);
-transition: 0.5s ease-in; */
-
 .nav-menu {
   position: fixed;
   right: 0;
-  height: 80vh;
+  height: 100vh;
   width: 100vw;
   background-color: #121820;
   transform: translateX(100%);
@@ -194,6 +209,39 @@ transition: 0.5s ease-in; */
     height: 0;
     margin-top: 2em;
     width: 60vw;
+  }
+
+  .switchLang-btn-active {
+    color: #121820;
+    margin: -0.5rem 5rem 0 3rem;
+  }
+
+  .switchLang-btn-noshow {
+    display: block;
+    border: 1px solid #93b5b3;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #121820;
+    margin: -0.5rem 5rem 0 3rem;
+    text-align: center;
+    height: 2.5em;
+    width: 11em;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+
+  .switchLang-btn-active:hover,
+  .switchLang-btn-noshow:hover {
+    transform: scale(1.1);
+    transition: 0.2s ease-in-out;
+    background-color: #93b5b3;
+    color: #fff;
+  }
+
+  .switchLang-btn-active:active,
+  .switchLang-btn-noshow:active {
+    transform: scale(1);
+    transition: 0.2s ease-in-out;
   }
 
   .nav-menu li {
