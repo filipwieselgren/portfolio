@@ -37,18 +37,6 @@ body {
   font-size: 1rem;
 }
 
-.switchLang-btn-active:hover {
-  transform: scale(1.1);
-  transition: 0.2s ease-in-out;
-  background-color: #93b5b3;
-  color: #fff;
-}
-
-.switchLang-btn-active:active {
-  transform: scale(1);
-  transition: 0.2s ease-in-out;
-}
-
 .switchLang-btn-noshow {
   display: none;
 }
@@ -234,8 +222,8 @@ body {
   .switchLang-btn-noshow:hover {
     transform: scale(1.1);
     transition: 0.2s ease-in-out;
-    background-color: #93b5b3;
-    color: #fff;
+    background-color: #121820;
+    color: #93b5b3;
   }
 
   .switchLang-btn-active:active,
