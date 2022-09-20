@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { useSelector } from "react-redux";
 import { IState } from "../redux/reducers/reducer";
 
@@ -5,7 +6,9 @@ export const HeroContent = () => {
   const languageArray = useSelector(
     (state: IState) => state.changeLanguage.languages
   );
+
   let language = useSelector((state: IState) => state.changeLanguage.value);
+
   return (
     <>
       {languageArray.map((lang) => {
