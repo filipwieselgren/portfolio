@@ -1,8 +1,6 @@
 import { useState } from "react";
 import { useSelector } from "react-redux";
-import me from "../assets/me.png";
-import { heroText } from "../models/IActiveLanguage";
-import IHeroTextInterface from "../models/IHeroTextInterface";
+import me from "../assets/test.me.png";
 import { IState } from "../redux/reducers/reducer";
 import { HamburgerNav } from "./HamburgerNav";
 
