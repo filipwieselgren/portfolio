@@ -14,7 +14,8 @@ export const HeroContent = () => {
 
   const [skills, setSkills] = useState(arr);
 
-  const sortArray = () => {
+  // Change skill-function
+  const changeSkillCard = () => {
     let getIndexZero = skills.filter((a, index) => {
       if (index == 0) return a;
     });
@@ -50,7 +51,7 @@ export const HeroContent = () => {
       })}
 
       {
-        <div className="skills" onClick={sortArray}>
+        <div className="skills" onClick={changeSkillCard}>
           {skills[0]}
         </div>
       }
