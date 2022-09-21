@@ -49,9 +49,7 @@ export const HeroContent = () => {
         );
       })}
 
-      <button onClick={sortArray}>Show skills</button>
-
-      {<div>{skills[0]}</div>}
+      {<div onClick={sortArray}>{skills[0]}</div>}
     </>
   );
 };
