@@ -1,6 +1,6 @@
-import { LOADIPHLPAPI } from "dns";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { useSelector } from "react-redux";
+import { langImages } from "../models/Ilanguages";
 import { IState } from "../redux/reducers/reducer";
 
 export const HeroContent = () => {
@@ -8,7 +8,7 @@ export const HeroContent = () => {
     (state: IState) => state.changeLanguage.languages
   );
 
-  let arr: string[] = ["JS", "TS", "Node", "HTML", "CSS"];
+  let arr: string[] = langImages;
 
   let language = useSelector((state: IState) => state.changeLanguage.value);
 
@@ -50,11 +50,14 @@ export const HeroContent = () => {
         );
       })}
 
-      {
-        <div className="skills" onClick={changeSkillCard}>
-          {skills[0]}
-        </div>
-      }
+      <div className="skill-container">
+        <img
+          className="skills "
+          src={skills[0]}
+          alt=""
+          onClick={changeSkillCard}
+        />
+      </div>
     </>
   );
 };

@@ -269,9 +269,15 @@ body {
   margin-top: 1rem;
   /* margin-left: 10em; */
 }
+.skill-container {
+  display: flex;
+  justify-content: center;
+}
 
 .skills {
   cursor: pointer;
+  width: 4em;
+  text-align: center;
 }
 
 @media only screen and (min-width: 768px) {
