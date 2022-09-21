@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import { langImages } from "../models/Ilanguages";
 import { IState } from "../redux/reducers/reducer";
@@ -13,7 +13,6 @@ export const HeroContent = () => {
   let arr: string[] = langImages;
   const [skills, setSkills] = useState(arr);
   const [clickedSkill, setClickedSkill] = useState<boolean>(false);
-  const [moveCardToZeroDeg, setMoveCardToZeroDeg] = useState<boolean>(false);
 
   const triggerCard = () => {
     setClickedSkill(true);
@@ -54,10 +53,6 @@ export const HeroContent = () => {
   let skillCardClass = "skills";
   if (clickedSkill) {
     skillCardClass = "skills skillCardClicked";
-  }
-
-  if (moveCardToZeroDeg) {
-    skillCardClass = "skills skillCardClicked cardToZero";
   }
   return (
     <>

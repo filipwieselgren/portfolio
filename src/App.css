@@ -311,6 +311,7 @@ body {
   z-index: 0;
   width: 4.5em;
   transform: rotate(-28deg);
+  animation: degmove 1s ease-in;
 }
 
 .skills:last-child {
@@ -345,7 +346,7 @@ body {
   left: 42%;
   z-index: -1;
   transition: 0.5s ease-in-out;
-  animation: mymove 1s ease-in;
+  animation: mymove 0.5s ease-in;
 }
 
 @keyframes mymove {
