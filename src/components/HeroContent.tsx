@@ -1,6 +1,5 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
-import { parse } from "url";
 import { langImages } from "../models/Ilanguages";
 import { IState } from "../redux/reducers/reducer";
 
@@ -9,11 +8,23 @@ export const HeroContent = () => {
     (state: IState) => state.changeLanguage.languages
   );
 
-  let arr: string[] = langImages;
-
   let language = useSelector((state: IState) => state.changeLanguage.value);
 
+  let arr: string[] = langImages;
   const [skills, setSkills] = useState(arr);
+  const [clickedSkill, setClickedSkill] = useState<boolean>(false);
+
+  const triggerCard = () => {
+    setClickedSkill(true);
+    setClickedCardToFalse();
+  };
+
+  const setClickedCardToFalse = () => {
+    setTimeout(() => {
+      setClickedSkill(false);
+      changeSkillCard();
+    }, 500);
+  };
 
   // Change skill-function
   const changeSkillCard = () => {
@@ -38,8 +49,11 @@ export const HeroContent = () => {
 
     setSkills([...skills]);
   };
-  // console.log("skills:", skills);
 
+  let skillCardClass = "skills";
+  if (clickedSkill) {
+    skillCardClass = "skills skillCardClicked";
+  }
   return (
     <>
       {languageArray.map((lang) => {
@@ -58,10 +72,10 @@ export const HeroContent = () => {
             return (
               <img
                 key={i}
-                className="skills "
+                className={skillCardClass}
                 src={skill}
-                alt=""
-                onClick={changeSkillCard}
+                alt="Images of my skills"
+                onClick={triggerCard}
               />
             );
           })}

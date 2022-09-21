@@ -340,6 +340,13 @@ body {
   z-index: -1;
 }
 
+.skillCardClicked:last-child {
+  position: absolute;
+  left: 42%;
+  z-index: -1;
+  transition: 0.5s ease-in-out;
+}
+
 @media only screen and (min-width: 768px) {
   .presentation-text-container {
     width: 100vw;
