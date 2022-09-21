@@ -315,7 +315,7 @@ body {
 
 .skills {
   cursor: pointer;
-  width: 4rem;
+  width: 4em;
   text-align: center;
   border-radius: 5px;
 }
@@ -333,7 +333,7 @@ body {
   left: -36%;
   top: 4%;
   z-index: 0;
-  width: 3.5rem;
+  width: 3.5em;
   transform: rotate(-28deg);
   animation: degmove 1s ease-in;
 }
@@ -538,6 +538,24 @@ body {
   .presentation-text {
     margin-left: 15em;
     width: 50%;
+  }
+
+  .skills {
+    cursor: pointer;
+    width: 10em;
+    text-align: center;
+    border-radius: 5px;
+  }
+
+  .skills:first-child {
+    cursor: pointer;
+    position: absolute;
+    left: -36%;
+    top: 4%;
+    z-index: 0;
+    width: 9.5em;
+    transform: rotate(-28deg);
+    animation: degmove 1s ease-in;
   }
 }
 
