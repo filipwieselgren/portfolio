@@ -13,6 +13,15 @@ li {
   list-style: none;
 }
 
+li:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: 0.2s ease-in-out;
+  text-decoration: underline #93b5b3;
+  text-underline-offset: 0.5rem;
+  color: #93b5b3;
+}
+
 a {
   text-decoration: none;
 }
@@ -35,6 +44,22 @@ body {
   width: 11em;
   cursor: pointer;
   font-size: 1rem;
+}
+
+.switchLang-btn-active:hover,
+.switchLang-btn-noshow:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: 0.2s ease-in-out;
+  background-color: #121820;
+  color: #93b5b3;
+}
+
+.switchLang-btn-active:active,
+.switchLang-btn-noshow:active {
+  transform: scale(1);
+  transition: 0.2s ease-in-out;
+  background-color: transparent;
 }
 
 .switchLang-btn-noshow {
@@ -121,7 +146,8 @@ body {
   z-index: 30;
 }
 
-.nav-toggler:hover {
+.nav-toggler:hover,
+.nav-toggler > div:hover {
   cursor: pointer;
 }
 
@@ -166,6 +192,10 @@ body {
 
 .some-con img {
   width: 4em;
+}
+
+.some-con:hover {
+  cursor: pointer;
 }
 
 .toggle .line1 {
@@ -222,20 +252,6 @@ body {
     width: 11em;
     cursor: pointer;
     font-size: 1rem;
-  }
-
-  .switchLang-btn-active:hover,
-  .switchLang-btn-noshow:hover {
-    transform: scale(1.1);
-    transition: 0.2s ease-in-out;
-    background-color: #121820;
-    color: #93b5b3;
-  }
-
-  .switchLang-btn-active:active,
-  .switchLang-btn-noshow:active {
-    transform: scale(1);
-    transition: 0.2s ease-in-out;
   }
 
   .nav-menu li {
