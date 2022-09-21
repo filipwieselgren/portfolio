@@ -23,7 +23,7 @@ export const HeroContent = () => {
     setTimeout(() => {
       setClickedSkill(false);
       changeSkillCard();
-    }, 500);
+    }, 300);
   };
 
   // Change skill-function
