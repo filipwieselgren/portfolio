@@ -61,7 +61,7 @@ export const HeroContent = () => {
                 className="skills "
                 src={skill}
                 alt=""
-                onDragEnd={changeSkillCard}
+                onClick={changeSkillCard}
               />
             );
           })}
