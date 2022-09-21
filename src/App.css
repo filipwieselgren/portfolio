@@ -270,6 +270,10 @@ body {
   /* margin-left: 10em; */
 }
 
+.skills {
+  cursor: pointer;
+}
+
 @media only screen and (min-width: 768px) {
   .presentation-text-container {
     width: 100vw;
