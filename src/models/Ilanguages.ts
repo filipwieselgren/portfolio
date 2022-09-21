@@ -8,4 +8,4 @@ import css from "../assets/css-logo.png";
 import html from "../assets/html-logo.png";
 // import vue from "../assets/Vue.js.png";
 
-export const langImages = [css, html, react, typescript, javascript, node];
+export const langImages = [typescript, react, node, css, html, javascript];
