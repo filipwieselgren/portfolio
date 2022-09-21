@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { useSelector } from "react-redux";
 import { langImages } from "../models/Ilanguages";
 import { IState } from "../redux/reducers/reducer";
@@ -24,7 +24,6 @@ export const HeroContent = () => {
     setTimeout(() => {
       setClickedSkill(false);
       changeSkillCard();
-      // setMoveCardToZeroDeg(true);
     }, 500);
   };
 
