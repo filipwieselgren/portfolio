@@ -14,7 +14,7 @@ export const changeLanguageSlice = createSlice({
   name: "languages",
   initialState: {
     value: "english",
-    languages: [heroText.heroEnglishText, heroText.heroSwedishText],
+    languages: [heroText.heroEnglishText, heroText.heroSwedishText], // kan sätta ett språk som startvärde för att slippa loopa.
   },
   reducers: {
     toggleLanguage: (state) => {
@@ -22,8 +22,6 @@ export const changeLanguageSlice = createSlice({
         ? (state.value = "english")
         : (state.value = "swedish");
     },
-
-    // lägg till en funktion för mitt språkobjekt
   },
 });
 

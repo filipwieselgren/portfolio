@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useSelector } from "react-redux";
+import { parse } from "url";
 import { langImages } from "../models/Ilanguages";
 import { IState } from "../redux/reducers/reducer";
 
@@ -17,10 +18,10 @@ export const HeroContent = () => {
   // Change skill-function
   const changeSkillCard = () => {
     let getIndexZero = skills.filter((a, index) => {
-      if (index == 0) return a;
+      if (index == 0) return a; // 0 = 7
     });
     let getIndexOne = skills.filter((a, index) => {
-      if (index == 1) return a;
+      if (index == 1) return a; // 1 = 6
     });
 
     // Add index 1 to index 0
@@ -34,6 +35,7 @@ export const HeroContent = () => {
 
     // Remove index 0
     skills.splice(0, 1);
+
     setSkills([...skills]);
   };
   // console.log("skills:", skills);
@@ -51,12 +53,19 @@ export const HeroContent = () => {
       })}
 
       <div className="skill-container">
-        <img
-          className="skills "
-          src={skills[0]}
-          alt=""
-          onClick={changeSkillCard}
-        />
+        <div className="card-container">
+          {skills.map((skill, i) => {
+            return (
+              <img
+                key={i}
+                className="skills "
+                src={skill}
+                alt=""
+                onDragEnd={changeSkillCard}
+              />
+            );
+          })}
+        </div>
       </div>
     </>
   );
