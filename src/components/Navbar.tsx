@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useSelector } from "react-redux";
+import { useNavigate } from "react-router-dom";
 import me from "../assets/me-one-real-eay-back.png";
 import { IState } from "../redux/reducers/reducer";
 import { HamburgerNav } from "./HamburgerNav";
@@ -7,6 +8,7 @@ import { HamburgerNav } from "./HamburgerNav";
 const Navbar = () => {
   const [active, setActive] = useState<string>("nav-menu");
   const [toggleIcon, setToggleIcon] = useState<string>("nav-toggler");
+  const navigate = useNavigate();
 
   const languageArray = useSelector(
     (state: IState) => state.changeLanguage.languages
@@ -26,7 +28,13 @@ const Navbar = () => {
   return (
     <>
       <nav className="navbar">
-        <img className="navbar-img" src={me} alt="Navbar image of me" />
+        <img
+          className="navbar-img"
+          src={me}
+          alt="Navbar image of me"
+          onClick={() => navigate("/")}
+        />
+
         <div className="name-nav-options-container">
           <div className="nav-menu-container">
             <HamburgerNav
