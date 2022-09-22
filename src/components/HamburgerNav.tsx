@@ -1,4 +1,4 @@
-import me from "../assets/me.png";
+import me from "../assets/me-one-real-eay-back.png";
 import github from "../assets/github.png";
 import linkedin from "../assets/Linkedin-logo-icon-png.png";
 import { useEffect, useState } from "react";
