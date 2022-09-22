@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useSelector } from "react-redux";
-import me from "../assets/test.me.png";
+import me from "../assets/me-one-real-eay.png";
 import { IState } from "../redux/reducers/reducer";
 import { HamburgerNav } from "./HamburgerNav";
 
