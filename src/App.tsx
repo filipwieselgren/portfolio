@@ -8,6 +8,8 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<HeroPage />}></Route>
+          {/* <Route path="/prodjects" element={<ProdjectPage />}></Route> */}
+          {/* <Route path="/prodjects" element={<FooterPage />}></Route> */}
         </Routes>
       </BrowserRouter>
     </>
