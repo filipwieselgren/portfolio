@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import { langImages } from "../models/Ilanguages";
 import { IState } from "../redux/reducers/reducer";
+import { NavBtnsHero } from "./NavBtnsHero";
 
 export const HeroContent = () => {
   const languageArray = useSelector(
@@ -56,6 +57,7 @@ export const HeroContent = () => {
   }
   return (
     <>
+      {/* Gör presentation-text-container till en komponent */}
       {languageArray.map((lang) => {
         return lang.language === language ? (
           <div key={lang.id} className="presentation-text-container">
@@ -66,6 +68,7 @@ export const HeroContent = () => {
         );
       })}
 
+      {/* Gör skill-container till en komponent */}
       <div className="skill-container">
         <div className="card-container">
           {skills.map((skill, i) => {
@@ -81,6 +84,7 @@ export const HeroContent = () => {
           })}
         </div>
       </div>
+      <NavBtnsHero />
     </>
   );
 };
