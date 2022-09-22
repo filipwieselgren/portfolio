@@ -1,24 +1,15 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
-import Hero from "./components/Hero";
-import Main from "./components/Main";
-import Navbar from "./components/Navbar";
-import { Styling } from "./components/Styling";
+import { HeroPage } from "./pages/HeroPage";
 
 function App() {
   return (
     <>
-      {/* <BrowserRouter>
+      <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Styling />}>
-            <Route path="/" element={<Navbar />}></Route>
-            <Route path="/" element={<Hero />}></Route> */}
-      <Navbar />
-      <Hero />
-      {/*  <Main /> */}
-      {/* </Route>
+          <Route path="/" element={<HeroPage />}></Route>
         </Routes>
-      </BrowserRouter> */}
+      </BrowserRouter>
     </>
   );
 }
