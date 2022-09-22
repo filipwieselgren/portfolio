@@ -16,7 +16,7 @@ export const NavBtnsHero = () => {
       <div className="arrow-down-container">
         <div className="arrow-down-content">
           <Link to={"/about"} className="hero-link to-project-link">
-            See my projects
+            Click or scroll to see my work
           </Link>
 
           <BsChevronCompactDown className="arrow arrow-down" />
