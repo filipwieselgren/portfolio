@@ -4,6 +4,7 @@ import {
   BsCaretUp,
   BsCaretDown,
 } from "react-icons/bs/";
+import { BiUpArrow, BiDownArrow } from "react-icons/bi/";
 import { Link } from "react-router-dom";
 
 export const NavBtnsHero = () => {
@@ -11,7 +12,7 @@ export const NavBtnsHero = () => {
     <div className="navbts-hero-container">
       <div className="hero-btn-content-container">
         <div className="hero-btn-container to-about">
-          <BsCaretUp className="arrow arrow-up" />
+          <BiUpArrow className="arrow arrow-up" />
           <Link to={"/about"} className="hero-link to-aboutme-link">
             Read more about me
           </Link>
@@ -21,7 +22,7 @@ export const NavBtnsHero = () => {
           <Link to={"/about"} className="hero-link to-project-link">
             Click or scroll to see my projects
           </Link>
-          <BsCaretDown className="arrow arrow-down" />
+          <BiDownArrow className="arrow arrow-down" />
         </div>
       </div>
     </div>
