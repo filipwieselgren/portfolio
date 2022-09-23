@@ -604,6 +604,12 @@ body {
     flex-direction: row;
   }
 
+  .hero-btn-content-container {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+  }
+
   .to-about {
     order: 1;
     margin: 0 0 0 2em;
