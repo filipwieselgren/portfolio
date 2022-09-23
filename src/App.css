@@ -24,6 +24,8 @@ li:hover {
 
 .li-nav:hover > svg {
   color: #93b5b3;
+  transform: scale(1.1);
+  transition: 0.2s ease-in-out;
 }
 
 a {
