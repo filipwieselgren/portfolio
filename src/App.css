@@ -561,6 +561,10 @@ body {
   border: 1px solid rgb(237, 135, 152);
 }
 
+.hero-link {
+  color: #121820;
+}
+
 @media only screen and (min-width: 768px) {
   .presentation-text-container {
     width: 100vw;
