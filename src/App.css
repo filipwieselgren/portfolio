@@ -600,8 +600,8 @@ body {
   }
 
   .navbts-hero-container {
-    justify-content: center;
     flex-direction: row;
+    justify-content: center;
   }
 
   .hero-btn-content-container {
