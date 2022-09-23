@@ -597,12 +597,17 @@ body {
   .navbts-hero-container {
     justify-content: center;
     flex-direction: row;
+    height: 20vh;
   }
 
-  /* .to-about {
+  .to-about {
     order: 1;
-  } */
+    margin: 0;
+    align-self: flex-start;
+  }
   .to-projects {
+    margin: 0;
+    align-self: flex-end;
   }
 }
 
