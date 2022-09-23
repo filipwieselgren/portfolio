@@ -538,6 +538,13 @@ body {
   border: 1px solid red;
 }
 
+.navbts-hero-container:first-child {
+  margin: 1em 0 2em 0;
+}
+.navbts-hero-container:nth-child(2) {
+  margin: 2em 0 1em 0;
+}
+
 @media only screen and (min-width: 768px) {
   .presentation-text-container {
     width: 100vw;
