@@ -88,7 +88,7 @@ export const HamburgerNav = (props: IActive) => {
           return lang.language === language ? (
             lang.btntext.map((btn) => {
               return (
-                <li key={btn.btnid}>
+                <li className="li-nav" key={btn.btnid}>
                   <BsCaretRight /> {btn.text}
                 </li>
               );

@@ -22,6 +22,10 @@ li:hover {
   color: #93b5b3;
 }
 
+.li-nav:hover {
+  color: #93b5b3;
+}
+
 a {
   text-decoration: none;
 }
