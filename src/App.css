@@ -556,6 +556,10 @@ body {
   margin: 2em 0 0 0;
 }
 
+.arrow {
+  font-size: 2em;
+}
+
 @media only screen and (min-width: 768px) {
   .presentation-text-container {
     width: 100vw;
