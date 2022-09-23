@@ -538,47 +538,6 @@ body {
   /* border: 1px solid red; */
 }
 
-.arrow-up-container {
-  /* border: 1px solid blue; */
-  margin-top: 2em;
-}
-.arrow-down-container {
-  /* border: 1px solid blue; */
-  margin-top: 2em;
-}
-
-.arrow-down-content,
-.arrow-up-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  /* border: 1px solid green; */
-}
-
-.arrow-down-content:hover,
-.arrow-up-content:hover {
-  transform: scale(1.1);
-  transition: 0.2s ease-in-out;
-}
-
-.arrow-down-content {
-  margin: em 0 0 0;
-}
-
-.arrow-up-content {
-  margin: 0 0 1em 0;
-}
-
-.arrow {
-  color: #121820;
-  font-size: 3em;
-  font-weight: 100;
-}
-
-.hero-link {
-  color: #121820;
-}
-
 @media only screen and (min-width: 768px) {
   .presentation-text-container {
     width: 100vw;

@@ -4,24 +4,17 @@ import { Link } from "react-router-dom";
 export const NavBtnsHero = () => {
   return (
     <div className="navbts-hero-container">
-      <div className="arrow-up-container">
-        <div className="arrow-up-content">
-          <BsChevronCompactUp className="arrow arrow-up" />
+      <BsChevronCompactUp className="arrow arrow-up" />
 
-          <Link to={"/about"} className="hero-link to-aboutme-link">
-            Read more about me
-          </Link>
-        </div>
-      </div>
-      <div className="arrow-down-container">
-        <div className="arrow-down-content">
-          <Link to={"/about"} className="hero-link to-project-link">
-            Click or scroll to see my work
-          </Link>
+      <Link to={"/about"} className="hero-link to-aboutme-link">
+        Read more about me
+      </Link>
 
-          <BsChevronCompactDown className="arrow arrow-down" />
-        </div>
-      </div>
+      <Link to={"/about"} className="hero-link to-project-link">
+        Click or scroll to see my work
+      </Link>
+
+      <BsChevronCompactDown className="arrow arrow-down" />
     </div>
   );
 };
