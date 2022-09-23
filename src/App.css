@@ -597,7 +597,7 @@ body {
   .navbts-hero-container {
     justify-content: center;
     flex-direction: row;
-    height: 5vh;
+    height: 10vh;
   }
 
   .to-about {
