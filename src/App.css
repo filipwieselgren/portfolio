@@ -534,14 +534,14 @@ body {
   display: flex;
   justify-content: center;
   width: 100vw;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   margin: 1em 0 0 0;
 }
 
 .hero-btn-content-container {
   display: flex;
   flex-direction: column;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 .hero-btn-container {
@@ -549,21 +549,24 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  border: 3px solid blue;
+  /* border: 3px solid blue; */
+}
+
+.hero-btn-container:hover {
 }
 
 .to-about {
-  border: 1px solid green;
+  /* border: 1px solid green; */
   margin: 0 0 2em 0;
 }
 .to-projects {
-  border: 1px solid green;
+  /* border: 1px solid green; */
   margin: 2em 0 0 0;
 }
 
 .arrow {
   font-size: 2em;
-  border: 1px solid rgb(237, 135, 152);
+  /* border: 1px solid rgb(237, 135, 152); */
 }
 
 .hero-link {
@@ -609,7 +612,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 50%;
     margin-right: 9em;
   }
