@@ -5,7 +5,7 @@ import {
   BsCaretDown,
 } from "react-icons/bs/";
 import { BiUpArrow, BiDownArrow } from "react-icons/bi/";
-import { GrCaretDown } from "react-icons/gr/";
+
 import { Link } from "react-router-dom";
 
 export const NavBtnsHero = () => {
@@ -23,7 +23,7 @@ export const NavBtnsHero = () => {
           <Link to={"/about"} className="hero-link to-project-link">
             Click or scroll to see my projects
           </Link>
-          <GrCaretDown className="arrow arrow-down" />
+          <BiDownArrow className="arrow arrow-down" />
         </div>
       </div>
     </div>
