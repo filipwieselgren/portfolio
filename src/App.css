@@ -19,7 +19,6 @@ li:hover {
   transition: 0.2s ease-in-out;
   text-decoration: underline #93b5b3;
   text-underline-offset: 0.5rem;
-  /* color: #93b5b3; */
 }
 
 .li-nav:hover > svg {
