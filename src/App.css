@@ -532,11 +532,15 @@ body {
 
 .navbts-hero-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: center;
   width: 100vw;
   border: 1px solid red;
   margin: 1em 0 0 0;
+}
+
+.hero-btn-content-container {
+  display: flex;
+  flex-direction: column;
 }
 
 .hero-btn-container {
