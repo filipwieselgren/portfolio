@@ -4,6 +4,15 @@ import linkedin from "../assets/Linkedin-logo-icon-png.png";
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { IState, toggleLanguage } from "../redux/reducers/reducer";
+import {
+  BsChevronCompactDown,
+  BsChevronCompactUp,
+  BsCaretLeft,
+  BsCaretUp,
+  BsCaretDown,
+} from "react-icons/bs/";
+
+import { Link } from "react-router-dom";
 
 interface IActive {
   navToggle(): void;
@@ -78,7 +87,11 @@ export const HamburgerNav = (props: IActive) => {
         {languageArray.map((lang) => {
           return lang.language === language ? (
             lang.btntext.map((btn) => {
-              return <li key={btn.btnid}>▷ {btn.text}</li>;
+              return (
+                <li key={btn.btnid}>
+                  <BsCaretLeft /> {btn.text}
+                </li>
+              );
             })
           ) : (
             <></>
