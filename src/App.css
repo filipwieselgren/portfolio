@@ -288,6 +288,12 @@ body {
 
 /*--------HERO--------*/
 
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .presentation-text-container {
   width: 100vw;
   display: flex;
