@@ -536,15 +536,24 @@ body {
   align-items: center;
   width: 100vw;
   border: 1px solid red;
+  margin: 1em 0 0 0;
 }
 
-.navbts-hero-container:first-child {
-  border: 1px solid green;
-  margin: 1em 0 2em 0;
+.hero-btn-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid blue;
 }
-.navbts-hero-container:nth-child(2) {
+
+.to-about {
   border: 1px solid green;
-  margin: 2em 0 0em 0;
+  margin: 0 0 2em 0;
+}
+.to-projects {
+  border: 1px solid green;
+  margin: 2em 0 0 0;
 }
 
 @media only screen and (min-width: 768px) {
