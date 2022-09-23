@@ -278,7 +278,7 @@ body {
   }
 
   .nav-active li {
-    color: #121820;
+    /* color: #121820; */
   }
 
   .nav-active li:nth-child(-n + 3) {
