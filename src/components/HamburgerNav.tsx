@@ -7,7 +7,7 @@ import { IState, toggleLanguage } from "../redux/reducers/reducer";
 import {
   BsChevronCompactDown,
   BsChevronCompactUp,
-  BsCaretLeft,
+  BsCaretRight,
   BsCaretUp,
   BsCaretDown,
 } from "react-icons/bs/";
@@ -89,7 +89,7 @@ export const HamburgerNav = (props: IActive) => {
             lang.btntext.map((btn) => {
               return (
                 <li key={btn.btnid}>
-                  <BsCaretLeft /> {btn.text}
+                  <BsCaretRight /> {btn.text}
                 </li>
               );
             })
