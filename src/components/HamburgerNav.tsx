@@ -4,15 +4,7 @@ import linkedin from "../assets/Linkedin-logo-icon-png.png";
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { IState, toggleLanguage } from "../redux/reducers/reducer";
-import {
-  BsChevronCompactDown,
-  BsChevronCompactUp,
-  BsCaretRight,
-  BsCaretUp,
-  BsCaretDown,
-} from "react-icons/bs/";
-
-import { Link } from "react-router-dom";
+import { BsCaretRight } from "react-icons/bs/";
 
 interface IActive {
   navToggle(): void;
