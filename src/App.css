@@ -90,7 +90,7 @@ body {
 
 .img-underline {
   width: 90%;
-  border-bottom: 1px solid #121820;
+  border-bottom: 1px solid #fff;
 }
 
 .img-underline-active {
@@ -114,6 +114,7 @@ body {
 
 .navbar-name {
   font-size: 1.3em;
+  color: white;
 }
 
 .navbar-name:first-child {
