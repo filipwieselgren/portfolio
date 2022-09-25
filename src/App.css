@@ -11,7 +11,6 @@ html {
 
 li {
   list-style: none;
-  color: white;
 }
 
 li:hover {
@@ -20,6 +19,7 @@ li:hover {
   transition: 0.2s ease-in-out;
   text-decoration: underline #93b5b3;
   text-underline-offset: 0.5rem;
+  color: #93b5b3;
 }
 
 .li-nav:hover > svg {
@@ -35,7 +35,6 @@ a {
 body {
   font-family: "Roboto", sans-serif;
   font-size: 1.6rem;
-  background-color: #121820;
 }
 
 /*--------NAVBAR--------*/
@@ -90,7 +89,7 @@ body {
 
 .img-underline {
   width: 90%;
-  border-bottom: 1px solid #93b5b3;
+  border-bottom: 1px solid #121820;
 }
 
 .img-underline-active {
@@ -114,7 +113,6 @@ body {
 
 .navbar-name {
   font-size: 1.3em;
-  color: white;
 }
 
 .navbar-name:first-child {
@@ -252,7 +250,7 @@ body {
   }
 
   .switchLang-btn-active {
-    /* color: #121820; */
+    color: #121820;
     margin: -0.5rem 5rem 0 3rem;
   }
 
@@ -261,7 +259,7 @@ body {
     border: 1px solid #93b5b3;
     border-radius: 5px;
     background-color: transparent;
-    /* color: #121820; */
+    color: #121820;
     margin: -0.5rem 5rem 0 3rem;
     text-align: center;
     height: 2.5em;
@@ -280,7 +278,7 @@ body {
   }
 
   .nav-active li {
-    /* color: #121820; */
+    color: #121820;
   }
 
   .nav-active li:nth-child(-n + 3) {
@@ -592,7 +590,7 @@ body {
 }
 
 .hero-link {
-  /* color: #121820; */
+  color: #121820;
   text-transform: uppercase;
 }
 
