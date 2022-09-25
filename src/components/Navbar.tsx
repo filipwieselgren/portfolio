@@ -36,6 +36,10 @@ const Navbar = () => {
         /> */}
 
         <div className="name-nav-options-container">
+          <div className="logo-cirkle">
+            <div className="logo-w">w</div>
+            <div className="logo-f">f</div>
+          </div>
           <div className="nav-menu-container">
             <HamburgerNav
               navToggle={navToggle}
