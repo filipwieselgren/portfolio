@@ -39,6 +39,20 @@ body {
 
 /*--------NAVBAR--------*/
 
+.logo-cirkle {
+  width: 2em;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-w,
+.logo-f {
+  text-transform: uppercase;
+}
+
 .switchLang-btn-active {
   border: 1px solid #93b5b3;
   border-radius: 5px;

@@ -28,12 +28,16 @@ const Navbar = () => {
   return (
     <>
       <nav className="navbar">
-        <img
+        <div className="logo-cirkle">
+          <div className="logo-w">w</div>
+          <div className="logo-f">f</div>
+        </div>
+        {/* <img
           className="navbar-img"
           src={me}
           alt="Navbar image of me"
           onClick={() => navigate("/")}
-        />
+        /> */}
 
         <div className="name-nav-options-container">
           <div className="nav-menu-container">
