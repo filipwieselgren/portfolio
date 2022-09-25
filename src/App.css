@@ -46,11 +46,13 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border: 0.5px solid #121820;
 }
 
 .logo-w,
 .logo-f {
   text-transform: uppercase;
+  color: #121820;
 }
 
 .switchLang-btn-active {
