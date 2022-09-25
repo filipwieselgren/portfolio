@@ -28,10 +28,6 @@ const Navbar = () => {
   return (
     <>
       <nav className="navbar">
-        <div className="logo-cirkle">
-          <div className="logo-w">w</div>
-          <div className="logo-f">f</div>
-        </div>
         {/* <img
           className="navbar-img"
           src={me}
@@ -41,6 +37,10 @@ const Navbar = () => {
 
         <div className="name-nav-options-container">
           <div className="nav-menu-container">
+            <div className="logo-cirkle">
+              <div className="logo-w">w</div>
+              <div className="logo-f">f</div>
+            </div>
             <HamburgerNav
               navToggle={navToggle}
               active={active}
