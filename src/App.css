@@ -11,6 +11,7 @@ html {
 
 li {
   list-style: none;
+  color: white;
 }
 
 li:hover {
