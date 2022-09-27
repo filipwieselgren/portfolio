@@ -90,7 +90,11 @@ export const HeroContent = () => {
       {/* Gör skill-container till en komponent */}
       <div className="skill-container">
         <div className="arrow-container">
-          <img src={arrow} alt="Image of an arrow" />
+          <img
+            className="arrow-to-skills"
+            src={arrow}
+            alt="Image of an arrow"
+          />
         </div>
         <div className="card-container">
           {skills.map((skill, i) => {

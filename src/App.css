@@ -341,6 +341,10 @@ body {
 .dot {
   color: #121820;
 }
+
+.arrow-to-skills {
+  width: 20%;
+}
 .skill-container {
   display: flex;
   flex-direction: column;
