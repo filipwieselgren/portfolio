@@ -73,7 +73,10 @@ export const HeroContent = () => {
               );
             })}
             {/* </div> */}
-            <div className="presentation-text">{lang.maintext}</div>
+            <div className="presentation-text">
+              {lang.maintext}
+              <span className="swith-card">{lang.askvisitor}</span>
+            </div>
           </div>
         ) : (
           <></>
