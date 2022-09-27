@@ -28,13 +28,6 @@ const Navbar = () => {
   return (
     <>
       <nav className="navbar">
-        {/* <img
-          className="navbar-img"
-          src={me}
-          alt="Navbar image of me"
-          onClick={() => navigate("/")}
-        /> */}
-
         <div className="name-nav-options-container">
           <div className="nav-menu-container">
             <img
