@@ -31,7 +31,7 @@ const Navbar = () => {
         <div className="name-nav-options-container">
           <div className="nav-menu-container">
             <img
-              className="navbar-img"
+              className="logo"
               src={logo}
               alt="Navbar image of me"
               onClick={() => navigate("/")}
