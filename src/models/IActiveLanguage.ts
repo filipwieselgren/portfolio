@@ -36,7 +36,7 @@ const heroSwedishText: IHeroText = {
     "Jag studerar frontend-utveckling på Medieinstitutet i Stockholm med fokus på mern-stacken. Byt kort för att se min tech stack.",
   askvisitor: "Vad vill du göra?",
   changeLanguageText: "Ändra till engelska",
-  frontEnd: "Frontend Utvecklare",
+  frontEnd: "Jag är Filip, en frontend-utvecklarer",
   btntext: [
     {
       btnid: 1,
