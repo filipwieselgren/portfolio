@@ -61,6 +61,16 @@ export const HeroContent = () => {
       {languageArray.map((lang) => {
         return lang.language === language ? (
           <div key={lang.id} className="presentation-text-container">
+            {/* <div className="navbar-name-container"> */}
+            <div className="navbar-name">Filip Wieselgren</div>
+            {languageArray.map((lang) => {
+              return lang.language == language ? (
+                <div className="navbar-name">{lang.frontEnd}</div>
+              ) : (
+                <></>
+              );
+            })}
+            {/* </div> */}
             <div className="presentation-text">{lang.maintext}</div>
           </div>
         ) : (

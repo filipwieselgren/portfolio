@@ -37,6 +37,10 @@ const Navbar = () => {
 
         <div className="name-nav-options-container">
           <div className="nav-menu-container">
+            <div className="logo-cirkle">
+              <div className="logo-w">w</div>
+              <div className="logo-f">f</div>
+            </div>
             <HamburgerNav
               navToggle={navToggle}
               active={active}
@@ -44,7 +48,7 @@ const Navbar = () => {
             />
           </div>
 
-          <div className="navbar-name-container">
+          {/* <div className="navbar-name-container">
             <div className="navbar-name">Filip Wieselgren</div>
             {languageArray.map((lang) => {
               return lang.language == language ? (
@@ -53,10 +57,10 @@ const Navbar = () => {
                 <></>
               );
             })}
-          </div>
+          </div> */}
         </div>
       </nav>
-      <div className="img-underline"></div>
+      {/* <div className="img-underline"></div> */}
     </>
   );
 };

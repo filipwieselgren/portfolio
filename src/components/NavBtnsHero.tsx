@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 export const NavBtnsHero = () => {
   return (
     <div className="navbts-hero-container">
-      <div className="hero-btn-content-container">
+      {/* <div className="hero-btn-content-container">
         <div className="hero-btn-container to-about">
           <BsCaretUp className="arrow arrow-up" />
           <Link to={"/about"} className="hero-link to-aboutme-link">
@@ -24,7 +24,7 @@ export const NavBtnsHero = () => {
           </Link>
           <BsCaretDown className="arrow arrow-down" />
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
