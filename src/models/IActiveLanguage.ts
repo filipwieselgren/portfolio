@@ -31,7 +31,7 @@ const heroEnglishText: IHeroText = {
 const heroSwedishText: IHeroText = {
   id: 2,
   language: "swedish",
-  welcome: "Hej,",
+  welcome: "Hallå där,",
   maintext:
     "Jag studerar frontend-utveckling på Medieinstitutet i Stockholm med fokus på mern-stacken. Byt kort för att se min tech stack.",
   askvisitor: "Vad vill du göra?",
