@@ -609,6 +609,9 @@ body {
 
   .presentation-text-container div {
     margin-left: -15rem;
+  }
+
+  .presentation-text {
     width: 44%;
   }
 
