@@ -310,7 +310,7 @@ body {
 
 .navbar-name {
   text-align: start;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 .navbar-name:first-child {
@@ -329,7 +329,7 @@ body {
 
 .presentation-text {
   font-weight: 100;
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin-top: 2rem;
 }
 
