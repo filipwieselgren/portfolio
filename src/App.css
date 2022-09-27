@@ -106,11 +106,6 @@ body {
   margin: 1rem 0em 0em 0em;
 }
 
-/* .img-underline {
-  width: 90%;
-  border-bottom: 1px solid #121820;
-} */
-
 .img-underline-active {
   width: 90%;
   border-bottom: 3px solid #fff;
@@ -315,7 +310,7 @@ body {
 
 .navbar-name {
   text-align: start;
-  font-size: 2rem;
+  font-size: 4rem;
 }
 
 .navbar-name:first-child {
@@ -334,6 +329,7 @@ body {
 
 .presentation-text {
   font-weight: 100;
+  font-size: 2em;
   margin-top: 1rem;
 }
 
