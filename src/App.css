@@ -344,6 +344,7 @@ body {
 
 .arrow-to-skills {
   width: 40%;
+  margin-left: 1.5em;
 }
 .skill-container {
   display: flex;
