@@ -3,12 +3,12 @@ import IHeroText from "./IHeroTextInterface";
 const heroEnglishText: IHeroText = {
   id: 1,
   language: "english",
-  welcome: "Welcome to my portfolio",
+  welcome: "Hi there,",
   maintext:
-    "Glad to see you here!  I study front end development at Medieinstitutet in Stockholm and currently have skills in  ...",
+    "I study front end development at Medieinstitutet in Stockholm Sweden with focus on the mern-stack. Switch card to see my tech-stack.",
   askvisitor: "What would you like to do?",
   changeLanguageText: "Switch to Swedish",
-  frontEnd: "Front End Developer",
+  frontEnd: "I’m Filip, a front end developer",
   btntext: [
     {
       btnid: 1,
@@ -31,9 +31,9 @@ const heroEnglishText: IHeroText = {
 const heroSwedishText: IHeroText = {
   id: 2,
   language: "swedish",
-  welcome: "Välkommen till min portfolio",
+  welcome: "Hej,",
   maintext:
-    "Kul att se dig här! Jag studerar frontend-utveckling på Medieinstitutet i Stockholm och har för tillfället kompetens inom ...",
+    "Jag studerar frontend-utveckling på Medieinstitutet i Stockholm med fokus på mern-stacken. Byt kort för att se min tech stack.",
   askvisitor: "Vad vill du göra?",
   changeLanguageText: "Ändra till engelska",
   frontEnd: "Frontend Utvecklare",
