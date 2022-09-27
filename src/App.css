@@ -630,6 +630,17 @@ body {
     animation: degmove 1s ease-in;
   }
 
+  .navbar-name {
+    text-align: start;
+    font-size: 3rem;
+  }
+
+  .presentation-text {
+    font-weight: 100;
+    font-size: 2rem;
+    margin-top: 1rem;
+  }
+
   .navbts-hero-container {
     flex-direction: row;
     justify-content: center;
