@@ -337,6 +337,10 @@ body {
   color: #93b5b3;
   font-weight: 300;
 }
+
+.dot {
+  color: #121820;
+}
 .skill-container {
   display: flex;
   justify-content: center;

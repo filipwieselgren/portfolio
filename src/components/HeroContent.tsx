@@ -77,7 +77,7 @@ export const HeroContent = () => {
               {lang.maintext}
               <span className="swith-card">
                 {lang.askvisitor}
-                <span>.</span>
+                <span className="dot">.</span>
               </span>
             </div>
           </div>
