@@ -37,14 +37,13 @@ const Navbar = () => {
 
         <div className="name-nav-options-container">
           <div className="nav-menu-container">
-            <div className="logo-cirkle">
-              <img
-                className="navbar-img"
-                src={logo}
-                alt="Navbar image of me"
-                onClick={() => navigate("/")}
-              />
-            </div>
+            <img
+              className="navbar-img"
+              src={logo}
+              alt="Navbar image of me"
+              onClick={() => navigate("/")}
+            />
+
             <HamburgerNav
               navToggle={navToggle}
               active={active}
