@@ -343,14 +343,15 @@ body {
 }
 
 .arrow-to-skills {
-  width: 50%;
+  width: 33%;
 }
 .skill-container {
   display: flex;
   flex-direction: column;
   /* justify-content: center; */
   align-items: center;
-  margin-top: 0.5em;
+  margin-top: -3.5em;
+
   width: 100%;
 }
 
