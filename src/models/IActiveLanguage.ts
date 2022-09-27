@@ -6,7 +6,7 @@ const heroEnglishText: IHeroText = {
   welcome: "Hi there,",
   maintext:
     "I study front end development at Medieinstitutet in Stockholm Sweden with focus on the mern-stack.",
-  askvisitor: "Switch card to see my tech-stack.",
+  askvisitor: " Switch card to see my tech-stack.",
   changeLanguageText: "Switch to Swedish",
   frontEnd: "I’m Filip, a front end developer",
   btntext: [
