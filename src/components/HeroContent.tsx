@@ -3,6 +3,7 @@ import { useSelector } from "react-redux";
 import { langImages } from "../models/Ilanguages";
 import { IState } from "../redux/reducers/reducer";
 import { NavBtnsHero } from "./NavBtnsHero";
+import arrow from "../assets/arrow-phone.png";
 
 export const HeroContent = () => {
   const languageArray = useSelector(
@@ -88,6 +89,9 @@ export const HeroContent = () => {
 
       {/* Gör skill-container till en komponent */}
       <div className="skill-container">
+        <div className="arrow-container">
+          <img src={arrow} alt="Image of an arrow" />
+        </div>
         <div className="card-container">
           {skills.map((skill, i) => {
             return (
