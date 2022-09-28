@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
-import logo from "../assets/logo-color.png";
+import logo from "../assets/logo.png";
 import { IState } from "../redux/reducers/reducer";
 import { HamburgerNav } from "./HamburgerNav";
 
