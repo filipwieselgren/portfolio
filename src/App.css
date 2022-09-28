@@ -624,6 +624,7 @@ body {
 
   .skill-container {
     flex-direction: row;
+    justify-content: center;
   }
 
   .skills {
