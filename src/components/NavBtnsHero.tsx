@@ -11,19 +11,19 @@ export const NavBtnsHero = () => {
   return (
     <div className="navbts-hero-container">
       <div className="hero-btn-content-container">
-        <div className="hero-btn-container to-about">
-          <Link to={"/about"} className="hero-link to-aboutme-link">
+        <Link to={"/about"} className="hero-link to-aboutme-link">
+          <div className="hero-btn-container to-about">
             Read more about me
-          </Link>
-          <BsCaretUp className="arrow arrow-up" />
-        </div>
+            <BsCaretUp className="arrow arrow-up" />
+          </div>
+        </Link>
 
-        <div className="hero-btn-container to-projects">
-          <Link to={"/projects"} className="hero-link to-project-link">
+        <Link to={"/projects"} className="hero-link to-project-link">
+          <div className="hero-btn-container to-projects">
             See my projects
-          </Link>
-          <BsCaretDown className="arrow arrow-down" />
-        </div>
+            <BsCaretDown className="arrow arrow-down" />
+          </div>
+        </Link>
       </div>
     </div>
   );
