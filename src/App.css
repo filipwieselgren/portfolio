@@ -672,6 +672,11 @@ body {
     margin: 5em 1em 0 0;
   }
 
+  .to-about,
+  .to-projects {
+    font-size: 1rem;
+  }
+
   .arrow-to-skills {
     width: 50%;
   }
