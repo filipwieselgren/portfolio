@@ -90,27 +90,29 @@ export const HeroContent = () => {
 
       {/* Gör skill-container till en komponent */}
       <div className="skill-container">
-        <div className="arrow-container">
-          <img
-            className="arrow-to-skills"
-            src={arrowDesk}
-            alt="Image of an arrow"
-          />
+        <div className="test-con">
+          <div className="arrow-container">
+            <img
+              className="arrow-to-skills"
+              src={arrowDesk}
+              alt="Image of an arrow"
+            />
+          </div>
+          <div className="card-container">
+            {skills.map((skill, i) => {
+              return (
+                <img
+                  key={i}
+                  className={skillCardClass}
+                  src={skill}
+                  alt="Images of my skills"
+                  onClick={triggerCard}
+                />
+              );
+            })}
+          </div>
+          <NavBtnsHero />
         </div>
-        <div className="card-container">
-          {skills.map((skill, i) => {
-            return (
-              <img
-                key={i}
-                className={skillCardClass}
-                src={skill}
-                alt="Images of my skills"
-                onClick={triggerCard}
-              />
-            );
-          })}
-        </div>
-        <NavBtnsHero />
       </div>
     </>
   );
