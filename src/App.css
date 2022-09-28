@@ -667,6 +667,11 @@ body {
     margin: 0 2em 0 0;
     align-self: flex-end;
   }
+
+  .card-container,
+  .arrow-container {
+    order: 2;
+  }
 }
 
 /* MAIN */
