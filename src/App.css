@@ -660,7 +660,7 @@ body {
   .navbts-hero-container {
     flex-direction: row;
     justify-content: center;
-    margin-left: -32%;
+    margin-left: -33.5%;
   }
 
   .to-aboutme-link {
@@ -689,7 +689,7 @@ body {
   .arrow-container {
     position: absolute;
     top: 30%;
-    left: 55%;
+    left: 58%;
   }
 
   .card-container {
