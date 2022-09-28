@@ -594,12 +594,7 @@ body {
   align-items: center;
   justify-content: space-between;
   border-bottom: 1px solid #121820;
-  width: 60vw;
 }
-
-/* .hero-btn-content-container a {
-  text-transform: uppercase;
-} */
 
 .to-about {
   margin: 0 0 0 0;
@@ -661,15 +656,6 @@ body {
     justify-content: center;
     margin-top: 4em;
     height: 10em;
-  }
-
-  .hero-btn-content-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    /* border: 1px solid black; */
-    width: 70%;
-    margin-right: 9em;
   }
 
   .to-about {
