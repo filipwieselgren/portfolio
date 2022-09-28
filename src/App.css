@@ -665,11 +665,11 @@ body {
 
   .to-aboutme-link {
     order: 1;
-    margin: 0 0 0 2em;
+    margin: 0 0 0 1em;
     align-self: flex-end;
   }
   .to-project-link {
-    margin: 0 2em 0 0;
+    margin: 0 1em 0 0;
   }
 
   .arrow-to-skills {
