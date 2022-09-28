@@ -351,6 +351,7 @@ body {
   width: 30%;
   margin-left: 1.5em;
 }
+
 .skill-container {
   display: flex;
   flex-direction: column;
@@ -669,6 +670,10 @@ body {
   }
   .to-project-link {
     margin: 0 2em 0 0;
+  }
+
+  .arrow-to-skills {
+    width: 50%;
   }
 
   .card-container,
