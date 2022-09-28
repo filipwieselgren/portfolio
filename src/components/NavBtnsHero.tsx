@@ -20,7 +20,7 @@ export const NavBtnsHero = () => {
 
         <div className="hero-btn-container to-projects">
           <Link to={"/projects"} className="hero-link to-project-link">
-            Click or scroll to see my projects
+            See my projects
           </Link>
           <BsCaretDown className="arrow arrow-down" />
         </div>

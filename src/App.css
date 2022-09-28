@@ -597,6 +597,10 @@ body {
   justify-content: space-between;
 }
 
+.hero-btn-container a {
+  text-transform: uppercase;
+}
+
 .to-about {
   margin: 0 0 2em 0;
 }
