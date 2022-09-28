@@ -300,7 +300,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-top: 1.5em;
+  margin-top: 2em;
   /* height: 60vh; */
 }
 
