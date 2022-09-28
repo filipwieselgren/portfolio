@@ -614,6 +614,9 @@ body {
 }
 
 @media only screen and (min-width: 768px) {
+  .hero-container {
+    margin-top: 7em;
+  }
   .presentation-text-container {
     width: 100vw;
   }
@@ -688,14 +691,14 @@ body {
 
   .arrow-container {
     position: absolute;
-    top: 30%;
+    top: 40%;
     left: 58%;
   }
 
   .card-container {
     position: absolute;
     left: 75%;
-    top: 50%;
+    top: 60%;
   }
 }
 
