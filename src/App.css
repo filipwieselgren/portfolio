@@ -661,16 +661,15 @@ body {
     flex-direction: row;
     justify-content: center;
     margin-left: -32%;
-    margin-top: 5em;
   }
 
   .to-aboutme-link {
     order: 1;
-    margin: 0 0 0 1em;
+    margin: 5em 0 0 1em;
     align-self: flex-end;
   }
   .to-project-link {
-    margin: 0 1em 0 0;
+    margin: 5em 1em 0 0;
   }
 
   .arrow-to-skills {
