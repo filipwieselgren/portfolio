@@ -689,12 +689,12 @@ body {
   .arrow-container {
     position: absolute;
     top: 30%;
-    left: 50%;
+    left: 55%;
   }
 
   .card-container {
     position: absolute;
-    left: 70%;
+    left: 75%;
     top: 50%;
   }
 }
