@@ -631,10 +631,6 @@ body {
     justify-content: center;
   }
 
-  .skill-container div {
-    width: 50%;
-  }
-
   .skills {
     cursor: pointer;
     width: 8em;
