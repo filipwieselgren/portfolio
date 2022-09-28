@@ -700,12 +700,6 @@ body {
     left: 75%;
     top: 60%;
   }
-
-  .test-con {
-    width: 50%;
-    display: flex;
-    justify-content: center;
-  }
 }
 
 /* MAIN */
