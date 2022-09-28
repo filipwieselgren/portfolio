@@ -93,7 +93,7 @@ export const HeroContent = () => {
         <div className="arrow-container">
           <img
             className="arrow-to-skills"
-            src={arrowDesk}
+            src={arrow}
             alt="Image of an arrow"
           />
         </div>
