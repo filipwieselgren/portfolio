@@ -703,6 +703,8 @@ body {
 
   .test-con {
     width: 50%;
+    display: flex;
+    justify-content: center;
   }
 }
 
