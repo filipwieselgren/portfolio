@@ -12,10 +12,10 @@ export const NavBtnsHero = () => {
     <div className="navbts-hero-container">
       <div className="hero-btn-content-container">
         <div className="hero-btn-container to-about">
-          <BsCaretUp className="arrow arrow-up" />
           <Link to={"/about"} className="hero-link to-aboutme-link">
             Read more about me
           </Link>
+          <BsCaretUp className="arrow arrow-up" />
         </div>
 
         <div className="hero-btn-container to-projects">
