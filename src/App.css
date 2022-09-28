@@ -622,6 +622,10 @@ body {
     width: 50%;
   }
 
+  .skill-container {
+    flex-direction: row;
+  }
+
   .skills {
     cursor: pointer;
     width: 6em;
