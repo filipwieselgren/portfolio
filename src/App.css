@@ -342,6 +342,10 @@ body {
   color: #121820;
 }
 
+.arrow-container {
+  margin-top: 1.5em;
+}
+
 .arrow-to-skills {
   width: 30%;
   margin-left: 1.5em;
