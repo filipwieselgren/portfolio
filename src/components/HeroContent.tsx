@@ -4,6 +4,7 @@ import { langImages } from "../models/Ilanguages";
 import { IState } from "../redux/reducers/reducer";
 import { NavBtnsHero } from "./NavBtnsHero";
 import arrow from "../assets/arrow-phone.png";
+import arrowDesk from "../assets/pil.png";
 
 export const HeroContent = () => {
   const languageArray = useSelector(
@@ -92,7 +93,7 @@ export const HeroContent = () => {
         <div className="arrow-container">
           <img
             className="arrow-to-skills"
-            src={arrow}
+            src={arrowDesk}
             alt="Image of an arrow"
           />
         </div>
@@ -109,7 +110,7 @@ export const HeroContent = () => {
             );
           })}
         </div>
-      <NavBtnsHero />
+        <NavBtnsHero />
       </div>
     </>
   );
