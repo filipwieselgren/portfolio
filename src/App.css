@@ -698,12 +698,17 @@ body {
     margin: 0;
   }
 
+  .arrow-container {
+    margin: 0;
+  }
+
   .arrow-to-skills {
     display: none;
   }
 
   .arrow-desk {
     display: block;
+    height: 13em;
   }
 }
 
