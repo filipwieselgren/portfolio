@@ -366,12 +366,6 @@ body {
   width: 100vw;
 }
 
-.skill-content {
-  /* display: flex;
-  flex-direction: column;
-  align-items: center; */
-}
-
 .card-container {
   position: relative;
 }
@@ -637,11 +631,6 @@ body {
     width: 50%;
   }
 
-  .skill-container {
-    flex-direction: row;
-    justify-content: center;
-  }
-
   .skills {
     cursor: pointer;
     width: 8em;
@@ -693,11 +682,6 @@ body {
 
   .arrow-to-skills {
     width: 50%;
-  }
-
-  .card-container,
-  .arrow-container {
-    order: 2;
   }
 }
 
