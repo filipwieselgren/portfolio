@@ -672,6 +672,7 @@ body {
     flex-direction: row;
     justify-content: center;
     margin-top: 2em;
+    align-items: flex-start;
   }
 
   .to-aboutme-link {
