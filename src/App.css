@@ -668,16 +668,17 @@ body {
     margin-left: 0;
     width: 60%;
     height: 50vh;
-    border-bottom: 1px solid red;
   }
   .arrow-card-container {
     order: 2;
     display: flex;
     flex-direction: row;
+    border: 1px solid red;
   }
 
   .card-container {
     align-self: flex-end;
+    border: 1px solid green;
   }
 
   .navbts-hero-container {
@@ -707,6 +708,7 @@ body {
   .arrow-container {
     margin-right: 5em;
     align-self: flex-start;
+    border: 1px solid blue;
   }
 
   .arrow-to-skills {
@@ -716,6 +718,7 @@ body {
   .arrow-desk {
     display: block;
     height: 15em;
+    border: 1px solid #121820;
   }
 }
 
