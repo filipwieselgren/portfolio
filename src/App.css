@@ -661,11 +661,13 @@ body {
   .skill-content {
     display: flex;
     justify-content: space-between;
-    margin-left: -15rem;
-    width: 50%;
+    margin-left: 0;
+    width: 60%;
   }
   .arrow-card-container {
     order: 2;
+    display: flex;
+    flex-direction: row;
   }
 
   .navbts-hero-container {
