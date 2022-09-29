@@ -655,6 +655,7 @@ body {
     font-weight: 100;
     font-size: 2.2rem;
     margin-top: 1rem;
+    min-height: 15vh;
   }
 
   .skill-content {
