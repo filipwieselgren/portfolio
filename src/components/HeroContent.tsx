@@ -98,6 +98,11 @@ export const HeroContent = () => {
                 src={arrow}
                 alt="Image of an arrow"
               />
+              <img
+                className="arrow-desk"
+                src={arrowDesk}
+                alt="Image of an arrow"
+              />
             </div>
             <div className="card-container">
               {skills.map((skill, i) => {

@@ -358,6 +358,10 @@ body {
   margin-left: 1.5em;
 }
 
+.arrow-desk {
+  display: none;
+}
+
 .skill-container {
   display: flex;
   flex-direction: column;
@@ -695,7 +699,11 @@ body {
   }
 
   .arrow-to-skills {
-    width: 50%;
+    display: none;
+  }
+
+  .arrow-desk {
+    display: block;
   }
 }
 
