@@ -622,9 +622,6 @@ body {
   .hero-container {
     margin-top: 7em;
   }
-  .presentation-text-container {
-    width: 100vw;
-  }
 
   .presentation-text-container div {
     margin-left: -15rem;
@@ -663,6 +660,8 @@ body {
   .skill-content {
     display: flex;
     justify-content: space-between;
+    margin-left: -15rem;
+    width: 50%;
   }
   .arrow-card-container {
     order: 2;
