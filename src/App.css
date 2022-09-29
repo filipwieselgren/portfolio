@@ -679,6 +679,7 @@ body {
   .card-container {
     align-self: flex-end;
     border: 1px solid green;
+    margin-bottom: 1.5em;
   }
 
   .navbts-hero-container {
@@ -707,6 +708,7 @@ body {
 
   .arrow-container {
     margin-right: 5em;
+    margin-top: 0;
     align-self: flex-start;
     border: 1px solid blue;
   }
