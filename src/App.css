@@ -347,6 +347,12 @@ body {
   margin-top: 1.5em;
 }
 
+.arrow-card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .arrow-to-skills {
   width: 30%;
   margin-left: 1.5em;
@@ -386,7 +392,7 @@ body {
 .skills:first-child {
   cursor: pointer;
   position: absolute;
-  left: -49%;
+  left: -51%;
   top: 4%;
   z-index: 0;
   width: 3.5em;
