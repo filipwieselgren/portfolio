@@ -688,18 +688,6 @@ body {
   .arrow-container {
     order: 2;
   }
-
-  .arrow-container {
-    position: absolute;
-    top: 41%;
-    left: 58%;
-  }
-
-  .card-container {
-    position: absolute;
-    left: 60%;
-    top: 60%;
-  }
 }
 
 /* MAIN */
