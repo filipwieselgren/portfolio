@@ -676,6 +676,10 @@ body {
     flex-direction: row;
   }
 
+  .card-container {
+    align-self: flex-end;
+  }
+
   .navbts-hero-container {
     flex-direction: row;
     justify-content: center;
@@ -702,6 +706,7 @@ body {
 
   .arrow-container {
     margin-right: 5em;
+    align-self: flex-start;
   }
 
   .arrow-to-skills {
