@@ -364,8 +364,8 @@ body {
 }
 
 .card-container {
-  display: flex;
-  justify-content: flex-end;
+  /* display: flex;
+  justify-content: flex-end; */
   position: relative;
 }
 
@@ -386,7 +386,7 @@ body {
 .skills:first-child {
   cursor: pointer;
   position: absolute;
-  left: -36%;
+  left: -49%;
   top: 4%;
   z-index: 0;
   width: 3.5em;
