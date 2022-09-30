@@ -1,9 +1,4 @@
-import {
-  BsChevronCompactDown,
-  BsChevronCompactUp,
-  BsCaretUp,
-  BsCaretDown,
-} from "react-icons/bs/";
+import { BsCaretUp, BsCaretDown } from "react-icons/bs/";
 
 import { Link } from "react-router-dom";
 
