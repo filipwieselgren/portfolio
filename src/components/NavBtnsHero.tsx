@@ -12,14 +12,15 @@ export const NavBtnsHero = () => {
         </div>
       </Link>
 
-      {/* <Link to={"#projects"} className="hero-link to-project-link"> */}
-      <a href="#projects" className="hero-link to-project-link">
+      <Link
+        to={{ pathname: "/projects" }}
+        className="hero-link to-project-link"
+      >
         <div className="hero-btn-container to-projects">
           See my projects
           <BsCaretDown className="arrow arrow-down" />
         </div>
-      </a>
-      {/* </Link> */}
+      </Link>
     </div>
   );
 };
