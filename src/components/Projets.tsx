@@ -25,32 +25,12 @@ export const Projets = () => {
     },
   ];
 
-  // useEffect(() => {
-  //   axios.get<IProjects[]>(api).then((response) => {
-  //     setProjects(response.data);
-  //   });
-  // }, []);
-
-  // const showProject = projects.map((project) => {
-  //   return (
-  //     <div key={project.id}>
-  //       <>
-  //         <h2>{project.name}</h2>
-  //         <div>{project.description}</div>
-  //         {project.topics.map((pt) => {
-  //           <div>{pt}</div>;
-  //         })}
-  //       </>
-  //     </div>
-  //   );
-  // });
-
   const t = projects.map((project) => {
     <div> {project.topics}</div>;
   });
 
   return (
-    <div className="main-wrapper">
+    <div id="projects" className="main-wrapper">
       {projects.map((project) => {
         return (
           <div key={project.id}>
