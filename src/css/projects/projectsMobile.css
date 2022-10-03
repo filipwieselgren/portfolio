@@ -1,4 +1,5 @@
 #projects {
+  width: 100vw;
   display: flex;
   overflow: auto;
   scrollbar-width: none;
@@ -12,7 +13,6 @@
 }
 
 .project-card-container {
-  width: 80vw;
   margin: 0.5em;
   border-bottom: 0.5px solid #101820;
 }
