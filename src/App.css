@@ -236,7 +236,7 @@ body {
   }
 
   .nav-menu {
-    position: block;
+    position: block !important;
     display: flex;
     top: 0;
     justify-content: space-around;
