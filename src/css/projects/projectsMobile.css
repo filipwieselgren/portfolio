@@ -60,6 +60,7 @@
   border-radius: 5px;
   color: #101820;
   font-size: 1.5rem;
+  text-transform: uppercase;
 }
 
 .test-app-btn {
