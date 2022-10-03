@@ -35,6 +35,11 @@ export const Projets = () => {
                     />;
                   })}
                 </>
+
+                <div className="project-btns-container">
+                  <button className="project-btn test-app-btn">Test app</button>
+                  <button className="project-btn see-code-btn">See code</button>
+                </div>
               </div>
             );
           })

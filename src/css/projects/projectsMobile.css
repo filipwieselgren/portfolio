@@ -30,7 +30,8 @@
 
 .p-header-container,
 .p-discription-container,
-.built-with-container {
+.built-with-container,
+.project-btns-container {
   width: 100%;
 }
 
@@ -51,4 +52,19 @@
   font-size: 1.8rem;
   font-weight: 400;
   margin-bottom: 1em;
+}
+
+.project-btn {
+  background-color: transparent;
+  padding: 0.5em;
+  border-radius: 5px;
+}
+
+.test-app-btn {
+  border: 1px solid #93b5b3;
+  margin: 0 1em 1em 0;
+}
+
+.see-code-btn {
+  border: 1px solid #101820;
 }
