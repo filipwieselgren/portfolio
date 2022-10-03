@@ -55,7 +55,6 @@
 }
 
 .project-btn {
-  background-color: transparent;
   padding: 1em 2em;
   border-radius: 5px;
   color: #101820;
@@ -64,10 +63,12 @@
 }
 
 .test-app-btn {
-  border: 1px solid #93b5b3;
+  background-color: #93b5b3;
+
   margin: 0 1em 1em 0;
 }
 
 .see-code-btn {
+  background-color: transparent;
   border: 1px solid #101820;
 }
