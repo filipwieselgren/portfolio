@@ -58,6 +58,8 @@
   background-color: transparent;
   padding: 2em;
   border-radius: 5px;
+  color: #101820;
+  font-size: 1.5rem;
 }
 
 .test-app-btn {
