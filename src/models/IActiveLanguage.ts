@@ -127,7 +127,7 @@ const heroSwedishText: IHeroText = {
       html_url: "https://webshop-seven.vercel.app/",
       description: "En webbshop för filmer byggt med React och Typscript",
       img: webshopImg,
-      buildTxt: "Byggt med",
+      buildTxt: "Byggd med",
       topics: [
         {
           topicid: 1,
@@ -158,7 +158,7 @@ const heroSwedishText: IHeroText = {
       html_url: "https://todo-eta-six.vercel.app/",
       description: "Mitt första projekt i JS. En todo-app.",
       img: todoImg,
-      buildTxt: "Byggt med",
+      buildTxt: "Byggd med",
       topics: [
         {
           topicid: 1,
