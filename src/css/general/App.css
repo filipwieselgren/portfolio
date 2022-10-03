@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+li {
+  list-style: none;
+}
+
+li:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: 0.2s ease-in-out;
+  text-decoration: underline #93b5b3;
+  text-underline-offset: 0.5rem;
+  color: #93b5b3;
+}
+
+.li-nav:hover > svg {
+  color: #93b5b3;
+  transform: scale(1.4);
+  transition: 0.2s ease-in-out;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+}

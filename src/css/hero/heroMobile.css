@@ -1,0 +1,326 @@
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 2em;
+  /* height: 60vh; */
+}
+
+.navbar-name,
+.presentation-text {
+  width: 82%;
+}
+
+.navbar-name {
+  text-align: start;
+  font-size: 2rem;
+}
+
+.navbar-name:first-child {
+  font-weight: 300;
+}
+.navbar-name:nth-child(n + 2) {
+  font-weight: 100;
+}
+
+.presentation-text-container {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.presentation-text {
+  font-weight: 100;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+}
+
+.swith-card {
+  color: #93b5b3;
+  font-weight: 300;
+}
+
+.dot {
+  color: #121820;
+}
+
+.arrow-container {
+  margin-top: 1.5em;
+}
+
+.arrow-card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.arrow-to-skills {
+  width: 30%;
+  margin-left: 1.5em;
+}
+
+.arrow-desk {
+  display: none;
+}
+
+.skill-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -1.5em;
+  width: 100vw;
+  height: 100vh;
+}
+
+.card-container {
+  position: relative;
+}
+
+.skills {
+  cursor: pointer;
+  width: 4em;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.skills:hover {
+  cursor: pointer;
+}
+.skills:active {
+  cursor: pointer;
+}
+
+.skills:first-child {
+  cursor: pointer;
+  position: absolute;
+  left: -51%;
+  top: 4%;
+  z-index: 0;
+  width: 3.5em;
+  transform: rotate(-28deg);
+  animation: degmove 1s ease-in;
+}
+
+.skills:last-child {
+  cursor: pointer;
+  position: absolute;
+  left: -6%;
+  z-index: 10;
+}
+
+.skills:nth-child(2) {
+  cursor: pointer;
+  position: absolute;
+  left: -6%;
+  z-index: -1;
+}
+
+.skills:nth-child(3) {
+  cursor: pointer;
+  position: absolute;
+  left: -6%;
+  z-index: -1;
+}
+.skills:nth-child(4) {
+  cursor: pointer;
+  position: absolute;
+  left: -6%;
+  z-index: -1;
+}
+
+.skillCardClicked:last-child {
+  position: absolute;
+  left: 42%;
+  z-index: -1;
+  transition: 0.5s ease-in-out;
+  animation: mymove 0.5s ease-in;
+}
+
+@keyframes mymove {
+  0% {
+    left: 0%;
+  }
+
+  3% {
+    left: 3%;
+  }
+
+  5% {
+    left: 5%;
+  }
+
+  7% {
+    left: 7%;
+  }
+
+  10% {
+    left: 10%;
+  }
+
+  12% {
+    left: 13%;
+  }
+
+  15% {
+    left: 15%;
+  }
+
+  17% {
+    left: 17%;
+  }
+
+  20% {
+    left: 20%;
+  }
+
+  22% {
+    left: 30%;
+  }
+
+  25% {
+    left: 35%;
+  }
+
+  27% {
+    left: 40%;
+  }
+
+  30% {
+    left: 45%;
+  }
+
+  32% {
+    left: 50%;
+  }
+
+  35% {
+    left: 55%;
+  }
+
+  37% {
+    left: 60%;
+  }
+
+  40% {
+    left: 65%;
+  }
+
+  42% {
+    left: 70%;
+  }
+
+  45% {
+    left: 75%;
+  }
+  47% {
+    left: 80%;
+  }
+  50% {
+    left: 75%;
+  }
+
+  52% {
+    left: 70%;
+  }
+
+  55% {
+    left: 65%;
+  }
+
+  57% {
+    left: 60%;
+  }
+  60% {
+    left: 55%;
+  }
+
+  62% {
+    left: 50%;
+  }
+
+  65% {
+    left: 45%;
+  }
+
+  67% {
+    left: 43%;
+  }
+  70% {
+    left: 40%;
+  }
+
+  72% {
+    left: 37%;
+  }
+
+  75% {
+    left: 35%;
+  }
+
+  77% {
+    left: 33%;
+  }
+  80% {
+    left: 30%;
+  }
+
+  82% {
+    left: 28%;
+  }
+
+  85% {
+    left: 25%;
+  }
+
+  87% {
+    left: 23%;
+  }
+  90% {
+    left: 20%;
+  }
+
+  92% {
+    left: 18%;
+  }
+  95% {
+    left: 15%;
+  }
+  97% {
+    left: 13%;
+  }
+  100% {
+    left: 0%;
+  }
+}
+
+.navbts-hero-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1em 0 0 0;
+}
+
+.hero-btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #121820;
+}
+
+.to-about {
+  margin: 0 0 0 0;
+}
+.to-projects {
+  margin: 1em 0 0 0;
+}
+
+.arrow {
+  font-size: 2em;
+}
+
+.hero-link {
+  color: #121820;
+  text-transform: uppercase;
+  width: 13em;
+}

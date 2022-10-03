@@ -1,0 +1,73 @@
+@media only screen and (min-width: 768px) {
+  li:hover {
+    text-decoration: underline #121820;
+  }
+
+  .li-nav:hover > svg {
+    color: #93b5b3;
+    transform: scale(1.2);
+    transition: 0.2s ease-in-out;
+  }
+  .nav-toggler {
+    display: none;
+  }
+
+  .nav-menu {
+    position: none;
+    display: flex;
+    top: 0;
+    justify-content: space-around;
+    background-color: rgba(255, 255, 255, 0);
+    transform: translate(0%);
+    transition: none;
+    height: 0;
+    margin-top: 4em;
+    width: 75vw;
+  }
+
+  .switchLang-btn-active {
+    color: #121820;
+    margin: -0.5rem 5rem 0 3rem;
+  }
+
+  .switchLang-btn-noshow {
+    display: block;
+    border: 1px solid #93b5b3;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #121820;
+    margin: -0.5rem 5rem 0 3rem;
+    text-align: center;
+    height: 2.5em;
+    width: 11em;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+
+  .nav-menu li {
+    display: block;
+    cursor: pointer;
+  }
+
+  .nav-active {
+    overflow: visible;
+  }
+
+  .nav-active li {
+    color: #121820;
+  }
+
+  .nav-active li:nth-child(-n + 3) {
+    margin: 3rem 5rem 1rem 3rem;
+  }
+
+  .navbar-img {
+    width: 15em;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .nav-txt {
+    font-size: 1.5em;
+  }
+}
