@@ -32,7 +32,7 @@ const heroEnglishText: IHeroText = {
   projects: [
     {
       id: 1,
-      name: "webshop",
+      name: "Webshop",
       html_url: "https://webshop-seven.vercel.app/",
       description: "A webshop for movies build with react and typescript",
       img: webshopImg,
