@@ -30,6 +30,7 @@ interface IHeroText {
       name: string;
       html_url: string;
       description: string;
+      img: string;
       buildTxt: string;
       topics: [
         { topicid: number; language: string },
@@ -44,6 +45,7 @@ interface IHeroText {
       name: string;
       html_url: string;
       description: string;
+      img: string;
       buildTxt: string;
       topics: [
         { topicid: number; language: string },

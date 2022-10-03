@@ -1,4 +1,6 @@
 import IHeroText from "./IHeroTextInterface";
+import todoImg from "../assets/todo.img.png";
+import webshopImg from "../assets/webshop.png";
 
 const heroEnglishText: IHeroText = {
   id: 1,
@@ -33,6 +35,7 @@ const heroEnglishText: IHeroText = {
       name: "webshop",
       html_url: "https://webshop-seven.vercel.app/",
       description: "A webshop for movies build with react and typescript",
+      img: webshopImg,
       buildTxt: "Built with",
       topics: [
         {
@@ -63,6 +66,7 @@ const heroEnglishText: IHeroText = {
       name: "Todo-app",
       html_url: "https://todo-eta-six.vercel.app/",
       description: "My first project in JS. A todo-app",
+      img: todoImg,
       buildTxt: "Built with",
       topics: [
         {
@@ -122,6 +126,7 @@ const heroSwedishText: IHeroText = {
       name: "Webshop",
       html_url: "https://webshop-seven.vercel.app/",
       description: "En webbshop för filmer byggt med React och Typscript",
+      img: webshopImg,
       buildTxt: "Byggt med",
       topics: [
         {
@@ -152,6 +157,7 @@ const heroSwedishText: IHeroText = {
       name: "Todo-app",
       html_url: "https://todo-eta-six.vercel.app/",
       description: "Mitt första projekt i JS. En todo-app.",
+      img: todoImg,
       buildTxt: "Byggt med",
       topics: [
         {

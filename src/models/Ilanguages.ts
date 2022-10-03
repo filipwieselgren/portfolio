@@ -6,6 +6,7 @@ import node from "../assets/node.js.png";
 import sass from "../assets/sass.logo.png";
 import css from "../assets/css-logo.png";
 import html from "../assets/html-logo.png";
+
 // import vue from "../assets/Vue.js.png";
 
 export const langImages = [typescript, node, css, html, javascript, react];
