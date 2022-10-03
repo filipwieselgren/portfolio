@@ -1,5 +1,24 @@
+import { useEffect } from "react";
+import { useLocation, useNavigate } from "react-router-dom";
+
 export const Projets = () => {
+  const navigate = useNavigate();
   // const [projects, setProjects] = useState<IProjects[]>([]);
+  const { state } = useLocation();
+  const { targetId } = state || {};
+
+  const navigateToPage = (btnText: string) => {
+    if (btnText === "See my projects") {
+      navigate("/projects", { state: { targetId: "projects" } });
+    }
+  };
+
+  useEffect(() => {
+    const el = document.getElementById(targetId);
+    if (el) {
+      el.scrollIntoView();
+    }
+  }, [targetId]);
 
   const projects = [
     {

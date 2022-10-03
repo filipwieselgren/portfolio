@@ -12,7 +12,7 @@ const heroEnglishText: IHeroText = {
   btntext: [
     {
       btnid: 1,
-      text: "See my work",
+      text: "See my projects",
     },
     {
       btnid: 2,

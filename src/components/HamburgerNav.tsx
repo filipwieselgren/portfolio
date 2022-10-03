@@ -1,10 +1,11 @@
 import me from "../assets/me-one-real-eay-back.png";
 import github from "../assets/github.png";
 import linkedin from "../assets/Linkedin-logo-icon-png.png";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { IState, toggleLanguage } from "../redux/reducers/reducer";
 import { BsCaretRight } from "react-icons/bs/";
+import { useNavigate } from "react-router-dom";
 
 interface IActive {
   navToggle(): void;
