@@ -27,28 +27,67 @@ const heroEnglishText: IHeroText = {
       text: "Contact me",
     },
   ],
-  // projects: [
-  //   {
-  //     id: 1,
-  //     name: "webshop",
-  //     html_url: "https://webshop-seven.vercel.app/",
-  //     description: "A webshop for movies build with react and typescript",
-  //     topics: [
-  //       "/static/media/react.svg.dff8c2d70a3a8ec4026e.png",
-  //       "/static/media/Typescript_logo_2020.svg.f11fa7a0c5593ab7cb15.png",
-  //       "/static/media/css-logo.f84f23c3069a2d6dad20.png",
-  //     ],
-  //   },
-  //   {
-  //     id: 2,
-  //     name: "Todo-app",
-  //     html_url: "https://todo-eta-six.vercel.app/",
-  //     description: "My first project in JS. A todo-app",
-  //     topics: [
-  //       "/static/media/js-logo.7bab731c14a3382b0ef3.png",
-  //       "/static/media/sass.logo.b795e8df3332ef356023.png",
-  //     ],
-  //   },
+  projects: [
+    {
+      id: 1,
+      name: "webshop",
+      html_url: "https://webshop-seven.vercel.app/",
+      description: "A webshop for movies build with react and typescript",
+      buildTxt: "Built with",
+      topics: [
+        {
+          topicid: 1,
+          language: "/static/media/react.svg.dff8c2d70a3a8ec4026e.png",
+        },
+        {
+          topicid: 2,
+          language:
+            "/static/media/Typescript_logo_2020.svg.f11fa7a0c5593ab7cb15.png",
+        },
+        {
+          topicid: 3,
+          language: "/static/media/css-logo.f84f23c3069a2d6dad20.png",
+        },
+        {
+          topicid: 4,
+          language: "",
+        },
+        {
+          topicid: 5,
+          language: "",
+        },
+      ],
+    },
+    {
+      id: 2,
+      name: "Todo-app",
+      html_url: "https://todo-eta-six.vercel.app/",
+      description: "My first project in JS. A todo-app",
+      buildTxt: "Built with",
+      topics: [
+        {
+          topicid: 1,
+          language: "/static/media/js-logo.7bab731c14a3382b0ef3.png",
+        },
+        {
+          topicid: 2,
+          language: "/static/media/sass.logo.b795e8df3332ef356023.png",
+        },
+        {
+          topicid: 3,
+          language: "",
+        },
+        {
+          topicid: 4,
+          language: "",
+        },
+        {
+          topicid: 5,
+          language: "",
+        },
+      ],
+    },
+  ],
 };
 const heroSwedishText: IHeroText = {
   id: 2,
@@ -75,6 +114,67 @@ const heroSwedishText: IHeroText = {
     {
       btnid: 4,
       text: "Kontakta mig",
+    },
+  ],
+  projects: [
+    {
+      id: 1,
+      name: "Webshop",
+      html_url: "https://webshop-seven.vercel.app/",
+      description: "En webbshop för filmer byggt med React och Typscript",
+      buildTxt: "Byggt med",
+      topics: [
+        {
+          topicid: 1,
+          language: "/static/media/react.svg.dff8c2d70a3a8ec4026e.png",
+        },
+        {
+          topicid: 2,
+          language:
+            "/static/media/Typescript_logo_2020.svg.f11fa7a0c5593ab7cb15.png",
+        },
+        {
+          topicid: 3,
+          language: "/static/media/css-logo.f84f23c3069a2d6dad20.png",
+        },
+        {
+          topicid: 4,
+          language: "",
+        },
+        {
+          topicid: 5,
+          language: "",
+        },
+      ],
+    },
+    {
+      id: 2,
+      name: "Todo-app",
+      html_url: "https://todo-eta-six.vercel.app/",
+      description: "Mitt första projekt i JS. En todo-app.",
+      buildTxt: "Byggt med",
+      topics: [
+        {
+          topicid: 1,
+          language: "/static/media/js-logo.7bab731c14a3382b0ef3.png",
+        },
+        {
+          topicid: 2,
+          language: "/static/media/sass.logo.b795e8df3332ef356023.png",
+        },
+        {
+          topicid: 3,
+          language: "",
+        },
+        {
+          topicid: 4,
+          language: "",
+        },
+        {
+          topicid: 5,
+          language: "",
+        },
+      ],
     },
   ],
 };
