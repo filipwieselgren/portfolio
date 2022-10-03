@@ -1,3 +1,4 @@
+import { BsCaretDown, BsCaretRight } from "react-icons/bs";
 import { useSelector } from "react-redux";
 import { useLocation, useNavigate } from "react-router-dom";
 import { IState } from "../redux/reducers/reducer";
@@ -37,8 +38,18 @@ export const Projets = () => {
                 </>
 
                 <div className="project-btns-container">
-                  <button className="project-btn test-app-btn">Test app</button>
-                  <button className="project-btn see-code-btn">See code</button>
+                  <a href="#projects" className="hero-link to-project-link">
+                    <div className="project-btn test-app-btn">
+                      <BsCaretRight />
+                      Test app
+                    </div>
+                  </a>
+                  <a href="#projects" className="hero-link to-project-link">
+                    <div className="project-btn see-code-btn">
+                      <BsCaretRight />
+                      See code
+                    </div>
+                  </a>
                 </div>
               </div>
             );

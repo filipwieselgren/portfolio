@@ -54,20 +54,28 @@
   margin-bottom: 1em;
 }
 
+.project-btns-container {
+  display: flex;
+  margin: 0 0 1em 0;
+}
+
 .project-btn {
-  padding: 1em 2em;
-  border-radius: 5px;
+  padding: 0.5em 0 0.2em 0;
+  /* border-radius: 5px; */
   color: #101820;
   font-size: 1.5rem;
   text-transform: uppercase;
+
+  width: 60%;
+  margin: 0 0 1em 0;
 }
 
 .test-app-btn {
-  background-color: #93b5b3;
-  margin: 0 1em 1em 0;
+  /* background-color: #93b5b3; */
+  border-bottom: 2px solid #93b5b3;
 }
 
 .see-code-btn {
   background-color: transparent;
-  border: 1px solid #101820;
+  border-bottom: 1px solid #101820;
 }
