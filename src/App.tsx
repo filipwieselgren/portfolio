@@ -5,7 +5,7 @@ import "./css/navbar/navbarDesktop.css";
 import "./css/hero/heroMobile.css";
 import "./css/hero/heroDesktop.css";
 import "./css/projects/projectsMobile.css";
-import "./css/projects/projectsDesktop.css";
+// import "./css/projects/projectsDesktop.css";
 import { HeroPage } from "./pages/HeroPage";
 import { AboutPage } from "./pages/AboutPage";
 import { Projets } from "./components/Projets";
