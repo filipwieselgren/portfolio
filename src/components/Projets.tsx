@@ -17,9 +17,15 @@ export const Projets = () => {
             return (
               <div key={p.id} className="project-card-container">
                 <img src={p.img} alt="Image on the project" />
-                <h3 className="project-header">{p.name}</h3>
-                <div className="project-discription">{p.description}</div>
-                <div className="built-with-txt">{p.buildTxt}</div>
+                <div className="p-header-container">
+                  <h3 className="project-header">{p.name}</h3>
+                </div>
+                <div className="p-discription-container">
+                  <div className="project-discription">{p.description}</div>
+                </div>
+                <div className="built-with-container">
+                  <div className="built-with-txt">{p.buildTxt}</div>
+                </div>
                 <>
                   {p.topics.map((t) => {
                     <img
