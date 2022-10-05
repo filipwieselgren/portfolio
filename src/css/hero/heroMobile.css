@@ -4,6 +4,7 @@
   justify-content: space-between;
   margin-top: 2em;
   /* height: 60vh; */
+  background: linear-gradient(#ffffff, #93b5b3);
 }
 
 .navbar-name,
