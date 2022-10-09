@@ -30,9 +30,10 @@
 }
 
 .project-card-container img {
-  width: 80vw;
+  width: 80%;
   border-radius: 15px;
   padding: 0.5em;
+  margin-top: 2em;
 }
 
 .p-header-container,
