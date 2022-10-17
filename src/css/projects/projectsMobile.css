@@ -31,7 +31,7 @@
 
 .project-card-container img {
   width: 80%;
-  border-radius: 15px;
+  border-radius: 12.5px;
   padding: 0.5em;
   margin-top: 2em;
 }
@@ -55,7 +55,6 @@
   overflow: hidden;
   font-size: 1.5rem;
   font-weight: 300;
-  /* margin: 0 0 1em 0; */
 }
 
 .built-with-txt {
@@ -66,12 +65,11 @@
 
 .project-btns-container {
   display: flex;
-  /* margin: 0 0 1em 0; */
 }
 
 .project-btn {
   padding: 0.5em 0 0.2em 0;
-  /* border-radius: 5px; */
+
   color: #ffffff;
   font-size: 1.5rem;
   text-transform: uppercase;
@@ -80,7 +78,6 @@
 }
 
 .test-app-btn {
-  /* background-color: #93b5b3; */
   border-bottom: 2px solid #93b5b3;
 }
 
