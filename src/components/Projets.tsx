@@ -15,24 +15,26 @@ export const Projets = () => {
       <div id="projects" className="project-wrapper">
         {languageArray.map((lang) => {
           return lang.language === language ? (
-            lang.projects.map((p) => {
+            lang.projects.map((project) => {
               return (
-                <div key={p.id} className="project-card-container">
-                  <img src={p.img} alt="Image on the project" />
+                <div key={project.id} className="project-card-container">
+                  <img src={project.img} alt="Image on the project" />
                   <div className="p-header-container">
-                    <h3 className="project-header">{p.name}</h3>
+                    <h3 className="project-header">{project.name}</h3>
                   </div>
                   <div className="p-discription-container">
-                    <div className="project-discription">{p.description}</div>
+                    <div className="project-discription">
+                      {project.description}
+                    </div>
                   </div>
                   <div className="built-with-container">
-                    <div className="built-with-txt">{p.buildTxt}</div>
+                    <div className="built-with-txt">{project.buildTxt}</div>
                   </div>
                   <>
-                    {p.topics.map((t) => {
+                    {project.topics.map((topic) => {
                       <img
-                        key={t.topicid}
-                        src={t.language}
+                        key={topic.topicid}
+                        src={topic.language}
                         alt="Logo of programming language"
                       />;
                     })}
