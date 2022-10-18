@@ -15,11 +15,6 @@
   align-items: flex-start;
 }
 
-.navbar-name,
-.presentation-text {
-  width: 82%;
-}
-
 .navbar-name {
   text-align: start;
   font-size: 2rem;
@@ -33,7 +28,6 @@
 }
 
 .presentation-text-container {
-  width: 100vw;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
