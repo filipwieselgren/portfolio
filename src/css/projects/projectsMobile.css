@@ -38,13 +38,11 @@
 .project-card-container img {
   border-radius: 12.5px;
   padding: 0.5em;
-  margin-top: 2em;
   width: 100%;
 }
 
 .p-discription-container {
-  min-height: 20%;
-  max-height: 20%;
+  min-height: 5em;
 }
 
 .p-header-container,
@@ -54,7 +52,6 @@
   width: 100%;
   color: white;
   padding: 0.5em;
-  margin-top: 0.5em;
 }
 
 .project-header {
