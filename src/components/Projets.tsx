@@ -12,7 +12,7 @@ export const Projets = () => {
 
   return (
     <>
-      <div id="projects" className="project-wrapper">
+      {/* <div id="projects" className="project-wrapper">
         {languageArray.map((lang) => {
           return lang.language === language ? (
             lang.projects.map((p) => {
@@ -59,7 +59,7 @@ export const Projets = () => {
             <></>
           );
         })}
-      </div>
+      </div> */}
     </>
   );
 };

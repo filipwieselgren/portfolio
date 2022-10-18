@@ -3,9 +3,8 @@
     margin-top: 7em;
   }
 
-  .presentation-text-container div {
-    margin-left: -15rem;
-    width: 50%;
+  .presentation-text-container {
+    align-items: flex-start;
   }
 
   .skills {
