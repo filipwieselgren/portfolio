@@ -45,7 +45,7 @@
   .arrow-card-container {
     order: 2;
     position: absolute;
-    right: 10em;
+    left: 40%;
 
     /* border: 1px solid red; */
   }
@@ -82,7 +82,6 @@
 
   .arrow-container {
     margin-right: 5em;
-    margin-top: 0;
     align-self: flex-start;
     /* border: 1px solid blue; */
   }
