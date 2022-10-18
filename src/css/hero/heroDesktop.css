@@ -37,14 +37,10 @@
     min-height: 9vh;
   }
 
-  .skill-content {
-    display: flex;
-    justify-content: space-between;
-    margin-left: 0;
-    width: 60%;
-  }
   .arrow-card-container {
     order: 2;
+    position: absolute;
+    right: 5%;
 
     /* border: 1px solid red; */
   }
