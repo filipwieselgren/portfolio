@@ -1,5 +1,5 @@
 import IHeroText from "./IHeroTextInterface";
-import todoImg from "../assets/todo.img.png";
+import todoImg from "../assets/todo.png";
 import webshopImg from "../assets/webshop.png";
 
 const heroEnglishText: IHeroText = {
