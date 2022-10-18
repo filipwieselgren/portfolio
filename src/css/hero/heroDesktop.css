@@ -3,6 +3,10 @@
     margin-top: 7em;
   }
 
+  .hero-flex-container {
+    width: 70%;
+  }
+
   .presentation-text-container {
     align-items: flex-start;
   }
