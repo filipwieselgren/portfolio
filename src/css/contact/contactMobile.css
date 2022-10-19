@@ -50,12 +50,10 @@
   justify-content: center;
   align-items: center;
   border: 1px solid #000000;
-  filter: drop-shadow(5px 5px 5px #93b5b3);
+  box-shadow: 2px 0px 0px #93b5b3;
 }
-
 .icon {
   color: rgb(0, 0, 0);
-  filter: drop-shadow(2px 1px 0px #93b5b3);
 }
 
 .icon-circle:nth-child(1) svg {
