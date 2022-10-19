@@ -8,8 +8,32 @@
   justify-content: center;
 }
 
+.container-container {
+  display: flex;
+  justify-content: center;
+}
+
 .contact-title {
   font-size: 2.5rem;
   font-weight: 300;
   color: #ffff;
+  text-align: center;
+}
+
+.contact-icons-container {
+  display: flex;
+}
+
+.icon-circle {
+  width: 5em;
+  height: 5em;
+  border-radius: 50%;
+  background-color: #d9d9d9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  color: rgb(0, 0, 0);
 }
