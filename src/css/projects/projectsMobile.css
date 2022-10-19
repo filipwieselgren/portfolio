@@ -1,7 +1,7 @@
 #projects {
   width: 100vw;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   overflow: auto;
   scrollbar-width: none;
   -ms-overflow-style: none;
