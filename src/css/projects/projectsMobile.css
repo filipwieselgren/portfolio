@@ -1,7 +1,3 @@
-.background-container {
-  background: linear-gradient(#93b5b3, #101820);
-}
-
 #projects {
   width: 100vw;
   display: flex;
@@ -10,7 +6,7 @@
   scrollbar-width: none;
   -ms-overflow-style: none;
   scrollbar-width: none;
-  /* background: linear-gradient(#93b5b3, #101820); */
+  background: linear-gradient(#93b5b3, #101820);
   height: 100vh;
   border: none;
 }

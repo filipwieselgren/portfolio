@@ -9,8 +9,8 @@ export const HeroPage = () => {
     <>
       <Navbar />
       <Hero />
+      <Projets />
       <div className="background-container">
-        <Projets />
         <Contact />
         <Footer />
       </div>
