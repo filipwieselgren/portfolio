@@ -37,6 +37,10 @@
   align-items: center;
 }
 
+.circle-container:hover {
+  cursor: pointer;
+}
+
 .icon-circle {
   width: 3.5em;
   height: 3.5em;
