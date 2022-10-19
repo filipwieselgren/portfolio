@@ -8,32 +8,51 @@
   justify-content: center;
 }
 
-.container-container {
-  display: flex;
-  justify-content: center;
+.contact-container {
 }
 
 .contact-title {
   font-size: 2.5rem;
-  font-weight: 300;
+  font-weight: 100;
   color: #ffff;
   text-align: center;
+  margin-bottom: 1em;
+  letter-spacing: 1px;
 }
 
 .contact-icons-container {
   display: flex;
+  width: 100vw;
+  justify-content: space-evenly;
 }
 
 .icon-circle {
-  width: 5em;
-  height: 5em;
+  width: 3.5em;
+  height: 3.5em;
   border-radius: 50%;
   background-color: #d9d9d9;
   display: flex;
   justify-content: center;
   align-items: center;
+  border: 1px solid #000000;
 }
 
 .icon {
   color: rgb(0, 0, 0);
+}
+
+.icon-circle:nth-child(1) svg {
+  font-size: 2em;
+}
+.icon-circle:nth-child(2) svg {
+  font-size: 2em;
+}
+.icon-circle:nth-child(3) svg {
+  font-size: 1.5em;
+}
+.icon-circle:nth-child(4) svg {
+  font-size: 2em;
+}
+.icon-circle:nth-child(5) svg {
+  font-size: 2em;
 }
