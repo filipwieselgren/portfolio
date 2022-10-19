@@ -2,4 +2,8 @@
   .contact-container {
     width: 60%;
   }
+
+  .contact-title {
+    font-size: 4rem;
+  }
 }
