@@ -9,21 +9,37 @@ export const Contact = () => {
       <div className="contact-container">
         <h1 className="contact-title">I would love to stay in touch</h1>
         <div className="contact-icons-container">
-          <div className="icon-circle">
-            <GoMail />
-          </div>
-          <div className="icon-circle">
-            <TiPhone />{" "}
-          </div>
-          <div className="icon-circle">
-            <FaLinkedinIn className="icon" />
-          </div>
-          <div className="icon-circle">
-            <FaGithub />
-          </div>
-          <div className="icon-circle">
-            <TbCoffee />
-          </div>
+          <a className="circle-container">
+            <div className="icon-circle">
+              <GoMail />
+            </div>
+            <p className="circle-text">Email</p>
+          </a>
+          <a className="circle-container">
+            <div className="icon-circle">
+              <TiPhone />
+            </div>
+            <p className="circle-text">Phone</p>
+          </a>
+
+          <a className="circle-container">
+            <div className="icon-circle">
+              <FaLinkedinIn className="icon" />
+            </div>
+            <p className="circle-text">Linkedin</p>
+          </a>
+          <a className="circle-container">
+            <div className="icon-circle">
+              <FaGithub />
+            </div>
+            <p className="circle-text">Github</p>
+          </a>
+          <a className="circle-container">
+            <div className="icon-circle">
+              <TbCoffee />
+            </div>
+            <p className="circle-text">Coffee</p>
+          </a>
         </div>
       </div>
     </section>
