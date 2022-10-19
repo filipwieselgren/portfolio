@@ -1,6 +1,6 @@
 .contact-main-container {
-  background: linear-gradient(#93b5b3, #101820);
   overflow: auto;
   height: 100vh;
   border: none;
+  /* background: linear-gradient(#93b5b3, #101820); */
 }

@@ -10,6 +10,7 @@ import "./css/contact/contactMobile.css";
 import "./css/contact/contactDesktop.css";
 import "./css/footer/footerMobile.css";
 import "./css/footer/footerDesktop.css";
+import "./css/global/global.css";
 import { HeroPage } from "./pages/HeroPage";
 import { AboutPage } from "./pages/AboutPage";
 import { Projets } from "./components/Projets";
