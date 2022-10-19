@@ -9,9 +9,11 @@ export const HeroPage = () => {
     <>
       <Navbar />
       <Hero />
-      <Projets />
-      <Contact />
-      <Footer />
+      <div className="background-container">
+        <Projets />
+        <Contact />
+        <Footer />
+      </div>
     </>
   );
 };
