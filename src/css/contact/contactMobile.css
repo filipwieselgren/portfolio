@@ -52,6 +52,7 @@
 }
 .icon-circle:nth-child(2) svg {
   font-size: 2em;
+  transform: rotate(100deg);
 }
 .icon-circle:nth-child(3) svg {
   font-size: 1.5em;
