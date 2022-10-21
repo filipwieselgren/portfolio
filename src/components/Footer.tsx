@@ -3,13 +3,23 @@ import me from "../assets/me.png";
 export const Footer = () => {
   return (
     <div className="footer-main-container">
-      <img src={me} alt="" className="footer-img" />
+      <div className="img-container">
+        <img src={me} alt="" className="footer-img" />
+      </div>
 
       <ul className="text-ul">
-        <li>Home</li>
-        <li>Resume</li>
-        <li>About me</li>
-        <li>Projets</li>
+        <a href="/">
+          <li>Home</li>
+        </a>
+        <a href="">
+          <li>Resume</li>
+        </a>
+        <a href="#projects">
+          <li>About me</li>
+        </a>
+        <a href="#projects">
+          <li>Projets</li>
+        </a>
       </ul>
     </div>
   );
