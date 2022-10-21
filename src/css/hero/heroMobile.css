@@ -55,6 +55,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  filter: drop-shadow(12px 4px 9px rgba(0, 0, 0, 0.2));
 }
 
 .arrow-to-skills {
@@ -82,7 +83,6 @@
   width: 4em;
   text-align: center;
   border-radius: 5px;
-  filter: drop-shadow(12px 4px 9px rgba(0, 0, 0, 0.2));
 }
 
 .skills:hover {
