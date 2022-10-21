@@ -13,7 +13,7 @@
   }
 
   .nav-menu {
-    position: none;
+    position: sticky;
     display: flex;
     top: 0;
     justify-content: space-around;
