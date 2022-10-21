@@ -1,0 +1,26 @@
+.footer-main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 20vh;
+}
+
+.footer-img {
+  width: 4em;
+  position: absolute;
+  left: 0;
+  top: 50%;
+}
+
+.text-ul {
+  display: flex;
+  color: white;
+  margin-top: 50px;
+  font-size: 1.2rem;
+}
+
+.text-ul li {
+  margin: 5px;
+  font-weight: 100;
+}
