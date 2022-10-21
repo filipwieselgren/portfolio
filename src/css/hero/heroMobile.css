@@ -49,6 +49,9 @@
 
 .arrow-container {
   margin-top: 2.5em;
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
 .arrow-card-container {
@@ -60,7 +63,6 @@
 
 .arrow-to-skills {
   width: 20%;
-  margin-left: 6.5em;
 }
 
 .arrow-desk {
