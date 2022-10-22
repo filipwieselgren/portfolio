@@ -13,7 +13,7 @@ const heroEnglishText: IHeroText = {
     "I study front end development at Medieinstitutet in Stockholm Sweden with focus on the mern-stack.",
   askvisitor: " Switch card to see my tech-stack",
   changeLanguageText: "Switch to Swedish",
-  frontEnd: "my name is Filip. Glad to see you here!",
+  frontEnd: "glad to see you here! My name is Filip.",
   btntext: [
     {
       btnid: 1,
@@ -91,7 +91,7 @@ const heroSwedishText: IHeroText = {
     "Jag studerar frontend-utveckling på Medieinstitutet i Stockholm med fokus på mern-stacken. Byt kort för att se min tech stack.",
   askvisitor: " Byt kort för att se min tech-stack",
   changeLanguageText: "Ändra till engelska",
-  frontEnd: "Filip här. Trevligt att träffas!",
+  frontEnd: "Filip här. Trevligt att träffas!  ",
   btntext: [
     {
       btnid: 1,
