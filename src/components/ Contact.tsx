@@ -6,6 +6,12 @@ import { TbCoffee } from "react-icons/tb";
 export const Contact = () => {
   return (
     <section className="contact-section">
+      <img
+        className="diver"
+        src={require("../assets/animated-diving-image-0016.gif")}
+        alt="loading..."
+      />
+
       <div className="contact-container">
         <h1 className="contact-title">I would love to stay in touch</h1>
         <div className="contact-icons-container">
@@ -41,6 +47,11 @@ export const Contact = () => {
             <p className="circle-text">Coffee</p>
           </a>
         </div>
+        <img
+          className="diver"
+          src={require("../assets/animated-diving-image-0016.gif")}
+          alt="loading..."
+        />
       </div>
     </section>
   );
