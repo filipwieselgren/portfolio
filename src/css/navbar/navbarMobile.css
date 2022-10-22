@@ -11,6 +11,12 @@
   margin: 1.5em;
 }
 
+.logo-navbar {
+  border: 0.5px solid white;
+  border-radius: 50%;
+  width: 2.5em;
+}
+
 .logo-w,
 .logo-f {
   text-transform: uppercase;
@@ -61,8 +67,8 @@
 }
 
 .active-navbar-img {
-  width: 8em;
-  margin: 1rem 0em 0em 0em;
+  width: 5.5em;
+  margin: 2rem 0em 1rem 2rem;
 }
 
 .img-underline-active {

@@ -1,4 +1,4 @@
-import me from "../assets/me-one-real-eay-back.png";
+import me from "../assets/logga-svart.png";
 import github from "../assets/github.png";
 import linkedin from "../assets/Linkedin-logo-icon-png.png";
 import { useEffect, useRef, useState } from "react";
@@ -36,7 +36,12 @@ export const HamburgerNav = (props: IActive) => {
 
   const meInActiveNav = (
     <>
-      <img className="active-navbar-img" src={me} alt="Navbar image of me" />
+      <img
+        className="active-navbar-img logo-navbar"
+        src={me}
+        alt="Navbar image of me"
+      />
+
       <div className="img-underline-active"></div>
     </>
   );
