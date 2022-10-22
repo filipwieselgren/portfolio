@@ -5,6 +5,8 @@ import { IState } from "../redux/reducers/reducer";
 import { NavBtnsHero } from "./NavBtnsHero";
 import arrow from "../assets/arrow-phone.png";
 import arrowDesk from "../assets/pil.png";
+import "animate.css/animate.min.css";
+import { AnimationOnScroll } from "react-animation-on-scroll";
 
 export const HeroContent = () => {
   const languageArray = useSelector(
@@ -104,19 +106,25 @@ export const HeroContent = () => {
                 alt="Image of an arrow"
               />
             </div>
-            <div className="card-container">
-              {skills.map((skill, i) => {
-                return (
-                  <img
-                    key={i}
-                    className={skillCardClass}
-                    src={skill}
-                    alt="Images of my skills"
-                    onClick={triggerCard}
-                  />
-                );
-              })}
-            </div>
+            <AnimationOnScroll
+              initiallyVisible={true}
+              delay={500}
+              animateIn="animate__wobble"
+            >
+              <div className="card-container">
+                {skills.map((skill, i) => {
+                  return (
+                    <img
+                      key={i}
+                      className={skillCardClass}
+                      src={skill}
+                      alt="Images of my skills"
+                      onClick={triggerCard}
+                    />
+                  );
+                })}
+              </div>
+            </AnimationOnScroll>
           </div>
         </div>
         <NavBtnsHero />
