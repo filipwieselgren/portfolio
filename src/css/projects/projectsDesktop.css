@@ -2,4 +2,14 @@
   .see-code-btn {
     margin-left: 0;
   }
+
+  .project-btn:hover > svg {
+    color: #93b5b3;
+    transform: scale(1.1);
+    transition: 0.2s ease-in-out;
+  }
+
+  .project-btn:hover {
+    cursor: pointer;
+  }
 }

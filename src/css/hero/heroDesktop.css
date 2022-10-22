@@ -98,7 +98,6 @@
   .arrow-desk {
     display: block;
     height: 13em;
-    /* border: 1px solid #121820; */
   }
 
   .to-project-link:hover > div > svg {
