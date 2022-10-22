@@ -1,7 +1,7 @@
 .background-container {
   /* background-color: linear-gradient(#101822, #000000); */
   background-color: #121820;
-  height: 80vh;
+  height: 70vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
