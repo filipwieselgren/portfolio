@@ -90,6 +90,7 @@ export const HeroContent = () => {
 
       {/* Gör skill-container till en komponent */}
       <div className="skill-container">
+        <NavBtnsHero />
         <div className="skill-content">
           <div className="arrow-card-container">
             <div className="arrow-container">
@@ -118,7 +119,6 @@ export const HeroContent = () => {
               })}
             </div>
           </div>
-          <NavBtnsHero />
         </div>
       </div>
     </>

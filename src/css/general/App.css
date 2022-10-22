@@ -17,9 +17,11 @@ li:hover {
   cursor: pointer;
   transform: scale(1.1);
   transition: 0.2s ease-in-out;
-  text-decoration: underline #93b5b3;
   text-underline-offset: 0.5rem;
-  color: #93b5b3;
+}
+
+.li-nav:hover {
+  cursor: pointer;
 }
 
 .li-nav:hover > svg {

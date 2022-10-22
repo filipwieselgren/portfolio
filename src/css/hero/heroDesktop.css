@@ -30,6 +30,10 @@
     animation: degmove 1s ease-in;
   }
 
+  .skill-container {
+    flex-direction: row;
+  }
+
   .navbar-name {
     text-align: start;
     font-size: 4rem;

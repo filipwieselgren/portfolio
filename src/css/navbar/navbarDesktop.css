@@ -3,11 +3,6 @@
     text-decoration: underline #121820;
   }
 
-  .li-nav:hover > svg {
-    color: #93b5b3;
-    transform: scale(1.2);
-    transition: 0.2s ease-in-out;
-  }
   .nav-toggler {
     display: none;
   }
