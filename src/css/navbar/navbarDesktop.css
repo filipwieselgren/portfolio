@@ -1,5 +1,5 @@
 @media only screen and (min-width: 820px) {
-  li:hover {
+  .nav-menu > li:hover {
     text-decoration: underline #121820;
   }
 

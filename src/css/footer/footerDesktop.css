@@ -10,4 +10,11 @@
   .text-ul li {
     margin: 15px;
   }
+
+  .text-ul > a:hover {
+    text-decoration: underline;
+    transition: 0.2s ease-in-out;
+    text-decoration-color: white;
+    text-underline-offset: 0.5rem;
+  }
 }
