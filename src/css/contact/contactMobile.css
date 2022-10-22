@@ -1,7 +1,7 @@
 .background-container {
   /* background-color: linear-gradient(#101822, #000000); */
   background-color: #121820;
-  height: 70vh;
+  height: 80vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -11,7 +11,7 @@
   display: flex;
   justify-content: center;
   width: 100vw;
-  margin-bottom: 15%;
+  margin-bottom: 25%;
 }
 
 .contact-container {
