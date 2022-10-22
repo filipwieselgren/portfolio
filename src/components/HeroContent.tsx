@@ -108,7 +108,7 @@ export const HeroContent = () => {
             </div>
             <AnimationOnScroll
               initiallyVisible={true}
-              delay={1000}
+              delay={2000}
               animateIn="animate__wobble"
               animateOnce={true}
             >
