@@ -108,7 +108,7 @@ export const HeroContent = () => {
             </div>
             <AnimationOnScroll
               initiallyVisible={true}
-              delay={500}
+              delay={1000}
               animateIn="animate__wobble"
             >
               <div className="card-container">
