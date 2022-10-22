@@ -73,12 +73,10 @@ export const Contact = () => {
             </div>
             <p className="circle-text">Github</p>
           </a>
-          {coffee ? getCoffee : <></>}
 
           <a
+            href="https://www.linkedin.com/messaging/thread/new/"
             className="circle-container"
-            onMouseEnter={getACoffee}
-            onMouseLeave={getACoffeeFalse}
           >
             <div className="icon-circle">
               <TbCoffee />
