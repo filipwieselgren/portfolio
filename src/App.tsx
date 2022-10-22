@@ -13,6 +13,7 @@ import "./css/footer/footerDesktop.css";
 import { HeroPage } from "./pages/HeroPage";
 import { AboutPage } from "./pages/AboutPage";
 import { Projets } from "./components/Projets";
+import { Contact } from "./components/ Contact";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/" element={<HeroPage />}></Route>
           <Route path="/about" element={<AboutPage />}></Route>
           <Route path="/projects" element={<Projets />}></Route>
+          <Route path="/contact" element={<Contact />}></Route>
           {/* <Route path="/prodjects" element={<FooterPage />}></Route> */}
         </Routes>
       </BrowserRouter>

@@ -31,7 +31,7 @@ const heroEnglishText: IHeroText = {
     },
     {
       btnid: 3,
-      text: "Read more abot me",
+      text: "Read more about me",
     },
     {
       btnid: 4,

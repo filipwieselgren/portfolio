@@ -22,12 +22,27 @@ export const HamburgerNav = (props: IActive) => {
 
   //useState
   const [switchLangBtn, setSwitchLangBtn] = useState<boolean>(false);
+  const [page, setPage] = useState("");
 
   const dispatch = useDispatch();
 
   const triggerNavToggle = () => {
     props.navToggle();
     setSwitchLangBtn(!switchLangBtn);
+  };
+
+  const toLink = (page: number) => {
+    console.log("page:", page);
+
+    if (page === 1) {
+      setPage("#projects");
+    } else if (page === 2) {
+      setPage("/resume");
+    } else if (page === 3) {
+      setPage("/about");
+    } else if (page === 4) {
+      setPage("#contact");
+    }
   };
 
   languageArray.map((l) => {
@@ -86,9 +101,15 @@ export const HamburgerNav = (props: IActive) => {
           return lang.language === language ? (
             lang.btntext.map((btn) => {
               return (
-                <li className="li-nav" key={btn.btnid}>
-                  <BsCaretRight /> {btn.text}
-                </li>
+                <a href={page}>
+                  <li
+                    onClick={() => toLink(btn.btnid)}
+                    className="li-nav"
+                    key={btn.btnid}
+                  >
+                    <BsCaretRight /> {btn.text}
+                  </li>
+                </a>
               );
             })
           ) : (

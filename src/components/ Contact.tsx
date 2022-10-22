@@ -5,7 +5,7 @@ import { TbCoffee } from "react-icons/tb";
 
 export const Contact = () => {
   return (
-    <section className="contact-section">
+    <section id="contact" className="contact-section">
       <img
         className="diver"
         src={require("../assets/animated-diving-image-0016.gif")}
