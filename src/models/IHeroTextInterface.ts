@@ -56,6 +56,21 @@ interface IHeroText {
         { topicid: number; language: IconType },
         { topicid: number; language: IconType }
       ];
+    },
+    {
+      id: number;
+      name: string;
+      html_url: string;
+      description: string;
+      img: string;
+      buildTxt: string;
+      testAppBtnText: string;
+      seeCodeBtnText: string;
+      buildWith: [
+        { topicid: number; language: IconType },
+        { topicid: number; language: IconType },
+        { topicid: number; language: IconType }
+      ];
     }
   ];
 }

@@ -1,8 +1,14 @@
 import IHeroText from "./IHeroTextInterface";
 import todoImg from "../assets/todo.png";
 import webshopImg from "../assets/webshop.png";
+import feedTheZooImg from "../assets/feed-the-zoo.png";
 import { FaReact } from "react-icons/fa";
-import { SiJavascript, SiCss3, SiTypescript } from "react-icons/si";
+import {
+  SiJavascript,
+  SiCss3,
+  SiTypescript,
+  SiStyledcomponents,
+} from "react-icons/si";
 import { TiHtml5 } from "react-icons/ti";
 
 const heroEnglishText: IHeroText = {
@@ -81,6 +87,30 @@ const heroEnglishText: IHeroText = {
         },
       ],
     },
+    {
+      id: 3,
+      name: "Game - Feed the zoo",
+      html_url: "https://react-zoo-sable.vercel.app/",
+      description: "A game built using React, typescript and styled-components",
+      img: feedTheZooImg,
+      buildTxt: "Built with",
+      testAppBtnText: "Test app",
+      seeCodeBtnText: "See code",
+      buildWith: [
+        {
+          topicid: 1,
+          language: FaReact,
+        },
+        {
+          topicid: 2,
+          language: SiTypescript,
+        },
+        {
+          topicid: 3,
+          language: SiStyledcomponents,
+        },
+      ],
+    },
   ],
 };
 const heroSwedishText: IHeroText = {
@@ -152,6 +182,31 @@ const heroSwedishText: IHeroText = {
         {
           topicid: 2,
           language: TiHtml5,
+        },
+        {
+          topicid: 3,
+          language: SiCss3,
+        },
+      ],
+    },
+    {
+      id: 3,
+      name: "Spel - Feed the zoo",
+      html_url: "https://react-zoo-sable.vercel.app/",
+      description:
+        "Ett spel byggt med React, Typescript och A styled-components.",
+      img: todoImg,
+      buildTxt: "Byggd med",
+      testAppBtnText: "Testa appen",
+      seeCodeBtnText: "Se koden",
+      buildWith: [
+        {
+          topicid: 1,
+          language: FaReact,
+        },
+        {
+          topicid: 2,
+          language: SiTypescript,
         },
         {
           topicid: 3,
