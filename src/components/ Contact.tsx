@@ -15,26 +15,38 @@ export const Contact = () => {
       <div className="contact-container">
         <h1 className="contact-title">I would love to stay in touch</h1>
         <div className="contact-icons-container">
-          <a className="circle-container">
+          <a
+            href="mailto: filipwieselgren@gmail.com"
+            target="_blank"
+            className="circle-container"
+          >
             <div className="icon-circle">
               <GoMail />
             </div>
             <p className="circle-text">Email</p>
           </a>
-          <a className="circle-container">
+          <a href="tel:076-060-4418" className="circle-container">
             <div className="icon-circle">
               <TiPhone />
             </div>
             <p className="circle-text">Phone</p>
           </a>
 
-          <a className="circle-container">
+          <a
+            href="https://www.linkedin.com/in/filipwieselgren/"
+            target="_blank"
+            className="circle-container"
+          >
             <div className="icon-circle">
               <FaLinkedinIn className="icon" />
             </div>
             <p className="circle-text">Linkedin</p>
           </a>
-          <a className="circle-container">
+          <a
+            href="https://github.com/filipwieselgren"
+            target="_blank"
+            className="circle-container"
+          >
             <div className="icon-circle">
               <FaGithub />
             </div>
