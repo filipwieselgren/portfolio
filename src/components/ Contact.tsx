@@ -75,7 +75,8 @@ export const Contact = () => {
           </a>
 
           <a
-            href="https://www.linkedin.com/messaging/thread/new/"
+            href="https://www.linkedin.com/in/filipwieselgren/"
+            target="_blank"
             className="circle-container"
           >
             <div className="icon-circle">
