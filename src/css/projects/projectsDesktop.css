@@ -5,11 +5,18 @@
 
   .project-btn:hover > svg {
     color: #93b5b3;
-    transform: scale(1.1);
+    transform: scale(1.2);
     transition: 0.2s ease-in-out;
   }
 
   .project-btn:hover {
     cursor: pointer;
+    border-bottom: none;
+  }
+
+  a:hover > div {
+    text-decoration: underline;
+    transition: 0.2s ease-in-out;
+    text-underline-offset: 0.5rem;
   }
 }
