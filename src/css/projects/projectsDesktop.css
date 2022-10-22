@@ -12,11 +12,14 @@
   .project-btn:hover {
     cursor: pointer;
     border-bottom: none;
-  }
-
-  a:hover > div {
     text-decoration: underline;
     transition: 0.2s ease-in-out;
     text-underline-offset: 0.5rem;
   }
+
+  /* a:hover > div {
+    text-decoration: underline;
+    transition: 0.2s ease-in-out;
+    text-underline-offset: 0.5rem;
+  } */
 }
