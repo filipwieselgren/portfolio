@@ -32,13 +32,16 @@ export const Projets = () => {
                       <div className="built-with-txt">{project.buildTxt}</div>
                     </div>
                     <>
-                      {project.topics.map((topic) => {
-                        <img
-                          key={topic.topicid}
-                          src={topic.language}
-                          alt="Logo of programming language"
-                        />;
-                      })}
+                      <div className="lang-img">
+                        {project.buildWith.map((lang) => {
+                          return (
+                            <lang.language
+                              key={lang.topicid}
+                              className="icon"
+                            />
+                          );
+                        })}
+                      </div>
                     </>
 
                     <div className="project-btns-container">

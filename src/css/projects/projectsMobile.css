@@ -69,7 +69,18 @@
 .built-with-txt {
   font-size: 1.8rem;
   font-weight: 400;
+}
+
+.lang-img {
+  width: 100%;
+  padding: 0.5em;
   margin-bottom: 1em;
+}
+
+.lang-img svg {
+  color: white;
+  margin-right: 1em;
+  font-size: 3rem;
 }
 
 .project-btns-container {

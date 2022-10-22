@@ -1,3 +1,5 @@
+import { IconType } from "react-icons";
+
 interface IHeroText {
   id: number;
   language: string;
@@ -32,12 +34,10 @@ interface IHeroText {
       description: string;
       img: string;
       buildTxt: string;
-      topics: [
-        { topicid: number; language: string },
-        { topicid: number; language: string },
-        { topicid: number; language: string },
-        { topicid: number; language: string },
-        { topicid: number; language: string }
+      buildWith: [
+        { topicid: number; language: IconType },
+        { topicid: number; language: IconType },
+        { topicid: number; language: IconType }
       ];
     },
     {
@@ -47,12 +47,10 @@ interface IHeroText {
       description: string;
       img: string;
       buildTxt: string;
-      topics: [
-        { topicid: number; language: string },
-        { topicid: number; language: string },
-        { topicid: number; language: string },
-        { topicid: number; language: string },
-        { topicid: number; language: string }
+      buildWith: [
+        { topicid: number; language: IconType },
+        { topicid: number; language: IconType },
+        { topicid: number; language: IconType }
       ];
     }
   ];
