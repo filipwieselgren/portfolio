@@ -13,7 +13,7 @@ const heroEnglishText: IHeroText = {
     "I study front end development at Medieinstitutet in Stockholm Sweden with focus on the mern-stack.",
   askvisitor: " Switch card to see my tech-stack",
   changeLanguageText: "Switch to Swedish",
-  frontEnd: "I’m Filip, a front end developer",
+  frontEnd: "my name is Filip. Glad to see you here!",
   btntext: [
     {
       btnid: 1,
@@ -40,6 +40,8 @@ const heroEnglishText: IHeroText = {
       description: "A webshop for movies build with react and typescript",
       img: webshopImg,
       buildTxt: "Built with",
+      testAppBtnText: "Test app",
+      seeCodeBtnText: "See code",
       buildWith: [
         {
           topicid: 1,
@@ -62,6 +64,8 @@ const heroEnglishText: IHeroText = {
       description: "My first project in JS. A todo-app",
       img: todoImg,
       buildTxt: "Built with",
+      testAppBtnText: "Test app",
+      seeCodeBtnText: "See code",
       buildWith: [
         {
           topicid: 1,
@@ -87,7 +91,7 @@ const heroSwedishText: IHeroText = {
     "Jag studerar frontend-utveckling på Medieinstitutet i Stockholm med fokus på mern-stacken. Byt kort för att se min tech stack.",
   askvisitor: " Byt kort för att se min tech-stack",
   changeLanguageText: "Ändra till engelska",
-  frontEnd: "Mitt namn är Filip, en frontend-utvecklarer",
+  frontEnd: "Filip här. Trevligt att träffas!",
   btntext: [
     {
       btnid: 1,
@@ -114,6 +118,8 @@ const heroSwedishText: IHeroText = {
       description: "En webbshop för filmer byggt med React och Typscript",
       img: webshopImg,
       buildTxt: "Byggd med",
+      testAppBtnText: "Testa appen",
+      seeCodeBtnText: "Se koden",
       buildWith: [
         {
           topicid: 1,
@@ -136,6 +142,8 @@ const heroSwedishText: IHeroText = {
       description: "Mitt första projekt i JS. En todo-app.",
       img: todoImg,
       buildTxt: "Byggd med",
+      testAppBtnText: "Testa appen",
+      seeCodeBtnText: "Se koden",
       buildWith: [
         {
           topicid: 1,

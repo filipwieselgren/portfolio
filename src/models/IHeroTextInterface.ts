@@ -34,6 +34,8 @@ interface IHeroText {
       description: string;
       img: string;
       buildTxt: string;
+      testAppBtnText: string;
+      seeCodeBtnText: string;
       buildWith: [
         { topicid: number; language: IconType },
         { topicid: number; language: IconType },
@@ -47,6 +49,8 @@ interface IHeroText {
       description: string;
       img: string;
       buildTxt: string;
+      testAppBtnText: string;
+      seeCodeBtnText: string;
       buildWith: [
         { topicid: number; language: IconType },
         { topicid: number; language: IconType },

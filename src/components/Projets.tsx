@@ -48,13 +48,13 @@ export const Projets = () => {
                       <a href="#projects" className="hero-link to-project-link">
                         <div className="project-btn test-app-btn">
                           <BsCaretRight />
-                          Test app
+                          {project.testAppBtnText}
                         </div>
                       </a>
                       <a href="#projects" className="hero-link to-project-link">
                         <div className="project-btn see-code-btn">
                           <BsCaretRight />
-                          See code
+                          {project.seeCodeBtnText}
                         </div>
                       </a>
                     </div>
