@@ -110,6 +110,7 @@ export const HeroContent = () => {
               initiallyVisible={true}
               delay={1000}
               animateIn="animate__wobble"
+              animateOnce={true}
             >
               <div className="card-container">
                 {skills.map((skill, i) => {
