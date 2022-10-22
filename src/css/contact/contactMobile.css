@@ -1,7 +1,10 @@
 .background-container {
   /* background-color: linear-gradient(#101822, #000000); */
   background-color: #121820;
-  height: 100vh;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 .contact-section {
