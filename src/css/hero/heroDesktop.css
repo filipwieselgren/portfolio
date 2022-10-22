@@ -100,4 +100,29 @@
     height: 13em;
     /* border: 1px solid #121820; */
   }
+
+  .to-project-link:hover > div > svg {
+    color: #93b5b3;
+    transform: scale(1.1);
+    transition: 0.2s ease-in-out;
+  }
+  .to-aboutme-link:hover > div > svg {
+    color: #93b5b3;
+    transform: scale(1.1);
+    transition: 0.2s ease-in-out;
+  }
+
+  .to-project-link:hover,
+  .to-aboutme-link:hover {
+    cursor: pointer;
+  }
+
+  .hero-btn-container:hover {
+    border-bottom: none;
+    transition: 0.2s ease-in-out;
+  }
+
+  .skills:hover {
+    cursor: pointer;
+  }
 }
