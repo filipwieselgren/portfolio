@@ -127,7 +127,7 @@ const heroSwedishText: IHeroText = {
   changeLanguageText: "Ändra till engelska",
   frontEnd: "Filip här. Trevligt att träffas!  ",
   callMe: "Du kan ringa mig på 076 060 44 18",
-  stayInTouch: "Det vore kul att hålla kontakten på något sätt",
+  stayInTouch: "Jag håller gärna kontakten",
   phoneText: "Telefon",
   btntext: [
     {

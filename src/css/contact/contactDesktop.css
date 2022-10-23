@@ -1,4 +1,10 @@
 @media only screen and (min-width: 820px) {
+  .background-container {
+    height: 100vh;
+  }
+  .contact-section {
+    height: 90vh;
+  }
   .contact-container {
     width: 60%;
   }
