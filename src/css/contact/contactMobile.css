@@ -7,16 +7,10 @@
   justify-content: flex-end;
 }
 
-.diver {
-  width: 2em;
-  height: 2em;
-}
-
 .contact-section {
   display: flex;
   justify-content: center;
   width: 100vw;
-  margin-bottom: 15%;
 }
 
 .contact-container {
