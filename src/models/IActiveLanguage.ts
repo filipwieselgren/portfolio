@@ -20,6 +20,9 @@ const heroEnglishText: IHeroText = {
   askvisitor: " Switch card to see my tech-stack",
   changeLanguageText: "Switch to Swedish",
   frontEnd: "glad to see you here! My name is Filip.",
+  callMe: "Give me a call at +46 76 060 44 18",
+  stayInTouch: "I would love to stay in touch",
+  phoneText: "Phone",
   btntext: [
     {
       btnid: 1,
@@ -123,6 +126,9 @@ const heroSwedishText: IHeroText = {
   askvisitor: " Byt kort för att se min tech-stack",
   changeLanguageText: "Ändra till engelska",
   frontEnd: "Filip här. Trevligt att träffas!  ",
+  callMe: "Du kan ringa mig på 076 060 44 18",
+  stayInTouch: "Det vore kul att hålla kontakten på något sätt",
+  phoneText: "Telefon",
   btntext: [
     {
       btnid: 1,

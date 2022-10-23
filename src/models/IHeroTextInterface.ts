@@ -8,6 +8,9 @@ interface IHeroText {
   askvisitor: string;
   changeLanguageText: string;
   frontEnd: string;
+  callMe: string;
+  stayInTouch: string;
+  phoneText: string;
   btntext: [
     {
       btnid: number;

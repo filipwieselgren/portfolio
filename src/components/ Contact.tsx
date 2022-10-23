@@ -3,78 +3,97 @@ import { GoMail } from "react-icons/go";
 import { TiPhone } from "react-icons/ti";
 import { TbCoffee } from "react-icons/tb";
 import { useState } from "react";
+import { ImCross } from "react-icons/im";
+import { useSelector } from "react-redux";
+import { IState } from "../redux/reducers/reducer";
 
 export const Contact = () => {
-  let [coffee, setCoffee] = useState(false);
+  let [number, setNumber] = useState(false);
+  const languageArray = useSelector(
+    (state: IState) => state.changeLanguage.languages
+  );
 
-  const getACoffee = () => {
-    setCoffee((coffee = true));
+  let language = useSelector((state: IState) => state.changeLanguage.value);
+
+  const getNumber = () => {
+    setNumber(!number);
   };
 
-  const getACoffeeFalse = () => {
-    setCoffee((coffee = false));
-  };
-
-  const getCoffee = (
-    <div className="coffee-container">
-      <div className="coffee-text">
-        When you click here you will come to my Linkedin profile. Once you are
-        there just send a message with the word "Coffee" and I will get back to
-        you
+  const phoneNumber = (
+    <div className="phone-container">
+      <ImCross onClick={getNumber} />
+      <div className="phonenumber">
+        {languageArray.map((lang) =>
+          lang.language === language ? lang.callMe : <></>
+        )}
       </div>
     </div>
   );
 
   return (
     <section id="contact" className="contact-section">
-      <img
-        className="diver"
-        src={require("../assets/animated-diving-image-0016.gif")}
-        alt="loading..."
-      />
-
       <div className="contact-container">
-        <h1 className="contact-title">I would love to stay in touch</h1>
+        <h1 className="contact-title">
+          {languageArray.map((lang) =>
+            lang.language === language ? lang.stayInTouch : <></>
+          )}
+        </h1>
+
         <div className="contact-icons-container">
-          <a
-            href="mailto: filipwieselgren@gmail.com"
-            target="_blank"
-            className="circle-container"
-          >
-            <div className="icon-circle">
-              <GoMail />
-            </div>
-            <p className="circle-text">Email</p>
-          </a>
-          <a href="tel:076-060-4418" className="circle-container">
-            <div className="icon-circle">
-              <TiPhone />
-            </div>
-            <p className="circle-text">Phone</p>
-          </a>
+          {number ? (
+            phoneNumber
+          ) : (
+            <>
+              <a
+                href="mailto: filipwieselgren@gmail.com"
+                target="_blank"
+                className="circle-container"
+              >
+                <div className="icon-circle">
+                  <GoMail />
+                </div>
+                <p className="circle-text">Email</p>
+              </a>
+              <a
+                onClick={getNumber}
+                href="tel:076-060-4418"
+                className="circle-container"
+              >
+                <div className="icon-circle">
+                  <TiPhone />
+                </div>
+                <p className="circle-text">
+                  {languageArray.map((lang) =>
+                    lang.language === language ? lang.phoneText : <></>
+                  )}
+                </p>
+              </a>
 
-          <a
-            href="https://www.linkedin.com/in/filipwieselgren/"
-            target="_blank"
-            className="circle-container"
-          >
-            <div className="icon-circle">
-              <FaLinkedinIn className="icon" />
-            </div>
-            <p className="circle-text">Linkedin</p>
-          </a>
-          <a
-            href="https://github.com/filipwieselgren"
-            target="_blank"
-            className="circle-container"
-          >
-            <div className="icon-circle">
-              <FaGithub />
-            </div>
-            <p className="circle-text">Github</p>
-          </a>
-
-          <a
+              <a
+                href="https://www.linkedin.com/in/filipwieselgren/"
+                target="_blank"
+                className="circle-container"
+              >
+                <div className="icon-circle">
+                  <FaLinkedinIn className="icon" />
+                </div>
+                <p className="circle-text">Linkedin</p>
+              </a>
+              <a
+                href="https://github.com/filipwieselgren"
+                target="_blank"
+                className="circle-container"
+              >
+                <div className="icon-circle">
+                  <FaGithub />
+                </div>
+                <p className="circle-text">Github</p>
+              </a>
+            </>
+          )}
+        </div>
+      </div>
+      {/* <a
             href="https://www.linkedin.com/in/filipwieselgren/"
             target="_blank"
             className="circle-container"
@@ -83,14 +102,7 @@ export const Contact = () => {
               <TbCoffee />
             </div>
             <p className="circle-text">Coffee</p>
-          </a>
-        </div>
-        <img
-          className="diver"
-          src={require("../assets/animated-diving-image-0016.gif")}
-          alt="loading..."
-        />
-      </div>
+          </a> */}
     </section>
   );
 };

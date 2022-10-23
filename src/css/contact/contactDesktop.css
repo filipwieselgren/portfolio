@@ -11,4 +11,10 @@
     box-shadow: 2px 2px 30px #93b5b3;
     transition: 0.2s ease-in-out;
   }
+
+  .phone-container > svg:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.2s ease-in-out;
+  }
 }
