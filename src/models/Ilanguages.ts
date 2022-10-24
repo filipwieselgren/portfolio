@@ -15,15 +15,15 @@ import html from "../assets/html-logo.png";
 
 export const langImages = [
   typescript,
+  javascript,
   node,
   mongoDB,
-  materialUI,
-  cypress,
   postman,
+  cypress,
+  materialUI,
   bootstrap,
   sass,
   css,
   html,
-  javascript,
   react,
 ];
