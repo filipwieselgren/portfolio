@@ -22,9 +22,14 @@ export const About = () => {
   let language = useSelector((state: IState) => state.changeLanguage.value);
   return (
     <>
-      <div className="about-img-circle">
-        <img className="img-txt" src={imgTxt} alt="Logo text" />
-        <img className="me" src={me} alt="Image on me" />
+      <div className="aboutme-header-container">
+        <div className="about-img-circle">
+          <img className="img-txt" src={imgTxt} alt="Logo text" />
+          <img className="me" src={me} alt="Image on me" />
+        </div>
+        <div className="aboutme-header">
+          Glad you are curious! Choose what you want to find out about me ...
+        </div>
       </div>
       {languageArray.map((lang) => {
         return lang.language === language ? (
