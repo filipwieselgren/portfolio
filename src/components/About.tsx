@@ -7,24 +7,14 @@ export const About = () => {
   const languageArray = useSelector(
     (state: IState) => state.changeLanguage.languages
   );
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState<any>(null);
 
-  // let open = "";
-  // if (isOpen) {
-  //   open = "open";
-  // } else {
-  //   open = "not-open";
-  // }
+  const toggle = (i: number) => {
+    if (isOpen === i) {
+      return setIsOpen(null);
+    }
 
-  let open = <></>;
-
-  const test = (id: number) => {
-    setIsOpen(!isOpen);
-    languageArray.map((lang) =>
-      lang.aboutMe.filter((about) => {
-        return about.id === id ? (open = <div>{about.answer}</div>) : <></>;
-      })
-    );
+    setIsOpen(i);
   };
 
   let language = useSelector((state: IState) => state.changeLanguage.value);
@@ -32,13 +22,24 @@ export const About = () => {
     <>
       {languageArray.map((lang) => {
         return lang.language === language ? (
-          lang.aboutMe.map((about) => (
-            <button key={about.id} onClick={() => test(about.id)}>
-              {`0${about.id}`}
-              {about.question}
-              <BsCaretDown />
-              {isOpen ? open : <></>}
-            </button>
+          lang.aboutMe.map((about, i) => (
+            <div
+              key={about.id}
+              className="item"
+              onClick={() => {
+                toggle(i);
+              }}
+            >
+              <div className="title">
+                <span> {`0${about.id}`}</span>
+                <h2> {about.question}</h2>
+
+                <span>{isOpen === i ? <BsCaretUp /> : <BsCaretDown />}</span>
+              </div>
+              <div className={isOpen === i ? "content show" : "content"}>
+                {about.answer}
+              </div>
+            </div>
           ))
         ) : (
           <></>

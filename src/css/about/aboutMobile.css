@@ -1,6 +1,31 @@
-.open {
-  display: block;
+.item {
+  background-color: #121820;
+  margin-bottom: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
 }
-.not-open {
-  display: none;
+
+.title {
+  color: #93b5b3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.title > h2 {
+  font-weight: 100;
+}
+
+.content {
+  color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.5s cubic-bezier(0, 1, 0, 1);
+}
+
+.content.show {
+  height: auto;
+  max-height: 9999px;
+  transition: all 0.5s cubic-bezier(0, 1, 0, 1);
 }
