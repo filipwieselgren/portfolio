@@ -28,7 +28,8 @@ export const About = () => {
           <img className="me" src={me} alt="Image on me" />
         </div>
         <div className="aboutme-header">
-          Glad you are curious! Choose what you want to find out about me ...
+          Curiosity is always good! Choose what you want to find out about me
+          ...
         </div>
       </div>
       {languageArray.map((lang) => {
