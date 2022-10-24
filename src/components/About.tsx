@@ -31,10 +31,12 @@ export const About = () => {
               }}
             >
               <div className="title">
-                <span> {`0${about.id}`}</span>
+                <span className="number-about"> {`0${about.id}`}</span>
                 <h2> {about.question}</h2>
 
-                <span>{isOpen === i ? <BsCaretUp /> : <BsCaretDown />}</span>
+                <span className="arrow-about">
+                  {isOpen === i ? <BsCaretUp /> : <BsCaretDown />}
+                </span>
               </div>
               <div className={isOpen === i ? "content show" : "content"}>
                 {about.answer}

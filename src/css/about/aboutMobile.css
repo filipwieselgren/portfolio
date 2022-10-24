@@ -1,20 +1,37 @@
 .item {
   background-color: #121820;
-  margin-bottom: 5px;
-  padding: 10px 20px;
+  margin-bottom: 15px;
+  padding: 15px 20px;
   cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 10px 5px 2px #93b5b3;
 }
 
 .title {
-  color: #93b5b3;
+  color: white;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   font-size: 1rem;
+  position: relative;
 }
 
 .title > h2 {
-  font-weight: 100;
+  font-weight: 300;
+}
+
+.arrow-about {
+  font-size: 2rem;
+  position: absolute;
+  right: -30px;
+  top: -1%;
+}
+
+.number-about {
+  font-size: 0.8rem;
+  position: absolute;
+  left: 0;
+  top: -10px;
 }
 
 .content {
@@ -25,7 +42,10 @@
 }
 
 .content.show {
+  font-size: 1rem;
   height: auto;
   max-height: 9999px;
   transition: all 0.5s cubic-bezier(0, 1, 0, 1);
+  margin-top: 10px;
+  font-weight: 100;
 }
