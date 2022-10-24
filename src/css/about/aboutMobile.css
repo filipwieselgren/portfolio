@@ -2,9 +2,10 @@
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  border: 1px solid #93b5b3;
+  border: 1px solid #121820;
   position: relative;
   margin-bottom: 30px;
+  background-color: #93b5b3;
 }
 .me {
   width: 5.5em;
