@@ -1,0 +1,7 @@
+@media only screen and (min-width: 820px) {
+  .item {
+    margin-right: 25px;
+    max-width: 40%;
+    min-width: 40%;
+  }
+}
