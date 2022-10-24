@@ -4,6 +4,7 @@ import { IState } from "../redux/reducers/reducer";
 import { BsCaretUp, BsCaretDown } from "react-icons/bs/";
 import me from "../assets/jag-SVART.png";
 import imgTxt from "../assets/img-text-about.png";
+import { NavBtnsHero } from "./NavBtnsHero";
 
 export const About = () => {
   const languageArray = useSelector(
@@ -61,6 +62,7 @@ export const About = () => {
           );
         })}
       </div>
+      <NavBtnsHero />
     </>
   );
 };
