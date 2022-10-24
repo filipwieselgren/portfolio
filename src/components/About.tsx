@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import { IState } from "../redux/reducers/reducer";
 import { BsCaretUp, BsCaretDown } from "react-icons/bs/";
+import me from "../assets/jag-SVART.png";
 
 export const About = () => {
   const languageArray = useSelector(
@@ -20,6 +21,10 @@ export const About = () => {
   let language = useSelector((state: IState) => state.changeLanguage.value);
   return (
     <>
+      <div className="about-img-circle">
+        <div className="circle-text">wf</div>
+        <img className="me" src={me} alt="Image on me" />
+      </div>
       {languageArray.map((lang) => {
         return lang.language === language ? (
           lang.aboutMe.map((about, i) => (
