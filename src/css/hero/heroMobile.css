@@ -128,6 +128,42 @@
   left: -6%;
   z-index: -1;
 }
+.skills:nth-child(5) {
+  cursor: pointer;
+  position: absolute;
+  left: -6%;
+  z-index: -1;
+}
+.skills:nth-child(6) {
+  cursor: pointer;
+  position: absolute;
+  left: -6%;
+  z-index: -1;
+}
+.skills:nth-child(7) {
+  cursor: pointer;
+  position: absolute;
+  left: -6%;
+  z-index: -1;
+}
+.skills:nth-child(8) {
+  cursor: pointer;
+  position: absolute;
+  left: -6%;
+  z-index: -1;
+}
+.skills:nth-child(9) {
+  cursor: pointer;
+  position: absolute;
+  left: -6%;
+  z-index: -1;
+}
+.skills:nth-child(10) {
+  cursor: pointer;
+  position: absolute;
+  left: -6%;
+  z-index: -1;
+}
 
 .skillCardClicked:last-child {
   position: absolute;

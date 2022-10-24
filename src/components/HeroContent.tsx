@@ -36,9 +36,18 @@ export const HeroContent = () => {
     let getIndexZero = skills.filter((a, index) => {
       if (index == 0) return a; // 0 = 7
     });
+    console.log("getIndexZero:", getIndexZero);
+
     let getIndexOne = skills.filter((a, index) => {
       if (index == 1) return a; // 1 = 6
     });
+    console.log("getIndexOne:", getIndexOne);
+
+    // let getIndexEleven = skills.filter((a, index) => {
+    //   if (index == 11) return a;
+    // });
+
+    // console.log("getIndexEleven:", getIndexEleven);
 
     // Add index 1 to index 0
     skills.splice(0, 0, getIndexOne.toString());
@@ -47,12 +56,13 @@ export const HeroContent = () => {
     skills.splice(1, 1);
 
     // Add index 0 to last getIndex
-    skills.splice(6, 0, getIndexZero.toString());
+    skills.splice(12, 0, getIndexZero.toString());
 
     // Remove index 0
     skills.splice(0, 1);
 
     setSkills([...skills]);
+    console.log("skills:", skills);
   };
 
   let skillCardClass = "skills";
