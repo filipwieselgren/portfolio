@@ -14,6 +14,13 @@
   left: 0.2em;
   position: absolute;
 }
+
+.img-txt {
+  width: 2.2em;
+  position: absolute;
+  right: 12px;
+  bottom: 20px;
+}
 .item {
   background-color: #121820;
   margin-bottom: 15px;

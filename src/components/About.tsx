@@ -23,7 +23,7 @@ export const About = () => {
   return (
     <>
       <div className="about-img-circle">
-        <div className="circle-text">wf</div>
+        <img className="img-txt" src={imgTxt} alt="Logo text" />
         <img className="me" src={me} alt="Image on me" />
       </div>
       {languageArray.map((lang) => {
