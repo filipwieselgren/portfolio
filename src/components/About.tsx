@@ -39,7 +39,7 @@ export const About = () => {
             lang.aboutMe.map((about, i) => (
               <div
                 key={about.id}
-                className="item"
+                className={isOpen === i ? "item-show" : "item"}
                 onClick={() => {
                   toggle(i);
                 }}

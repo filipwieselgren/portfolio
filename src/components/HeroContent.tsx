@@ -36,12 +36,10 @@ export const HeroContent = () => {
     let getIndexZero = skills.filter((a, index) => {
       if (index == 0) return a; // 0 = 7
     });
-    console.log("getIndexZero:", getIndexZero);
 
     let getIndexOne = skills.filter((a, index) => {
       if (index == 1) return a; // 1 = 6
     });
-    console.log("getIndexOne:", getIndexOne);
 
     // Add index 1 to index 0
     skills.splice(0, 0, getIndexOne.toString());

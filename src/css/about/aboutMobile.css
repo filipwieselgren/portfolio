@@ -46,6 +46,17 @@
   cursor: pointer;
   border-radius: 5px;
   box-shadow: 10px 5px 2px #93b5b3;
+  max-height: 50px;
+}
+
+.item-show {
+  background-color: #121820;
+  margin-bottom: 15px;
+  padding: 15px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 10px 5px 2px #93b5b3;
+  max-height: auto;
 }
 
 .title {
@@ -79,7 +90,7 @@
   color: white;
   max-height: 0;
   overflow: hidden;
-  transition: all 0.5s cubic-bezier(0, 1, 0, 1);
+  transition: all 0s cubic-bezier(0, 1, 0, 1);
   font-size: 1rem;
   font-weight: 100;
   margin-top: 10px;
@@ -88,5 +99,5 @@
 .content.show {
   height: auto;
   max-height: 9999px;
-  transition: all 0.5s cubic-bezier(0, 1, 0, 1);
+  transition: all 0s cubic-bezier(0, 1, 0, 1);
 }
