@@ -34,6 +34,11 @@
   right: 13px;
   bottom: 20px;
 }
+
+.questions-wrapper {
+  display: flex;
+  flex-direction: column;
+}
 .item {
   background-color: #121820;
   margin-bottom: 15px;

@@ -32,33 +32,35 @@ export const About = () => {
           ...
         </div>
       </div>
-      {languageArray.map((lang) => {
-        return lang.language === language ? (
-          lang.aboutMe.map((about, i) => (
-            <div
-              key={about.id}
-              className="item"
-              onClick={() => {
-                toggle(i);
-              }}
-            >
-              <div className="title">
-                <span className="number-about"> {`0${about.id}`}</span>
-                <h2> {about.question}</h2>
+      <div className="questions-wrapper">
+        {languageArray.map((lang) => {
+          return lang.language === language ? (
+            lang.aboutMe.map((about, i) => (
+              <div
+                key={about.id}
+                className="item"
+                onClick={() => {
+                  toggle(i);
+                }}
+              >
+                <div className="title">
+                  <span className="number-about"> {`0${about.id}`}</span>
+                  <h2> {about.question}</h2>
 
-                <span className="arrow-about">
-                  {isOpen === i ? <BsCaretUp /> : <BsCaretDown />}
-                </span>
+                  <span className="arrow-about">
+                    {isOpen === i ? <BsCaretUp /> : <BsCaretDown />}
+                  </span>
+                </div>
+                <div className={isOpen === i ? "content show" : "content"}>
+                  {about.answer}
+                </div>
               </div>
-              <div className={isOpen === i ? "content show" : "content"}>
-                {about.answer}
-              </div>
-            </div>
-          ))
-        ) : (
-          <></>
-        );
-      })}
+            ))
+          ) : (
+            <></>
+          );
+        })}
+      </div>
     </>
   );
 };
