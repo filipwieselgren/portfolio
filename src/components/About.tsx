@@ -3,6 +3,7 @@ import { useSelector } from "react-redux";
 import { IState } from "../redux/reducers/reducer";
 import { BsCaretUp, BsCaretDown } from "react-icons/bs/";
 import me from "../assets/jag-SVART.png";
+import imgTxt from "../assets/img-text-about.png";
 
 export const About = () => {
   const languageArray = useSelector(
