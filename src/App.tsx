@@ -10,6 +10,8 @@ import "./css/contact/contactMobile.css";
 import "./css/contact/contactDesktop.css";
 import "./css/footer/footerMobile.css";
 import "./css/footer/footerDesktop.css";
+import "./css/about/aboutDesktop.css";
+import "./css/about/aboutMobile.css";
 import { HeroPage } from "./pages/HeroPage";
 import { AboutPage } from "./pages/AboutPage";
 import { Projets } from "./components/Projets";
@@ -21,7 +23,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<HeroPage />}></Route>
-          <Route path="/about" element={<AboutPage />}></Route>
+          <Route path="/about" element={<HeroPage />}></Route>
           <Route path="/projects" element={<Projets />}></Route>
           <Route path="/contact" element={<Contact />}></Route>
           {/* <Route path="/prodjects" element={<FooterPage />}></Route> */}

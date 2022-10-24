@@ -76,6 +76,32 @@ interface IHeroText {
       ];
     }
   ];
+  aboutMe: [
+    {
+      id: number;
+      question: string;
+      answer: string;
+      open: boolean;
+    },
+    {
+      id: number;
+      question: string;
+      answer: string;
+      open: boolean;
+    },
+    {
+      id: number;
+      question: string;
+      answer: string;
+      open: boolean;
+    },
+    {
+      id: number;
+      question: string;
+      answer: string;
+      open: boolean;
+    }
+  ];
 }
 
 export default IHeroText;
