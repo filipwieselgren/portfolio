@@ -53,12 +53,14 @@ export const HamburgerNav = (props: IActive) => {
 
   const meInActiveNav = (
     <>
-      <img
-        className="active-navbar-img logo-navbar"
-        src={me}
-        alt="Navbar image of me"
-        onClick={() => toLink(5)}
-      />
+      <a href={page}>
+        <img
+          className="active-navbar-img logo-navbar"
+          src={me}
+          alt="Navbar image of me"
+          onClick={() => toLink(5)}
+        />
+      </a>
 
       <div className="img-underline-active"></div>
     </>
