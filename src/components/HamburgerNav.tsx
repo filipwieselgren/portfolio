@@ -42,6 +42,8 @@ export const HamburgerNav = (props: IActive) => {
       setPage("/about");
     } else if (page === 4) {
       setPage("#contact");
+    } else if (page === 5) {
+      setPage("/");
     }
   };
 
@@ -55,6 +57,7 @@ export const HamburgerNav = (props: IActive) => {
         className="active-navbar-img logo-navbar"
         src={me}
         alt="Navbar image of me"
+        onClick={() => toLink(5)}
       />
 
       <div className="img-underline-active"></div>
