@@ -13,6 +13,7 @@ import "./css/footer/footerDesktop.css";
 import "./css/about/aboutDesktop.css";
 import "./css/about/aboutMobile.css";
 import "./css/resume/resumeMobile.css";
+import "./css/resume/resumeDesktop.css";
 import { HeroPage } from "./pages/HeroPage";
 import { AboutPage } from "./pages/AboutPage";
 import { Projets } from "./components/Projets";
