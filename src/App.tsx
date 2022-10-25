@@ -12,10 +12,12 @@ import "./css/footer/footerMobile.css";
 import "./css/footer/footerDesktop.css";
 import "./css/about/aboutDesktop.css";
 import "./css/about/aboutMobile.css";
+import "./css/resume/resumeMobile.css";
 import { HeroPage } from "./pages/HeroPage";
 import { AboutPage } from "./pages/AboutPage";
 import { Projets } from "./components/Projets";
 import { Contact } from "./components/ Contact";
+import { ResumePage } from "./pages/ResumePage";
 
 function App() {
   return (
@@ -26,7 +28,7 @@ function App() {
           <Route path="/about" element={<HeroPage />}></Route>
           <Route path="/projects" element={<Projets />}></Route>
           <Route path="/contact" element={<Contact />}></Route>
-          {/* <Route path="/prodjects" element={<FooterPage />}></Route> */}
+          <Route path="/resume" element={<ResumePage />}></Route>
         </Routes>
       </BrowserRouter>
     </>
