@@ -42,8 +42,6 @@ export const HamburgerNav = (props: IActive) => {
       setPage("/about");
     } else if (page === 4) {
       setPage("#contact");
-    } else if (page === 5) {
-      setPage("/");
     }
   };
 
@@ -53,7 +51,7 @@ export const HamburgerNav = (props: IActive) => {
 
   const meInActiveNav = (
     <>
-      <a href={page}>
+      <a href="/">
         <img
           className="active-navbar-img logo-navbar"
           src={me}
