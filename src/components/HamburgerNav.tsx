@@ -13,6 +13,7 @@ interface IActive {
   toggleIcon: string;
   toContact(): void;
   toProjects(): void;
+  closeNav(): void;
 }
 
 export const HamburgerNav = (props: IActive) => {
@@ -33,12 +34,16 @@ export const HamburgerNav = (props: IActive) => {
 
   const toLink = (pageSection: number) => {
     if (pageSection === 1) {
+      props.closeNav();
       props.toProjects();
     } else if (pageSection === 2) {
+      props.closeNav();
       setPage("/resume");
     } else if (pageSection === 3) {
+      props.closeNav();
       setPage("/about");
     } else if (pageSection === 4) {
+      props.closeNav();
       props.toContact();
     }
   };

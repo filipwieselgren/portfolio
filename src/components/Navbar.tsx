@@ -30,6 +30,11 @@ const Navbar = (props: IScroll) => {
       : setToggleIcon("nav-toggler");
   };
 
+  const closeNav = () => {
+    setActive("nav-menu");
+    setToggleIcon("nav-toggler");
+  };
+
   return (
     <>
       <nav className="navbar">
@@ -48,6 +53,7 @@ const Navbar = (props: IScroll) => {
               toggleIcon={toggleIcon}
               toContact={props.scrollDown}
               toProjects={props.toProjects}
+              closeNav={closeNav}
             />
           </div>
         </div>
