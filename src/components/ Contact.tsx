@@ -2,7 +2,7 @@ import { FaLinkedinIn, FaGithub } from "react-icons/fa/";
 import { GoMail } from "react-icons/go";
 import { TiPhone } from "react-icons/ti";
 import { TbCoffee } from "react-icons/tb";
-import { useState } from "react";
+import { useRef, useState } from "react";
 import { ImCross } from "react-icons/im";
 import { useSelector } from "react-redux";
 import { IState } from "../redux/reducers/reducer";

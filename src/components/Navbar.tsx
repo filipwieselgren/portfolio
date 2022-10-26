@@ -5,7 +5,12 @@ import logo from "../assets/logo.png";
 import { IState } from "../redux/reducers/reducer";
 import { HamburgerNav } from "./HamburgerNav";
 
-const Navbar = () => {
+interface IScroll {
+  scrollDown(): void;
+  toProjects(): void;
+}
+
+const Navbar = (props: IScroll) => {
   const [active, setActive] = useState<string>("nav-menu");
   const [toggleIcon, setToggleIcon] = useState<string>("nav-toggler");
   const navigate = useNavigate();
@@ -41,6 +46,8 @@ const Navbar = () => {
               navToggle={navToggle}
               active={active}
               toggleIcon={toggleIcon}
+              toContact={props.scrollDown}
+              toProjects={props.toProjects}
             />
           </div>
         </div>

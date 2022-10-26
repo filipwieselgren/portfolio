@@ -11,16 +11,16 @@ interface IActive {
   navToggle(): void;
   active: string;
   toggleIcon: string;
+  toContact(): void;
+  toProjects(): void;
 }
 
 export const HamburgerNav = (props: IActive) => {
-  // useSelector
   const languageArray = useSelector(
     (state: IState) => state.changeLanguage.languages
   );
   let language = useSelector((state: IState) => state.changeLanguage.value);
 
-  //useState
   const [switchLangBtn, setSwitchLangBtn] = useState<boolean>(false);
   const [page, setPage] = useState("");
 
@@ -31,17 +31,15 @@ export const HamburgerNav = (props: IActive) => {
     setSwitchLangBtn(!switchLangBtn);
   };
 
-  const toLink = (page: number) => {
-    console.log("page:", page);
-
-    if (page === 1) {
-      setPage("/projects");
-    } else if (page === 2) {
+  const toLink = (pageSection: number) => {
+    if (pageSection === 1) {
+      props.toProjects();
+    } else if (pageSection === 2) {
       setPage("/resume");
-    } else if (page === 3) {
+    } else if (pageSection === 3) {
       setPage("/about");
-    } else if (page === 4) {
-      setPage("/contact");
+    } else if (pageSection === 4) {
+      props.toContact();
     }
   };
 
@@ -91,9 +89,9 @@ export const HamburgerNav = (props: IActive) => {
     switchLangbtnText = "Switch to English";
   }
 
-  useEffect(() => {
-    localStorage.setItem("activeLanguage", JSON.stringify(language));
-  }, [language]);
+  // useEffect(() => {
+  //   localStorage.setItem("activeLanguage", JSON.stringify(language));
+  // }, [language]);
 
   return (
     <>
@@ -104,7 +102,7 @@ export const HamburgerNav = (props: IActive) => {
           return lang.language === language ? (
             lang.btntext.map((btn) => {
               return (
-                <a href={page}>
+                <a href={btn.btnid === 4 || btn.btnid === 1 ? undefined : page}>
                   <li
                     onClick={() => toLink(btn.btnid)}
                     className="li-nav"

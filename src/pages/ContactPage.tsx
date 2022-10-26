@@ -1,13 +1,12 @@
 import { useRef } from "react";
 import { Contact } from "../components/ Contact";
+import { About } from "../components/About";
 import { Footer } from "../components/Footer";
-import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
-import { Projets } from "../components/Projets";
+import Projets from "../components/Projets";
 
-export const HeroPage = () => {
+export const ContactPage = () => {
   const contactSection = useRef<any>(null);
-  const projectSection = useRef<any>(null);
 
   const scrollDown = () => {
     window.scrollTo({
@@ -18,19 +17,16 @@ export const HeroPage = () => {
 
   const toProjects = () => {
     window.scrollTo({
-      top: projectSection.current.offsetTop,
+      top: contactSection.current.offsetTop,
       behavior: "smooth",
     });
   };
-
   return (
     <>
       <Navbar scrollDown={scrollDown} toProjects={toProjects} />
-      <Hero />
-      <div ref={projectSection} id="projects" className="project-wrapper">
-        <Projets />
-      </div>
-      <div ref={contactSection} className="background-container">
+      <About />
+      <Projets />
+      <div className="background-container">
         <Contact />
         <Footer />
       </div>

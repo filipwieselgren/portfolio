@@ -12,61 +12,56 @@ export const Projets = () => {
 
   return (
     <>
-      <div id="projects" className="project-wrapper">
-        {languageArray.map((lang) => {
-          return lang.language === language ? (
-            lang.projects.map((project) => {
-              return (
-                <div key={project.id} className="project-card-container">
-                  <div className="content-container">
-                    <img src={project.img} alt="Image on the project" />
-                    <div className="p-header-container">
-                      <h3 className="project-header">{project.name}</h3>
-                    </div>
-                    <div className="p-discription-container">
-                      <div className="project-discription">
-                        {project.description}
-                      </div>
-                    </div>
-                    <div className="built-with-container">
-                      <div className="built-with-txt">{project.buildTxt}</div>
-                    </div>
-                    <>
-                      <div className="lang-img">
-                        {project.buildWith.map((lang) => {
-                          return (
-                            <lang.language
-                              key={lang.topicid}
-                              className="icon"
-                            />
-                          );
-                        })}
-                      </div>
-                    </>
-
-                    <div className="project-btns-container">
-                      <a href="#projects" className="hero-link to-project-link">
-                        <div className="project-btn test-app-btn">
-                          <BsCaretRight />
-                          {project.testAppBtnText}
-                        </div>
-                      </a>
-                      <a href="#projects" className="hero-link to-project-link">
-                        <div className="project-btn see-code-btn">
-                          <BsCaretRight />
-                          {project.seeCodeBtnText}
-                        </div>
-                      </a>
+      {languageArray.map((lang) => {
+        return lang.language === language ? (
+          lang.projects.map((project) => {
+            return (
+              <div key={project.id} className="project-card-container">
+                <div className="content-container">
+                  <img src={project.img} alt="Image on the project" />
+                  <div className="p-header-container">
+                    <h3 className="project-header">{project.name}</h3>
+                  </div>
+                  <div className="p-discription-container">
+                    <div className="project-discription">
+                      {project.description}
                     </div>
                   </div>
+                  <div className="built-with-container">
+                    <div className="built-with-txt">{project.buildTxt}</div>
+                  </div>
+                  <>
+                    <div className="lang-img">
+                      {project.buildWith.map((lang) => {
+                        return (
+                          <lang.language key={lang.topicid} className="icon" />
+                        );
+                      })}
+                    </div>
+                  </>
+
+                  <div className="project-btns-container">
+                    <a href="#projects" className="hero-link to-project-link">
+                      <div className="project-btn test-app-btn">
+                        <BsCaretRight />
+                        {project.testAppBtnText}
+                      </div>
+                    </a>
+                    <a href="#projects" className="hero-link to-project-link">
+                      <div className="project-btn see-code-btn">
+                        <BsCaretRight />
+                        {project.seeCodeBtnText}
+                      </div>
+                    </a>
+                  </div>
                 </div>
-              );
-            })
-          ) : (
-            <></>
-          );
-        })}
-      </div>
+              </div>
+            );
+          })
+        ) : (
+          <></>
+        );
+      })}
     </>
   );
 };
