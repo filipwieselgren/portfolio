@@ -34,6 +34,7 @@ interface IHeroText {
       id: number;
       name: string;
       html_url: string;
+      gitHub_url: string;
       description: string;
       img: string;
       buildTxt: string;
@@ -49,6 +50,7 @@ interface IHeroText {
       id: number;
       name: string;
       html_url: string;
+      gitHub_url: string;
       description: string;
       img: string;
       buildTxt: string;
@@ -64,6 +66,7 @@ interface IHeroText {
       id: number;
       name: string;
       html_url: string;
+      gitHub_url: string;
       description: string;
       img: string;
       buildTxt: string;

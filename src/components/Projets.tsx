@@ -41,13 +41,21 @@ export const Projets = () => {
                   </>
 
                   <div className="project-btns-container">
-                    <a href="#projects" className="hero-link to-project-link">
+                    <a
+                      href={project.html_url}
+                      className="hero-link to-project-link"
+                      target="_blank"
+                    >
                       <div className="project-btn test-app-btn">
                         <BsCaretRight />
                         {project.testAppBtnText}
                       </div>
                     </a>
-                    <a href="#projects" className="hero-link to-project-link">
+                    <a
+                      href={project.gitHub_url}
+                      className="hero-link to-project-link"
+                      target="_blank"
+                    >
                       <div className="project-btn see-code-btn">
                         <BsCaretRight />
                         {project.seeCodeBtnText}

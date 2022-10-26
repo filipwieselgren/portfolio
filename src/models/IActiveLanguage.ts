@@ -2,7 +2,8 @@ import IHeroText from "./IHeroTextInterface";
 import todoImg from "../assets/todo.png";
 import webshopImg from "../assets/webshop.png";
 import feedTheZooImg from "../assets/feed-the-zoo.png";
-import { FaReact } from "react-icons/fa";
+import { FaReact, FaSass } from "react-icons/fa";
+
 import {
   SiJavascript,
   SiCss3,
@@ -46,6 +47,7 @@ const heroEnglishText: IHeroText = {
       id: 1,
       name: "Webshop",
       html_url: "https://webshop-seven.vercel.app/",
+      gitHub_url: "https://github.com/filipwieselgren/webshop",
       description: "A webshop for movies build with react and typescript.",
       img: webshopImg,
       buildTxt: "Built with",
@@ -70,6 +72,7 @@ const heroEnglishText: IHeroText = {
       id: 2,
       name: "Todo-app",
       html_url: "https://todo-eta-six.vercel.app/",
+      gitHub_url: "https://github.com/filipwieselgren/TODO",
       description: "My first project in JS. A todo-app.",
       img: todoImg,
       buildTxt: "Built with",
@@ -86,7 +89,7 @@ const heroEnglishText: IHeroText = {
         },
         {
           topicid: 3,
-          language: SiCss3,
+          language: FaSass,
         },
       ],
     },
@@ -94,6 +97,7 @@ const heroEnglishText: IHeroText = {
       id: 3,
       name: "Game - Feed the zoo",
       html_url: "https://react-zoo-sable.vercel.app/",
+      gitHub_url: "https://github.com/filipwieselgren/react-zoo",
       description:
         "A game built using React, typescript and styled-components.",
       img: feedTheZooImg,
@@ -183,6 +187,7 @@ const heroSwedishText: IHeroText = {
       id: 1,
       name: "Webshop",
       html_url: "https://webshop-seven.vercel.app/",
+      gitHub_url: "https://github.com/filipwieselgren/webshop",
       description: "En webbshop för filmer byggt med React och Typscript.",
       img: webshopImg,
       buildTxt: "Byggd med",
@@ -207,6 +212,7 @@ const heroSwedishText: IHeroText = {
       id: 2,
       name: "Todo-app",
       html_url: "https://todo-eta-six.vercel.app/",
+      gitHub_url: "https://github.com/filipwieselgren/TODO",
       description: "Mitt första projekt i JS. En todo-app.",
       img: todoImg,
       buildTxt: "Byggd med",
@@ -223,7 +229,7 @@ const heroSwedishText: IHeroText = {
         },
         {
           topicid: 3,
-          language: SiCss3,
+          language: FaSass,
         },
       ],
     },
@@ -231,9 +237,10 @@ const heroSwedishText: IHeroText = {
       id: 3,
       name: "Spel - Feed the zoo",
       html_url: "https://react-zoo-sable.vercel.app/",
+      gitHub_url: "https://github.com/filipwieselgren/react-zoo",
       description:
         "Ett spel byggt med React, Typescript och styled-components.",
-      img: todoImg,
+      img: feedTheZooImg,
       buildTxt: "Byggd med",
       testAppBtnText: "Testa appen",
       seeCodeBtnText: "Se koden",
