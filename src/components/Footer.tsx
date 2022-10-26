@@ -17,7 +17,7 @@ export const Footer = () => {
         <a href="/about">
           <li>About me</li>
         </a>
-        <a href="#projects">
+        <a href="/projects">
           <li>Projects</li>
         </a>
       </ul>

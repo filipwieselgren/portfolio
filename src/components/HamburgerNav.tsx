@@ -35,13 +35,13 @@ export const HamburgerNav = (props: IActive) => {
     console.log("page:", page);
 
     if (page === 1) {
-      setPage("#projects");
+      setPage("/projects");
     } else if (page === 2) {
       setPage("/resume");
     } else if (page === 3) {
       setPage("/about");
     } else if (page === 4) {
-      setPage("#contact");
+      setPage("/contact");
     }
   };
 
