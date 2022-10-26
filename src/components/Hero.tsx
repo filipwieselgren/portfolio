@@ -2,7 +2,11 @@ import { useLocation } from "react-router-dom";
 import { About } from "./About";
 import { HeroContent } from "./HeroContent";
 
-const Hero = () => {
+interface IScroll {
+  toProjects(): void;
+}
+
+const Hero = (props: IScroll) => {
   let location = useLocation();
 
   console.log(location);
@@ -11,9 +15,9 @@ const Hero = () => {
     <section className="hero-container">
       <div className="hero-flex-container">
         {location.pathname === "/" ? (
-          <HeroContent />
+          <HeroContent toProjects={props.toProjects} />
         ) : location.pathname === "/about" ? (
-          <About />
+          <About toProjects={props.toProjects} />
         ) : (
           <></>
         )}

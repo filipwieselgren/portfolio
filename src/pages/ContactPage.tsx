@@ -24,11 +24,11 @@ export const ContactPage = () => {
   return (
     <>
       <Navbar scrollDown={scrollDown} toProjects={toProjects} />
-      <About />
+      <About toProjects={toProjects} />
       <Projets />
       <div className="background-container">
         <Contact />
-        <Footer />
+        <Footer toProjects={toProjects} />
       </div>
     </>
   );

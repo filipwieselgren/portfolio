@@ -8,7 +8,11 @@ import arrowDesk from "../assets/pil.png";
 import "animate.css/animate.min.css";
 import { AnimationOnScroll } from "react-animation-on-scroll";
 
-export const HeroContent = () => {
+interface IScroll {
+  toProjects(): void;
+}
+
+export const HeroContent = (props: IScroll) => {
   const languageArray = useSelector(
     (state: IState) => state.changeLanguage.languages
   );
@@ -129,7 +133,7 @@ export const HeroContent = () => {
             </AnimationOnScroll>
           </div>
         </div>
-        <NavBtnsHero />
+        <NavBtnsHero toProjects={props.toProjects} />
       </div>
     </>
   );

@@ -25,13 +25,13 @@ export const AboutPage = () => {
   return (
     <>
       <Navbar scrollDown={scrollDown} toProjects={toProjects} />
-      <About />
+      <About toProjects={toProjects} />
       <div ref={projectSection} id="projects" className="project-wrapper">
         <Projets />
       </div>
       <div className="background-container">
         <Contact />
-        <Footer />
+        <Footer toProjects={toProjects} />
       </div>
     </>
   );

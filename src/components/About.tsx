@@ -6,7 +6,11 @@ import me from "../assets/jag-SVART.png";
 import imgTxt from "../assets/img-text-about.png";
 import { NavBtnsHero } from "./NavBtnsHero";
 
-export const About = () => {
+interface IScroll {
+  toProjects(): void;
+}
+
+export const About = (props: IScroll) => {
   const languageArray = useSelector(
     (state: IState) => state.changeLanguage.languages
   );
@@ -62,7 +66,7 @@ export const About = () => {
           );
         })}
       </div>
-      <NavBtnsHero />
+      <NavBtnsHero toProjects={props.toProjects} />
     </>
   );
 };

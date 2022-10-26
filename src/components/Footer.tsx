@@ -1,6 +1,10 @@
 import me from "../assets/me.png";
 
-export const Footer = () => {
+interface IScroll {
+  toProjects(): void;
+}
+
+export const Footer = (props: IScroll) => {
   return (
     <div className="footer-main-container">
       <div className="img-container">
@@ -17,7 +21,7 @@ export const Footer = () => {
         <a href="/about">
           <li>About me</li>
         </a>
-        <a href="/projects">
+        <a onClick={props.toProjects}>
           <li>Projects</li>
         </a>
       </ul>

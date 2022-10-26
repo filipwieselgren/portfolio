@@ -11,7 +11,11 @@ const homepageBtns = (
   </Link>
 );
 
-export const NavBtnsHero = () => {
+interface IScroll {
+  toProjects(): void;
+}
+
+export const NavBtnsHero = (props: IScroll) => {
   let location = useLocation();
   return (
     <div className="navbts-hero-container">
@@ -29,7 +33,7 @@ export const NavBtnsHero = () => {
       )}
 
       {/* <Link to={"#projects"} className="hero-link to-project-link"> */}
-      <a href="/projects" className="hero-link to-project-link">
+      <a onClick={props.toProjects} className="hero-link to-project-link">
         <div className="hero-btn-container to-projects">
           See my projects
           <BsCaretDown className="arrow arrow-down" />

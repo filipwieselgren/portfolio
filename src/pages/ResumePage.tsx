@@ -31,7 +31,7 @@ export const ResumePage = () => {
       </div>
       <div ref={contactSection} className="background-container">
         <Contact />
-        <Footer />
+        <Footer toProjects={toProjects} />
       </div>
     </>
   );

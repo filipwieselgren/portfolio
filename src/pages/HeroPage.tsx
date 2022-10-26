@@ -26,13 +26,13 @@ export const HeroPage = () => {
   return (
     <>
       <Navbar scrollDown={scrollDown} toProjects={toProjects} />
-      <Hero />
+      <Hero toProjects={toProjects} />
       <div ref={projectSection} id="projects" className="project-wrapper">
         <Projets />
       </div>
       <div ref={contactSection} className="background-container">
         <Contact />
-        <Footer />
+        <Footer toProjects={toProjects} />
       </div>
     </>
   );
