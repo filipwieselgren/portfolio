@@ -339,6 +339,7 @@
   align-items: center;
   margin: 1em 0 0 0;
   z-index: 1;
+  width: 100%;
 }
 
 .hero-btn-container {
