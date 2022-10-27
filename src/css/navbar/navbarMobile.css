@@ -143,7 +143,7 @@
 }
 
 .nav-active li:first-child {
-  margin: 10rem 5rem 1rem 5rem;
+  margin: 5rem 5rem 1rem;
 }
 
 .nav-active li:nth-child(n + 2) {
