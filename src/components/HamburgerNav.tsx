@@ -66,6 +66,18 @@ export const HamburgerNav = (props: IActive) => {
       <div className="img-underline-active"></div>
     </>
   );
+  const gitLinkedActive = (
+    <>
+      <div className="some-con">
+        <img className="active-navbar-img" src={github} alt="Github" />
+        <img
+          className="active-navbar-img"
+          src={linkedin}
+          alt="Navbar image of me"
+        />
+      </div>
+    </>
+  );
 
   let switchLang: string = "";
 
@@ -81,25 +93,6 @@ export const HamburgerNav = (props: IActive) => {
   } else {
     switchLangbtnText = "Switch to English";
   }
-
-  const gitLinkedActive = (
-    <>
-      <div className="some-con">
-        <button
-          onClick={() => dispatch(toggleLanguage())}
-          className={switchLang}
-        >
-          {switchLangbtnText}
-        </button>
-        <img className="active-navbar-img" src={github} alt="Github" />
-        <img
-          className="active-navbar-img"
-          src={linkedin}
-          alt="Navbar image of me"
-        />
-      </div>
-    </>
-  );
 
   // useEffect(() => {
   //   localStorage.setItem("activeLanguage", JSON.stringify(language));
@@ -130,6 +123,12 @@ export const HamburgerNav = (props: IActive) => {
           );
         })}
 
+        <button
+          onClick={() => dispatch(toggleLanguage())}
+          className={switchLang}
+        >
+          {switchLangbtnText}
+        </button>
         {props.active !== "nav-menu" ? gitLinkedActive : <></>}
       </ul>
 
