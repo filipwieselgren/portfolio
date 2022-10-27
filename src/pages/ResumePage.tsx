@@ -25,7 +25,7 @@ export const ResumePage = () => {
   return (
     <>
       <Navbar scrollDown={scrollDown} toProjects={toProjects} />
-      <Resume />
+      <Resume toProjects={toProjects} />
       <div ref={projectSection} id="projects" className="project-wrapper">
         <Projets />
       </div>

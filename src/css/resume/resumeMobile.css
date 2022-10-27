@@ -1,7 +1,8 @@
 .resume-container {
   display: flex;
-  justify-content: center;
-  background: linear-gradient(white, #93b5b3, #121820);
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(white, #93b5b3);
   margin-top: 50px;
 }
 
