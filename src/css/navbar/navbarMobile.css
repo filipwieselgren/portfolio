@@ -111,6 +111,7 @@
   margin: 2em;
   cursor: pointer;
   z-index: 30;
+  position: fixed;
 }
 
 .nav-toggler:hover,
@@ -172,7 +173,7 @@
   transform: rotate(-45deg);
   position: absolute;
   background-color: #121820;
-  top: 37px;
+  top: 10px;
   background-color: #fff;
 }
 .toggle .line2 {
@@ -183,7 +184,7 @@
   transform: rotate(45deg);
   position: absolute;
   background-color: #121820;
-  right: 30.5px;
-  top: 37px;
+  right: 2.5px;
+  top: 10px;
   background-color: #fff;
 }
