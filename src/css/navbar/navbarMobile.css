@@ -152,11 +152,9 @@
 .some-con {
   display: flex;
   justify-content: flex-end;
-  margin: 0 5em 0 0;
-  position: absolute;
-  right: 0;
-  bottom: 235px;
+  margin: 0 5em 2em 0;
 }
+
 .some-con img:first-child {
   margin-right: 2em;
 }
