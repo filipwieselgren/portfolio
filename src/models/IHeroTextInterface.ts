@@ -11,6 +11,14 @@ interface IHeroText {
   callMe: string;
   stayInTouch: string;
   phoneText: string;
+  aboutMeIntroText: string;
+  heroSeeMyProjects: string;
+  heroReadAboutMe: string;
+  heroResume: string;
+  footerHome: string;
+  footerResume: string;
+  footerAbout: string;
+  footerProjects: string;
   btntext: [
     {
       btnid: number;

@@ -32,10 +32,13 @@ export const About = (props: IScroll) => {
           <img className="img-txt" src={imgTxt} alt="Logo text" />
           <img className="me" src={me} alt="Image on me" />
         </div>
-        <div className="aboutme-header">
-          Curiosity is always good! Choose what you want to find out about me
-          ...
-        </div>
+        {languageArray.map((lang) => {
+          return lang.language === language ? (
+            <div className="aboutme-header">{lang.aboutMeIntroText}</div>
+          ) : (
+            <></>
+          );
+        })}
       </div>
       <div className="questions-wrapper">
         {languageArray.map((lang) => {

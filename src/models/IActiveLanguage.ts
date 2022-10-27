@@ -24,6 +24,15 @@ const heroEnglishText: IHeroText = {
   callMe: "Give me a call at +46 76 060 44 18",
   stayInTouch: "I would love to stay in touch",
   phoneText: "Phone",
+  aboutMeIntroText:
+    "Curiosity is always good! Choose what you want to find out about me ...",
+  heroSeeMyProjects: "See my projects",
+  heroReadAboutMe: "Read more about me",
+  heroResume: "See my resume",
+  footerHome: "Home",
+  footerResume: "Resume",
+  footerAbout: "About",
+  footerProjects: "Project",
   btntext: [
     {
       btnid: 1,
@@ -164,6 +173,15 @@ const heroSwedishText: IHeroText = {
   callMe: "Du kan ringa mig på 076 060 44 18",
   stayInTouch: "Jag håller gärna kontakten",
   phoneText: "Telefon",
+  aboutMeIntroText:
+    "Nyfikenhet är alltid bra! Klicka på det du vill veta om mig ...",
+  heroSeeMyProjects: "See mina projekt",
+  heroReadAboutMe: "Läs mer om mig",
+  heroResume: "Se mitt cv",
+  footerHome: "Hem",
+  footerResume: "CV",
+  footerAbout: "Om mig",
+  footerProjects: "Projekt",
   btntext: [
     {
       btnid: 1,
@@ -264,28 +282,28 @@ const heroSwedishText: IHeroText = {
   aboutMe: [
     {
       id: 1,
-      question: "How are you to work with?",
+      question: "Hur är du att jobba med?",
       answer:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
       open: false,
     },
     {
       id: 2,
-      question: "What can you bring to the table?",
+      question: "Hur är du att jobba med?",
       answer:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
       open: false,
     },
     {
       id: 3,
-      question: "What is your background?",
+      question: "Hur är du att jobba med?",
       answer:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
       open: false,
     },
     {
       id: 4,
-      question: "What do you do when you don’t work?",
+      question: "Hur är du att jobba med?",
       answer:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
       open: false,
