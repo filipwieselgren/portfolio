@@ -153,7 +153,7 @@
 .some-con {
   display: flex;
   justify-content: flex-end;
-  margin: 5em 5em 0 0;
+  margin: 0 5em 0 0;
 }
 .some-con img:first-child {
   margin-right: 2em;
