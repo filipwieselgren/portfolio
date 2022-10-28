@@ -27,11 +27,19 @@ export const NavBtnsHero = (props: IScroll) => {
     </Link>
   );
 
+  let navbtsHeroContainer: string = "";
+
+  if (location.pathname === "/resume") {
+    navbtsHeroContainer = "navbts-hero-container-resume";
+  } else {
+    navbtsHeroContainer = "navbts-hero-container";
+  }
+
   return (
     <>
       {languageArray.map((lang) => {
         return lang.language === language ? (
-          <div className="navbts-hero-container">
+          <div className={navbtsHeroContainer}>
             {location.pathname === "/" ? (
               homepageBtns
             ) : location.pathname === "/about" ? (

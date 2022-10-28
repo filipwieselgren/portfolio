@@ -69,6 +69,13 @@
     align-items: flex-start;
   }
 
+  .navbts-hero-container-resume {
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 6em;
+    align-items: flex-start;
+  }
+
   .to-aboutme-link {
     order: 1;
   }
