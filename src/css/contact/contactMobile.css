@@ -74,6 +74,10 @@
   cursor: pointer;
 }
 
+.circle-container:hover svg {
+  color: #93b5b3;
+}
+
 .icon-circle {
   width: 3.5em;
   height: 3.5em;
@@ -108,9 +112,6 @@
 
 .icon-circle svg {
   color: #121820;
-}
-.icon-circle svg:hover {
-  color: #93b5b3;
 }
 
 .circle-text {
