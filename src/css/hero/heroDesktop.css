@@ -65,8 +65,7 @@
   .navbts-hero-container {
     flex-direction: row;
     justify-content: flex-start;
-    margin-top: 6rem;
-    margin-bottom: 6rem;
+    margin-top: 6em;
   }
 
   .to-aboutme-link {
