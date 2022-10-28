@@ -66,6 +66,8 @@
     flex-direction: row;
     justify-content: flex-start;
     margin-top: 6em;
+    margin-bottom: 6em;
+    align-items: flex-start;
   }
 
   .to-aboutme-link {
