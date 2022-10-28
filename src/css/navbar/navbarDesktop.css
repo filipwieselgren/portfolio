@@ -42,6 +42,7 @@
   .nav-menu li {
     display: block;
     cursor: pointer;
+    color: #121820;
   }
 
   .nav-active {
