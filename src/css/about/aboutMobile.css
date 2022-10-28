@@ -46,8 +46,6 @@
   cursor: pointer;
   border-radius: 5px;
   box-shadow: 10px 5px 2px #93b5b3;
-  max-height: 50px;
-  min-height: 50px;
 }
 
 .item-show {

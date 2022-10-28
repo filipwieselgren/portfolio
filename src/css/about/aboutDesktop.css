@@ -6,6 +6,8 @@
   .item {
     margin-right: 25px;
     max-width: 45%;
+    max-height: 50px;
+    min-height: 50px;
   }
 
   .item-show {
