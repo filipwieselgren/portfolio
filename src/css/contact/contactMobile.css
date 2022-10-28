@@ -110,6 +110,9 @@
 .icon-circle svg {
   color: #121820;
 }
+.icon-circle svg:hover {
+  color: #93b5b3;
+}
 
 .circle-text {
   color: #fff;
