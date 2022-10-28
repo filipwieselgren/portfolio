@@ -107,6 +107,10 @@
   font-size: 2em;
 }
 
+.icon-circle svg {
+  color: #121820;
+}
+
 .circle-text {
   color: #fff;
   font-weight: 100;
