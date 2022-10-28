@@ -9,6 +9,10 @@
     width: 60%;
   }
 
+  .circle-container:hover .icon-circle svg {
+    color: #93b5b3;
+  }
+
   .contact-title {
     font-size: 5rem;
   }
