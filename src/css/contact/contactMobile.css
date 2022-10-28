@@ -74,7 +74,7 @@
   cursor: pointer;
 }
 
-.circle-container:hover svg {
+.circle-container:hover .icon-circle svg {
   color: #93b5b3;
 }
 
