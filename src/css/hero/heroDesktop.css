@@ -134,6 +134,10 @@
     transition: 0.2s ease-in-out;
   }
 
+  .hero-link {
+    width: 13em;
+  }
+
   .skills:hover {
     cursor: pointer;
   }
