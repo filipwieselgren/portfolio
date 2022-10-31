@@ -135,14 +135,14 @@ const heroEnglishText: IHeroText = {
       id: 1,
       question: "How are you to work with?",
       answer:
-        "I'm engaged to movie things forward, and strive for development, both personal and from a team perspective. This results in me beeing open to take initiative of needed and beeign open minded and agile in my way of working.",
+        "I strive for development, both personal and from a team perspective. In practice this means that I work hard to achieve what's expected of me and . I consider my self as a good team player as well.",
       open: false,
     },
     {
       id: 2,
       question: "What can you bring to the table?",
       answer:
-        "If you are looking for a developer that has experience with Javascript/Typescript, React and Node.js you have come to the right place. Besides from that I can provide a good eye for UI design and an analytical way of working. My prior experience from Leadoo and Trickle have also strengthened these two characteristics. I will also bring a lot of curiosity to develop as a person and developer.",
+        "If you are looking for a developer that has experience with Javascript/Typescript, React and Node.js you have come to the right place. Besides that I can provide a good eye for UI/UX design and an analytical way of working and thinking. My prior experience from Leadoo and Trickle have also strengthened these two characteristics. I will also bring a lot of curiosity to develop as a person and developer.",
       open: false,
     },
     {
@@ -156,7 +156,7 @@ const heroEnglishText: IHeroText = {
       id: 4,
       question: "What do you like to do when you aren't working?",
       answer:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "When I'm not working I like to do some kind of sport activity, work out, play guitar or practice my coding skills. During summer I play golf and are curently learning how to kitesurf. During winter I like to snowboard.",
       open: false,
     },
   ],
