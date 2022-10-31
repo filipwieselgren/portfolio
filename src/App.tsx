@@ -14,30 +14,25 @@ import "./css/about/aboutDesktop.css";
 import "./css/about/aboutMobile.css";
 import "./css/resume/resumeMobile.css";
 import "./css/resume/resumeDesktop.css";
-// import { HeroPage } from "./pages/HeroPage";
+import { HeroPage } from "./pages/HeroPage";
 import { AboutPage } from "./pages/AboutPage";
 import { Projets } from "./components/Projets";
 import { Contact } from "./components/ Contact";
 import { ResumePage } from "./pages/ResumePage";
 import { ContactPage } from "./pages/ContactPage";
-import { lazy, Suspense } from "react";
-
-const HeroPage = lazy(() => import("./pages/HeroPage"));
 
 function App() {
   return (
     <>
-      <Suspense fallback={<h1>Loading...</h1>}>
-        <BrowserRouter>
-          <Routes>
-            <Route path="/" element={<HeroPage />}></Route>
-            <Route path="/about" element={<HeroPage />}></Route>
-            <Route path="/projects" element={<Projets />}></Route>
-            {/* <Route path="/contact" element={<ContactPage />}></Route> */}
-            <Route path="/resume" element={<ResumePage />}></Route>
-          </Routes>
-        </BrowserRouter>
-      </Suspense>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<HeroPage />}></Route>
+          <Route path="/about" element={<HeroPage />}></Route>
+          <Route path="/projects" element={<Projets />}></Route>
+          {/* <Route path="/contact" element={<ContactPage />}></Route> */}
+          <Route path="/resume" element={<ResumePage />}></Route>
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }
