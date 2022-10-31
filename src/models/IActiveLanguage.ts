@@ -142,14 +142,14 @@ const heroEnglishText: IHeroText = {
       id: 2,
       question: "What can you bring to the table?",
       answer:
-        "If you are looking for a developer that has experince with Javascript/Typescript, React and Node.js you have come to the right place. Besides from that I can provide a good eye for UI design and an analytical way of working. My prior experince from Leadoo and Trickle have also strengthened these two characteristics. I will also bring a lot of curiosity to develop as a person and developer.",
+        "If you are looking for a developer that has experience with Javascript/Typescript, React and Node.js you have come to the right place. Besides from that I can provide a good eye for UI design and an analytical way of working. My prior experience from Leadoo and Trickle have also strengthened these two characteristics. I will also bring a lot of curiosity to develop as a person and developer.",
       open: false,
     },
     {
       id: 3,
       question: "What is your background?",
       answer:
-        "I have a background in Saas, marketing, communication and onboarding. For the last two and a half years I have been working at the Saas company anddoo Marketing Technologies where I onboarded clients to Leadoo's platform, helped them implement the solution that Leadoo provide on clients' websites and built chabots which has affected thousands of people to get a better experince on websites. Please check my resume to read more about my background.",
+        "I have a background in Saas, marketing, communication and onboarding. For the last two and a half years I have been working at the Saas company Leadoo Marketing Technologies where I onboarded clients to Leadoo's platform, helped them implement the solution that Leadoo provide on clients' websites and built chabots which has affected thousands of people to get a better experince on websites. Please check my resume to read more about my background.",
       open: false,
     },
     {
