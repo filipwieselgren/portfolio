@@ -37,14 +37,6 @@
   font-size: 1rem;
 }
 
-.switchLang-btn-noshow:hover {
-  cursor: pointer;
-  transform: scale(1.1);
-  transition: 0.2s ease-in-out;
-  background-color: #121820;
-  color: #93b5b3;
-}
-
 .switchLang-btn-noshow:active {
   transform: scale(1);
   transition: 0.2s ease-in-out;
@@ -114,11 +106,6 @@
   position: fixed;
 }
 
-.nav-toggler:hover,
-.nav-toggler > div:hover {
-  cursor: pointer;
-}
-
 .nav-toggler div {
   width: 5rem;
   height: 0.2rem;
@@ -161,10 +148,6 @@
 
 .some-con img {
   width: 4em;
-}
-
-.some-con:hover {
-  cursor: pointer;
 }
 
 .toggle .line1 {

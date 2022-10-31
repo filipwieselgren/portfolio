@@ -60,6 +60,23 @@
   .navbar-img {
     width: 15em;
   }
+
+  .some-con:hover {
+    cursor: pointer;
+  }
+
+  .nav-toggler:hover,
+  .nav-toggler > div:hover {
+    cursor: pointer;
+  }
+
+  .switchLang-btn-noshow:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.2s ease-in-out;
+    background-color: #121820;
+    color: #93b5b3;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
