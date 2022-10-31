@@ -61,6 +61,16 @@ export const Projets = () => {
                         {project.seeCodeBtnText}
                       </div>
                     </a>
+                    <a
+                      href={project.gitHub_url}
+                      className="hero-link to-project-link"
+                      target="_blank"
+                    >
+                      <div className="project-btn see-code-btn">
+                        <BsCaretRight />
+                        More info
+                      </div>
+                    </a>
                   </div>
                 </div>
               </div>
