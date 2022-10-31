@@ -166,7 +166,7 @@ const heroSwedishText: IHeroText = {
   language: "swedish",
   welcome: "Hej,",
   maintext:
-    "Jag studerar frontend-utveckling på Medieinstitutet i Stockholm med fokus på mern-stacken. Byt kort för att se min tech stack.",
+    "Jag studerar frontend-utveckling på Medieinstitutet i Stockholm med fokus på mern-stacken.",
   askvisitor: " Byt kort för att se min tech-stack",
   changeLanguageText: "Ändra till engelska",
   frontEnd: "Filip här. Trevligt att träffas!  ",
