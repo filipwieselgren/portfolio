@@ -141,7 +141,7 @@ const heroEnglishText: IHeroText = {
       id: 2,
       question: "What can you bring to the table?",
       answer:
-        "If you are looking for a developer that has experience with Javascript/Typescript, React and Node.js you have come to the right place. Besides that I can provide a good eye for UI/UX design and an analytical way of working and thinking. My prior experience from Leadoo and Trickle have also strengthened these two characteristics. I will also bring a lot of curiosity to develop as a person and developer.",
+        "If you are looking for a developer that has experience with Javascript/Typescript, React and Node.js you have come to the right place. Besides that I can provide a good eye for UI/UX design and an analytical way of working and thinking. My prior experience from Leadoo and Trickle have also strengthened these two characteristics.",
     },
     {
       id: 3,
@@ -153,7 +153,7 @@ const heroEnglishText: IHeroText = {
       id: 4,
       question: "What do you like to do when you aren't working?",
       answer:
-        "When I'm not working I like to do some kind of sport activity, work out, play guitar or practice my coding skills. During summer I play golf and are curently learning how to kitesurf. During winter I like to snowboard.",
+        "When I'm not working I love to play golf or go snowboarding during winter. I'm also learnign how ot kitsurf. Music has been a huge part of my life so if a sport activity isn't the choosen active I love to pic up the guitar or practice my coding skills.",
     },
   ],
 };
