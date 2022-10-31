@@ -135,26 +135,26 @@ const heroEnglishText: IHeroText = {
       id: 1,
       question: "How are you to work with?",
       answer:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "I'm engaged to movie things forward, and strive for development, both personal and from a team perspective. This results in me beeing open to take initiative of needed and beeign open minded and agile in my way of working.",
       open: false,
     },
     {
       id: 2,
       question: "What can you bring to the table?",
       answer:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "If you are looking for a developer that has experince with Javascript/Typescript, React and Node.js you have come to the right place. Besides from that I can provide a good eye for UI design and an analytical way of working. My prior experince from Leadoo and Trickle have also strengthened these two characteristics. I will also bring a lot of curiosity to develop as a person and developer.",
       open: false,
     },
     {
       id: 3,
-      question: "What can you bring to the table?",
+      question: "What is your background?",
       answer:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "I have a background in marketing, communication and onboarding. For the last two and a half years I have been working at Leadoo Marketing Technologies where I onboarded clients to Leadoo's platform, helped them implement the solution on their websites and built chabots which has affected thousands of people to a better experince on websites. Please check my resume to read more about my background.",
       open: false,
     },
     {
       id: 4,
-      question: "What can you bring to the table?",
+      question: "What do you like to do when you aren't working?",
       answer:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
       open: false,
