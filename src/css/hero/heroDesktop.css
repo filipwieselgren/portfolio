@@ -127,6 +127,7 @@
 
   .hero-btn-container:hover {
     cursor: pointer;
+    transform: scale(1.1);
     transition: 0.2s ease-in-out;
     background-color: #121820;
     color: #93b5b3;
