@@ -5,7 +5,7 @@ import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import { Projets } from "../components/Projets";
 
-export const HeroPage = () => {
+const HeroPage = () => {
   const contactSection = useRef<any>(null);
   const projectSection = useRef<any>(null);
 
@@ -37,3 +37,5 @@ export const HeroPage = () => {
     </>
   );
 };
+
+export default HeroPage;
