@@ -135,25 +135,25 @@ const heroEnglishText: IHeroText = {
       id: 1,
       question: "How are you to work with?",
       answer:
-        "I strive for development, both personal and from a team perspective. In practice this means that I work hard to achieve what's expected of me and . I consider my self as a good team player as well.",
+        "I come with a positive, analytic and problem solving mind set that likes to see us as a team achive great things. I strive for development, both personal and as a team. In practice this means that I work hard to achieve what's expected of me as a co-worker.",
     },
     {
       id: 2,
       question: "What can you bring to the table?",
       answer:
-        "If you are looking for a developer that has experience with Javascript/Typescript, React and Node.js you have come to the right place. Besides that I can provide a good eye for UI/UX design and an analytical way of working and thinking. My prior experience from Leadoo and Trickle have also strengthened these two characteristics.",
+        "If you are looking for a developer that has experience with Javascript/Typescript, React and Node.js you have come to the right place. Besides that I can provide a good eye for UI/UX design and an analytical way of working and thinking. My prior experience from Leadoo and Trickle have definitely strengthened these two skills as well.",
     },
     {
       id: 3,
       question: "What is your background?",
       answer:
-        "I have a background in Saas, marketing, communication and onboarding. For the last two and a half years I have been working at the Saas company Leadoo Marketing Technologies where I onboarded clients to Leadoo's platform, helped them implement the solution that Leadoo provide on clients' websites and built chabots which has affected thousands of people to get a better experince on websites. Please check my resume to read more about my background.",
+        "I have a background in Saas, marketing, communication and onboarding. For the last two and a half years I have been working at the Saas company Leadoo Marketing Technologies where I onboarded clients to Leadoo's platform, helped them to implement Leadoo's solution to their website and built chabots which has affected thousands of people to get a better web experience. Please check my resume to read more about my background.",
     },
     {
       id: 4,
       question: "What do you like to do when you aren't working?",
       answer:
-        "When I'm not working I love to play golf or go snowboarding during winter. I'm also learnign how ot kitsurf. Music has been a huge part of my life so if a sport activity isn't the choosen active I love to pic up the guitar or practice my coding skills.",
+        "When I'm not working I love to play golf during summer and during winter I switch the clubs to a snowboard. I'm also learnign how to kitsurf. Music has been a huge part of my life so if a sport activity isn't the choosen active I love to pic up the guitar or practice my coding skills.",
     },
   ],
 };
