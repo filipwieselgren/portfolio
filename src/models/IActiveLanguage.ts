@@ -149,7 +149,7 @@ const heroEnglishText: IHeroText = {
       id: 3,
       question: "What is your background?",
       answer:
-        "I have a background in marketing, communication and onboarding. For the last two and a half years I have been working at Leadoo Marketing Technologies where I onboarded clients to Leadoo's platform, helped them implement the solution on their websites and built chabots which has affected thousands of people to a better experince on websites. Please check my resume to read more about my background.",
+        "I have a background in Saas, marketing, communication and onboarding. For the last two and a half years I have been working at the Saas company anddoo Marketing Technologies where I onboarded clients to Leadoo's platform, helped them implement the solution that Leadoo provide on clients' websites and built chabots which has affected thousands of people to get a better experince on websites. Please check my resume to read more about my background.",
       open: false,
     },
     {
