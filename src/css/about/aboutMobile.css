@@ -90,7 +90,7 @@
   max-height: 0;
   overflow: hidden;
   transition: all 0s cubic-bezier(0, 1, 0, 1);
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-weight: 100;
   margin-top: 10px;
 }
@@ -99,5 +99,5 @@
   height: auto;
   max-height: 9999px;
   transition: all 0s cubic-bezier(0, 1, 0, 1);
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 }

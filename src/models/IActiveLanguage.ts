@@ -136,28 +136,24 @@ const heroEnglishText: IHeroText = {
       question: "How are you to work with?",
       answer:
         "I strive for development, both personal and from a team perspective. In practice this means that I work hard to achieve what's expected of me and . I consider my self as a good team player as well.",
-      open: false,
     },
     {
       id: 2,
       question: "What can you bring to the table?",
       answer:
         "If you are looking for a developer that has experience with Javascript/Typescript, React and Node.js you have come to the right place. Besides that I can provide a good eye for UI/UX design and an analytical way of working and thinking. My prior experience from Leadoo and Trickle have also strengthened these two characteristics. I will also bring a lot of curiosity to develop as a person and developer.",
-      open: false,
     },
     {
       id: 3,
       question: "What is your background?",
       answer:
         "I have a background in Saas, marketing, communication and onboarding. For the last two and a half years I have been working at the Saas company Leadoo Marketing Technologies where I onboarded clients to Leadoo's platform, helped them implement the solution that Leadoo provide on clients' websites and built chabots which has affected thousands of people to get a better experince on websites. Please check my resume to read more about my background.",
-      open: false,
     },
     {
       id: 4,
       question: "What do you like to do when you aren't working?",
       answer:
         "When I'm not working I like to do some kind of sport activity, work out, play guitar or practice my coding skills. During summer I play golf and are curently learning how to kitesurf. During winter I like to snowboard.",
-      open: false,
     },
   ],
 };
@@ -285,28 +281,24 @@ const heroSwedishText: IHeroText = {
       question: "Hur är du att jobba med?",
       answer:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
-      open: false,
     },
     {
       id: 2,
       question: "Hur är du att jobba med?",
       answer:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
-      open: false,
     },
     {
       id: 3,
       question: "Hur är du att jobba med?",
       answer:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
-      open: false,
     },
     {
       id: 4,
       question: "Hur är du att jobba med?",
       answer:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
-      open: false,
     },
   ],
 };
