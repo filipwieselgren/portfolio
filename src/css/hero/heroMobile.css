@@ -350,6 +350,7 @@
   border-radius: 5px;
   padding: 5px;
   z-index: 1;
+  box-shadow: 6px 5px 0px #93b5b;
 }
 
 .to-about {
