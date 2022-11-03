@@ -35,14 +35,14 @@
   flex-direction: column;
 }
 
+.presentation-text-container:first-child() {
+  color: white;
+}
+
 .presentation-text {
   font-weight: 100;
   font-size: 1.5rem;
   margin-top: 2rem;
-}
-
-.presentation-text > span {
-  color: white;
 }
 
 .swith-card {
