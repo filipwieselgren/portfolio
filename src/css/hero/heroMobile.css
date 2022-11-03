@@ -34,8 +34,12 @@
   flex-direction: column;
 }
 
-.presentation-text-container:first-child {
+.presentation-text-container:nth-child(2) {
   color: white;
+}
+
+.presentation-text-container:first-child {
+  color: #121820;
 }
 
 .presentation-text {
