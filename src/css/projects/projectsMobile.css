@@ -6,7 +6,7 @@
   scrollbar-width: none;
   -ms-overflow-style: none;
   scrollbar-width: none;
-  background: linear-gradient(#93b5b3, #121820);
+  background-color: #121820;
 
   border: none;
 }
@@ -39,7 +39,6 @@
   border-radius: 12.5px;
   padding: 0.5em;
   width: 100%;
-
   filter: drop-shadow(2px 4px 6px black);
 }
 

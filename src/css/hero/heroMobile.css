@@ -3,8 +3,8 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  margin-top: 4em;
-  background: linear-gradient(#ffffff, #93b5b3);
+  padding-top: 4em;
+  background-color: #055b56;
   /* min-height: 90vh;
   max-height: 90vh; */
 }

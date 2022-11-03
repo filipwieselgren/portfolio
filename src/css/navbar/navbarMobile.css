@@ -50,6 +50,7 @@
 .navbar {
   width: 100vw;
   display: flex;
+  background-color: #055b56;
 }
 
 .navbar-img {
