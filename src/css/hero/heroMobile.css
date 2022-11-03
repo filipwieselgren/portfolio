@@ -48,7 +48,8 @@
 }
 
 .dot {
-  color: white;
+  color: #affff7;
+  filter: drop-shadow(0.1rem 0.1rem 1rem #78fff1);
 }
 
 .arrow-container {
