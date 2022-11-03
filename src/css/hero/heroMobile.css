@@ -350,7 +350,6 @@
   border-radius: 5px;
   padding: 5px;
   z-index: 1;
-  box-shadow: 5px 5px 0px #93b5b3;
 }
 
 .to-about {
@@ -358,6 +357,7 @@
 }
 .to-projects {
   margin: 1em 0 0 0;
+  background-color: #93b5b3;
 }
 
 .arrow {
