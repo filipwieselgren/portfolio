@@ -42,8 +42,9 @@
 }
 
 .swith-card {
-  color: #055b56;
+  color: #affff7;
   font-weight: 300;
+  filter: drop-shadow(0.1rem 0.1rem 1rem #78fff1);
 }
 
 .dot {
