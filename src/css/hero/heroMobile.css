@@ -363,9 +363,14 @@
   color: #93b5b3;
 }
 
-.arrow {
+.to-projects > .arrow {
   font-size: 2em;
   color: #93b5b3;
+}
+
+.to-about > .arrow {
+  font-size: 2em;
+  color: #121820;
 }
 
 .hero-link {
