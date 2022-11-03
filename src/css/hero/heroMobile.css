@@ -45,17 +45,13 @@
   margin-top: 2rem;
 }
 
-.presentation-text > span {
-  color: white;
-}
-
 .swith-card {
-  color: #121820;
+  color: white;
   font-weight: 300;
 }
 
 .dot {
-  color: #121820;
+  color: white;
 }
 
 .arrow-container {
