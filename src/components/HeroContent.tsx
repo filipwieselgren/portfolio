@@ -74,7 +74,7 @@ export const HeroContent = (props: IScroll) => {
             {languageArray.map((lang) => {
               return lang.language == language ? (
                 <>
-                  <div className="navbar-name">{lang.welcome}</div>
+                  <div className="navbar-name welcome">{lang.welcome}</div>
                   <div className="navbar-name">{lang.frontEnd}</div>
                 </>
               ) : (

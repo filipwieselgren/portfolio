@@ -33,11 +33,11 @@
   flex-direction: column;
 }
 
-.presentation-text-container:nth-child(2) {
+.welcome {
   color: white;
 }
 
-.presentation-text-container:first-child {
+.presentation-text-container:nth-child(2) {
   color: #121820;
 }
 
