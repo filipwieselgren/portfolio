@@ -34,11 +34,11 @@
 }
 
 .welcome {
-  color: white;
+  color: #121820;
 }
 
 .presentation-text-container:nth-child(2) {
-  color: #121820;
+  color: white;
 }
 
 .presentation-text {
