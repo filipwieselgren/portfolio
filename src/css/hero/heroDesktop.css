@@ -1,4 +1,4 @@
-@media only screen and (min-width: 820px) {
+@media only screen and (min-width: 768px) {
   .hero-container {
     padding-top: 7em;
     top: 1em;
@@ -97,6 +97,7 @@
 
   .arrow-container {
     margin-right: 5em;
+    margin-top: 0;
     align-self: flex-start;
     /* border: 1px solid blue; */
   }
