@@ -19,6 +19,7 @@
 .navbar-name {
   text-align: start;
   font-size: 2rem;
+  color: white;
 }
 
 .navbar-name:first-child {
@@ -38,6 +39,10 @@
   font-weight: 100;
   font-size: 1.5rem;
   margin-top: 2rem;
+}
+
+.presentation-text > span {
+  color: white;
 }
 
 .swith-card {
