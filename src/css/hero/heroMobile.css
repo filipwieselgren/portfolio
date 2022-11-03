@@ -31,13 +31,6 @@
   display: flex;
   align-items: flex-start;
   flex-direction: column;
-}
-
-.welcome {
-  color: #121820;
-}
-
-.presentation-text-container:nth-child(2) {
   color: white;
 }
 
