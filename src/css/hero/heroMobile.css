@@ -354,26 +354,20 @@
 
 .to-about {
   margin: 0 0 0 0;
-  color: #121820;
-  background-color: #93b5b3;
+  background-color: #93b5b314;
 }
+
 .to-projects {
   margin: 1em 0 0 0;
-  background-color: #121820;
-  color: #93b5b3;
+  background-color: #93b5b3;
 }
 
-.to-projects > .arrow {
+.arrow {
   font-size: 2em;
-  color: #93b5b3;
-}
-
-.to-about > .arrow {
-  font-size: 2em;
-  color: #121820;
 }
 
 .hero-link {
+  color: #121820;
   text-transform: uppercase;
   width: 15em;
 }

@@ -110,7 +110,7 @@
   }
 
   .to-project-link:hover > div > svg {
-    color: #121820;
+    color: #93b5b3;
     transform: scale(1.1);
     transition: 0.2s ease-in-out;
   }
@@ -131,8 +131,8 @@
     transition: 0.2s ease-in-out;
   }
   .to-projects:hover {
-    background-color: #93b5b3;
-    color: #121820;
+    background-color: #121820;
+    color: #93b5b3;
     transition: 0.2s ease-in-out;
   }
 
