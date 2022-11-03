@@ -35,7 +35,7 @@
   flex-direction: column;
 }
 
-.presentation-text-container:first-child() {
+.presentation-text-container:first-child {
   color: white;
 }
 
