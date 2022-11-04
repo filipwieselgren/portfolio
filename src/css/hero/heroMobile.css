@@ -389,6 +389,7 @@
 .hero-link {
   color: #ffffff;
   text-transform: uppercase;
+  width: 10em;
 }
 
 .desktop {
