@@ -51,7 +51,7 @@ export const NavBtnsHero = (props: IScroll) => {
         return lang.language === language ? (
           <div className={navbtsHeroContainer}>
             {location.pathname === "/" ? (
-              homepageBtns
+              homepageBtns || homepageMobileBtns
             ) : location.pathname === "/about" ? (
               <Link
                 to={"/resume"}
@@ -65,8 +65,6 @@ export const NavBtnsHero = (props: IScroll) => {
             ) : (
               homepageBtns
             )}
-
-            {homepageMobileBtns}
 
             {/* <Link to={"#projects"} className="hero-link to-project-link"> */}
             <a
