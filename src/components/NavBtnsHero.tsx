@@ -17,10 +17,20 @@ export const NavBtnsHero = (props: IScroll) => {
   let location = useLocation();
 
   const homepageBtns = (
-    <Link to={"/about"} className="hero-link to-aboutme-link">
+    <Link to={"/about"} className="hero-link to-aboutme-link desktop">
       <div className="hero-btn-container to-about">
         {languageArray.map((lang) =>
           lang.language === language ? lang.heroReadAboutMe : <></>
+        )}
+        <BsCaretUp className="arrow arrow-up" />
+      </div>
+    </Link>
+  );
+  const homepageMobileBtns = (
+    <Link to={"/about"} className="hero-link to-aboutme-link mobile">
+      <div className="hero-btn-container to-about">
+        {languageArray.map((lang) =>
+          lang.language === language ? lang.heroMobileReadAboutMe : <></>
         )}
         <BsCaretUp className="arrow arrow-up" />
       </div>
@@ -43,7 +53,22 @@ export const NavBtnsHero = (props: IScroll) => {
             {location.pathname === "/" ? (
               homepageBtns
             ) : location.pathname === "/about" ? (
-              <Link to={"/resume"} className="hero-link to-aboutme-link">
+              <Link
+                to={"/resume"}
+                className="hero-link to-aboutme-link desktop"
+              >
+                <div className="hero-btn-container to-about ">
+                  {lang.heroResume}
+                  <BsCaretUp className="arrow arrow-up" />
+                </div>
+              </Link>
+            ) : (
+              homepageBtns
+            )}
+            {location.pathname === "/" ? (
+              homepageMobileBtns
+            ) : location.pathname === "/about" ? (
+              <Link to={"/resume"} className="hero-link to-aboutme-link mobile">
                 <div className="hero-btn-container to-about">
                   {lang.heroResume}
                   <BsCaretUp className="arrow arrow-up" />
@@ -54,7 +79,19 @@ export const NavBtnsHero = (props: IScroll) => {
             )}
 
             {/* <Link to={"#projects"} className="hero-link to-project-link"> */}
-            <a onClick={props.toProjects} className="hero-link to-project-link">
+            <a
+              onClick={props.toProjects}
+              className="hero-link to-project-link desktop"
+            >
+              <div className="hero-btn-container to-projects">
+                {lang.heroSeeMyProjects}
+                <BsCaretDown className="arrow arrow-down" />
+              </div>
+            </a>
+            <a
+              onClick={props.toProjects}
+              className="hero-link to-project-link mobile"
+            >
               <div className="hero-btn-container to-projects">
                 {lang.heroSeeMyProjects}
                 <BsCaretDown className="arrow arrow-down" />

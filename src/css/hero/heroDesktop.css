@@ -152,4 +152,12 @@
   .skills:hover {
     cursor: pointer;
   }
+
+  .desktop {
+    display: block;
+  }
+
+  .mobile {
+    display: none;
+  }
 }

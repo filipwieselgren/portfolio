@@ -15,6 +15,9 @@ interface IHeroText {
   heroSeeMyProjects: string;
   heroReadAboutMe: string;
   heroResume: string;
+  heroMobileSeeMyProjects: string;
+  heroMobileReadAboutMe: string;
+  heroMobileResume: string;
   footerHome: string;
   footerResume: string;
   footerAbout: string;
