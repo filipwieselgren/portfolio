@@ -19,3 +19,8 @@
 .desktop {
   display: none;
 }
+
+.navbts-hero-container-resume {
+  display: flex;
+  align-items: flex-end;
+}
