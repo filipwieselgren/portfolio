@@ -1,6 +1,6 @@
 @media only screen and (min-width: 820px) {
   .nav-menu > li:hover {
-    text-decoration: underline #121820;
+    filter: drop-shadow(0.1rem 0.1rem 1rem #78fff1);
   }
 
   .nav-toggler {
