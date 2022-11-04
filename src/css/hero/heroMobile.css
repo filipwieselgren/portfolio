@@ -360,12 +360,12 @@
   z-index: 1;
 }
 
-/* .to-about {
+.to-about {
   margin: 0 0 0 0;
-  background-color: #93b5b314;
+  /* background-color: #93b5b314; */
   display: flex;
   justify-content: center;
-} */
+}
 
 .to-projects {
   margin: 1em 0 0 0;
