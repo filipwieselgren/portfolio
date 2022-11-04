@@ -27,7 +27,7 @@ export const NavBtnsHero = (props: IScroll) => {
     </Link>
   );
   const aboutMeMobileBtns = (
-    <Link to={"/about"} className="hero-link to-aboutme-link mobile">
+    <Link to={"/resume"} className="hero-link to-aboutme-link mobile">
       <div className="hero-btn-container to-about">
         {languageArray.map((lang) =>
           lang.language === language ? lang.heroMobileResume : <></>
