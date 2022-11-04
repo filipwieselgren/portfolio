@@ -26,11 +26,21 @@ export const NavBtnsHero = (props: IScroll) => {
       </div>
     </Link>
   );
-  const aboutMeMobileBtns = (
+  const resumeMobileBtns = (
     <Link to={"/resume"} className="hero-link to-aboutme-link mobile">
       <div className="hero-btn-container to-about">
         {languageArray.map((lang) =>
           lang.language === language ? lang.heroMobileResume : <></>
+        )}
+        <BsCaretUp className="arrow arrow-up" />
+      </div>
+    </Link>
+  );
+  const aboutMeMobileBtns = (
+    <Link to={"/about"} className="hero-link to-aboutme-link mobile">
+      <div className="hero-btn-container to-about">
+        {languageArray.map((lang) =>
+          lang.language === language ? lang.heroMobileReadAboutMe : <></>
         )}
         <BsCaretUp className="arrow arrow-up" />
       </div>
@@ -66,7 +76,9 @@ export const NavBtnsHero = (props: IScroll) => {
               aboutMeBtns
             )}
 
-            {location.pathname === "/about" ? aboutMeMobileBtns : <></>}
+            {location.pathname === "/about"
+              ? resumeMobileBtns
+              : aboutMeMobileBtns}
 
             {/* <Link to={"#projects"} className="hero-link to-project-link"> */}
             <a
