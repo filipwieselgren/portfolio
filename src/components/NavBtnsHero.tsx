@@ -70,7 +70,7 @@ export const NavBtnsHero = (props: IScroll) => {
             ) : location.pathname === "/about" ? (
               <Link to={"/resume"} className="hero-link to-aboutme-link mobile">
                 <div className="hero-btn-container to-about">
-                  {lang.heroResume}
+                  {lang.heroMobileResume}
                   <BsCaretUp className="arrow arrow-up" />
                 </div>
               </Link>
@@ -93,7 +93,7 @@ export const NavBtnsHero = (props: IScroll) => {
               className="hero-link to-project-link mobile"
             >
               <div className="hero-btn-container to-projects">
-                {lang.heroSeeMyProjects}
+                {lang.heroMobileSeeMyProjects}
                 <BsCaretDown className="arrow arrow-down" />
               </div>
             </a>
