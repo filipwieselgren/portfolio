@@ -399,3 +399,7 @@
 .mobile {
   display: block;
 }
+
+.to-aboutme-link {
+  order: 1;
+}
