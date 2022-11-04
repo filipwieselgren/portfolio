@@ -66,7 +66,7 @@ export const NavBtnsHero = (props: IScroll) => {
               aboutMeBtns
             )}
 
-            {aboutMeMobileBtns}
+            {location.pathname === "/about" ? aboutMeMobileBtns : <></>}
 
             {/* <Link to={"#projects"} className="hero-link to-project-link"> */}
             <a
