@@ -16,7 +16,7 @@ export const NavBtnsHero = (props: IScroll) => {
   let language = useSelector((state: IState) => state.changeLanguage.value);
   let location = useLocation();
 
-  const homepageBtns = (
+  const aboutMeBtns = (
     <Link to={"/about"} className="hero-link to-aboutme-link desktop">
       <div className="hero-btn-container to-about">
         {languageArray.map((lang) =>
@@ -26,7 +26,7 @@ export const NavBtnsHero = (props: IScroll) => {
       </div>
     </Link>
   );
-  const homepageMobileBtns = (
+  const aboutMeMobileBtns = (
     <Link to={"/about"} className="hero-link to-aboutme-link mobile">
       <div className="hero-btn-container to-about">
         {languageArray.map((lang) =>
@@ -51,7 +51,7 @@ export const NavBtnsHero = (props: IScroll) => {
         return lang.language === language ? (
           <div className={navbtsHeroContainer}>
             {location.pathname === "/" ? (
-              homepageBtns || homepageMobileBtns
+              aboutMeBtns
             ) : location.pathname === "/about" ? (
               <Link
                 to={"/resume"}
@@ -63,8 +63,10 @@ export const NavBtnsHero = (props: IScroll) => {
                 </div>
               </Link>
             ) : (
-              homepageBtns
+              aboutMeBtns
             )}
+
+            {aboutMeMobileBtns}
 
             {/* <Link to={"#projects"} className="hero-link to-project-link"> */}
             <a
