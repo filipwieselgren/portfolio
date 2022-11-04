@@ -30,7 +30,7 @@ export const NavBtnsHero = (props: IScroll) => {
     <Link to={"/about"} className="hero-link to-aboutme-link mobile">
       <div className="hero-btn-container to-about">
         {languageArray.map((lang) =>
-          lang.language === language ? lang.heroMobileReadAboutMe : <></>
+          lang.language === language ? lang.heroMobileResume : <></>
         )}
         <BsCaretUp className="arrow arrow-up" />
       </div>
