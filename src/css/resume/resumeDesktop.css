@@ -2,4 +2,11 @@
   .resume {
     width: 60vw;
   }
+
+  .mobile {
+    display: none;
+  }
+  .desktop {
+    display: block;
+  }
 }
