@@ -128,7 +128,7 @@
     cursor: pointer;
   }
 
-  .to-about:hover {
+  /* .to-about:hover {
     background-color: #121820;
     color: #93b5b3;
     transition: 0.2s ease-in-out;
@@ -137,7 +137,7 @@
     background-color: #121820;
     color: #93b5b3;
     transition: 0.2s ease-in-out;
-  }
+  } */
 
   .hero-btn-container:hover {
     cursor: pointer;
@@ -145,6 +145,10 @@
 
   .hero-link {
     width: 13em;
+  }
+
+  .hero-link:hover {
+    filter: drop-shadow(0.1rem 0.1rem 1rem #78fff1);
   }
 
   .skills:hover {
