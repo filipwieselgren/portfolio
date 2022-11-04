@@ -3,9 +3,9 @@
   display: flex;
   align-items: flex-start;
   overflow: auto;
-  /* scrollbar-width: none;
+  scrollbar-width: none;
   -ms-overflow-style: none;
-  scrollbar-width: none; */
+  scrollbar-width: none;
   background-color: #121820;
 
   border: none;
