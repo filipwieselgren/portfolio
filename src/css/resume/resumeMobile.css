@@ -11,3 +11,7 @@
   margin-bottom: 50px;
   border-radius: 5px;
 }
+
+.mobile {
+  display: block;
+}
