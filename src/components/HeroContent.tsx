@@ -52,7 +52,7 @@ export const HeroContent = (props: IScroll) => {
     skills.splice(1, 1);
 
     // Add index 0 to last getIndex
-    skills.splice(12, 0, getIndexZero.toString());
+    skills.splice(skills.length, 0, getIndexZero.toString());
 
     // Remove index 0
     skills.splice(0, 1);
