@@ -22,8 +22,8 @@
   left: 50%;
   top: 10%;
   color: #affff7;
-  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #affff7,
-    0 0 82px #affff7, 0 0 92px #affff7, 0 0 102px #affff7, 0 0 151px #affff7;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #055b56,
+    0 0 82px #055b56, 0 0 92px #055b56, 0 0 102px #055b56, 0 0 151px #055b56;
   padding: 10px 20px;
   border-radius: 10px;
   transform: translate(-50%);
