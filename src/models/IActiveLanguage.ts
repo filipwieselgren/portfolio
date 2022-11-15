@@ -150,7 +150,7 @@ const heroEnglishText: IHeroText = {
       id: 3,
       question: "What is your background?",
       answer:
-        "I have a background in Saas, marketing, communication and onboarding. For the last two and a half years I have been working at the Saas company Leadoo Marketing Technologies where I onboarded clients to Leadoo's platform, helped them implemet Leadoo's solution to their website and built chabots which has affected thousands of people to get a better web experience. Prior to that I worked at a digital marketing agency called Trickel where I took care of clients marketing campaigns on digital platform, such as Facbook, Instagram, Linkedin and snapchat. Please check my resume to read more about my background.",
+        "I have a background in Saas, marketing, communication and onboarding. For the last two and a half years I have been working at the Saas company Leadoo Marketing Technologies where I onboarded clients to Leadoo's platform, helped them implement Leadoo's solution to their website and built chabots which has affected thousands of people to get a better web experience. Prior to that I worked at a digital marketing agency called Trickel where I took care of clients marketing campaigns on digital platform, such as Facebook, Instagram, LinkedIn and Snapchat. If you want to know more about my background please click the button below to see my resume.",
     },
     {
       id: 4,
