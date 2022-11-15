@@ -7,7 +7,7 @@
   -ms-overflow-style: none;
   scrollbar-width: none;
   background-color: #121820;
-
+  position: relative;
   border: none;
 }
 
