@@ -35,26 +35,21 @@ export const HeroContent = (props: IScroll) => {
     }, 300);
   };
 
-  // Change skill-function
   const changeSkillCard = () => {
     let getIndexZero = skills.filter((a, index) => {
-      if (index == 0) return a; // 0 = 7
+      if (index == 0) return a;
     });
 
     let getIndexOne = skills.filter((a, index) => {
-      if (index == 1) return a; // 1 = 6
+      if (index == 1) return a;
     });
 
-    // Add index 1 to index 0
     skills.splice(0, 0, getIndexOne.toString());
 
-    // Remove index 1
     skills.splice(1, 1);
 
-    // Add index 0 to last getIndex
     skills.splice(skills.length, 0, getIndexZero.toString());
 
-    // Remove index 0
     skills.splice(0, 1);
 
     setSkills([...skills]);
@@ -66,11 +61,9 @@ export const HeroContent = (props: IScroll) => {
   }
   return (
     <>
-      {/* Gör presentation-text-container till en komponent */}
       {languageArray.map((lang) => {
         return lang.language === language ? (
           <div key={lang.id} className="presentation-text-container">
-            {/* <div className="navbar-name-container"> */}
             {languageArray.map((lang) => {
               return lang.language == language ? (
                 <>
@@ -81,7 +74,7 @@ export const HeroContent = (props: IScroll) => {
                 <></>
               );
             })}
-            {/* </div> */}
+
             <div className="presentation-text">
               {lang.maintext}
               <span className="swith-card">
@@ -95,7 +88,6 @@ export const HeroContent = (props: IScroll) => {
         );
       })}
 
-      {/* Gör skill-container till en komponent */}
       <div className="skill-container">
         <div className="skill-content">
           <div className="arrow-card-container">

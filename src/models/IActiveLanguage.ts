@@ -138,7 +138,7 @@ const heroEnglishText: IHeroText = {
       id: 1,
       question: "How are you to work with?",
       answer:
-        "I come with an analytic and problem solving mind set, love to see us achive great things as a team, and I strive for development. In practice this means that I work hard to achieve what's expected of me as a co-worker.",
+        "I work hard to achieve what's expected of me as a co-worker and provide an analytic/problem solving mind set, strive for personal development and I love to see us achieve great things as a team.",
     },
     {
       id: 2,
