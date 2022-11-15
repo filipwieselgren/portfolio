@@ -20,13 +20,14 @@
   text-transform: uppercase;
   font-size: 3rem;
   position: absolute;
-  left: 15%;
+  left: 50%;
   top: 10%;
   color: #affff7;
   background-color: #93b5b32e;
   box-shadow: 1px 1px 150px 1px #93b5b3;
   padding: 10px 20px;
   border-radius: 10px;
+  transform: translate(-50%);
 }
 
 .project-card-container {
@@ -51,7 +52,7 @@
 
 .project-card-container img {
   border-radius: 12.5px;
-  padding: 0.5em;
+  border: solid 1px;
   width: 100%;
   filter: drop-shadow(2px 4px 6px black);
 }
