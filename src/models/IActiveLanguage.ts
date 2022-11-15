@@ -25,7 +25,7 @@ const heroEnglishText: IHeroText = {
   stayInTouch: "I would love to stay in touch",
   phoneText: "Phone",
   aboutMeIntroText:
-    "Curiosity is always good! Choose what you want to find out about me ...",
+    "Curiosity is always good and I would love to tell you more about me! Choose what you want to find out about me ...",
   heroSeeMyProjects: "See my projects",
   heroReadAboutMe: "Read more about me",
   heroResume: "See my resume",
@@ -138,13 +138,13 @@ const heroEnglishText: IHeroText = {
       id: 1,
       question: "How are you to work with?",
       answer:
-        "I work hard to achieve what's expected of me as a co-worker and provide an analytic/problem solving mind set, strive for personal development and I love to see us achieve great things as a team.",
+        "I come with an analytic and a problem solving mind set. Working hard to achieve what's expected of me as a co-worker is something that comes natural for me and I love to see us achieve great things as a team.",
     },
     {
       id: 2,
       question: "What can you bring to the table?",
       answer:
-        "If you are looking for a developer that has experience with Javascript/Typescript, React and Node.js you have come to the right place. Besides that I can provide a good eye for UI/UX design and an analytical way of working and thinking. My prior experience from Leadoo and Trickle have definitely strengthened these two skills as well.",
+        "If you´re looking for a developer that has experience with Javascript/Typescript, React and Node.js you have come to the right place. Besides that I can provide a good eye for UI/UX design and an analytical way of working and thinking, something I have been able to develop even more on Leadoo and Trickle.",
     },
     {
       id: 3,
@@ -156,7 +156,7 @@ const heroEnglishText: IHeroText = {
       id: 4,
       question: "What do you like to do when you aren't working?",
       answer:
-        "When I'm not working I love to play golf during summer and during winter I switch the clubs to a snowboard. I'm also learnign how to kitsurf. Music has been a huge part of my life so if a sport activity isn't the choosen active I love to pic up the guitar or practice my coding skills.",
+        "When I'm not working I love to play golf during summer and during winter I switch out the clubs to a snowboard. Music has been a huge part of my life so if a sport activity isn't the choosen active I love to pic up the guitar or practice my coding skills.",
     },
   ],
 };
