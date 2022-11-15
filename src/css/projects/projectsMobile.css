@@ -17,10 +17,10 @@
 }
 
 .projectHeader {
-  border-radius: 10px;
+  border-radius: 5px;
   color: #affff7;
   font-size: 6rem;
-  left: 50%;
+  left: 11%;
   padding: 10px 20px;
   position: absolute;
   text-shadow: 30px 30px 100px, 0 0 20px;
@@ -28,6 +28,10 @@
   top: 15%;
   -webkit-transform: translate(-50%);
   transform: translate(-50%);
+  border-bottom: 1px solid;
+  border-top: 1px solid;
+  border-right: 1px solid;
+  box-shadow: 10px 5px 1px black;
 }
 
 .project-card-container {
