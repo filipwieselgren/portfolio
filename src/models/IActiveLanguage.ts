@@ -144,7 +144,7 @@ const heroEnglishText: IHeroText = {
       id: 2,
       question: "What can you bring to the table?",
       answer:
-        "If you´re looking for a developer that has experience with Javascript/Typescript, React and Node.js you have come to the right place. Besides that I can provide a good eye for UI/UX design and an analytical way of working and thinking, something I have been able to develop even more on Leadoo and Trickle.",
+        "If you´re looking for a developer that has experience with Javascript/Typescript, React and Node.js you have come to the right place. Besides that I can provide a good eye for UI/UX design and an analytical way of working and thinking, something I have been able to develop even more at Leadoo and Trickle.",
     },
     {
       id: 3,
