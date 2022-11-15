@@ -28,7 +28,7 @@ export const HeroPage = () => {
       <Navbar scrollDown={scrollDown} toProjects={toProjects} />
       <Hero toProjects={toProjects} />
       <div ref={projectSection} id="projects" className="project-wrapper">
-        <div className="projects">Projects</div>
+        <div className="projectHeader">Projects</div>
         <Projets />
       </div>
       <div ref={contactSection} className="background-container">
