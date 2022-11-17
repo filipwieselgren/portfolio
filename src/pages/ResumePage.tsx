@@ -26,7 +26,10 @@ export const ResumePage = () => {
     <>
       <Navbar scrollDown={scrollDown} toProjects={toProjects} />
       <Resume toProjects={toProjects} />
-      <div ref={projectSection} id="projects" className="project-wrapper">
+      <div id="projects" className="project-wrapper">
+        <div className="projectHeader-wrapper" ref={projectSection}>
+          <div className="projectHeader">Projects</div>
+        </div>
         <Projets />
       </div>
       <div ref={contactSection} className="background-container">

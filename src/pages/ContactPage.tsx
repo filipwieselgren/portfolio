@@ -7,6 +7,7 @@ import Projets from "../components/Projets";
 
 export const ContactPage = () => {
   const contactSection = useRef<any>(null);
+  const projectSection = useRef<any>(null);
 
   const scrollDown = () => {
     window.scrollTo({
@@ -17,7 +18,7 @@ export const ContactPage = () => {
 
   const toProjects = () => {
     window.scrollTo({
-      top: contactSection.current.offsetTop,
+      top: projectSection.current.offsetTop,
       behavior: "smooth",
     });
   };
@@ -25,7 +26,12 @@ export const ContactPage = () => {
     <>
       <Navbar scrollDown={scrollDown} toProjects={toProjects} />
       <About toProjects={toProjects} />
-      <Projets />
+      <div id="projects" className="project-wrapper">
+        <div className="projectHeader-wrapper" ref={projectSection}>
+          <div className="projectHeader">Projects</div>
+        </div>
+        <Projets />
+      </div>
       <div className="background-container">
         <Contact />
         <Footer toProjects={toProjects} />

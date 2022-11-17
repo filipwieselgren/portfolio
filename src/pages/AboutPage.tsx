@@ -26,7 +26,10 @@ export const AboutPage = () => {
     <>
       <Navbar scrollDown={scrollDown} toProjects={toProjects} />
       <About toProjects={toProjects} />
-      <div ref={projectSection} id="projects" className="project-wrapper">
+      <div id="projects" className="project-wrapper">
+        <div className="projectHeader-wrapper" ref={projectSection}>
+          <div className="projectHeader">Projects</div>
+        </div>
         <Projets />
       </div>
       <div className="background-container">
