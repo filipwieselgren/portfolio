@@ -25,6 +25,7 @@ const Hero = (props: IScroll) => {
           <></>
         )}
       </div>
+      <div className="ball1"></div>
     </section>
   );
 };
