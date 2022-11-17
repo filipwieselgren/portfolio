@@ -1,13 +1,14 @@
 #projects {
   width: 100vw;
   display: flex;
-  align-items: flex-start;
   background-color: #121820;
   border: none;
   padding-top: 200px;
+  flex-direction: column;
 }
 
 .projectHeader-wrapper {
+  display: flex;
 }
 
 .projectHeader {
