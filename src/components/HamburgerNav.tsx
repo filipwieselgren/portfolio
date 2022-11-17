@@ -27,6 +27,8 @@ export const HamburgerNav = (props: IActive) => {
 
   const dispatch = useDispatch();
 
+  const navigate = useNavigate();
+
   const triggerNavToggle = () => {
     props.navToggle();
     setSwitchLangBtn(!switchLangBtn);
@@ -69,12 +71,17 @@ export const HamburgerNav = (props: IActive) => {
   const gitLinkedActive = (
     <>
       <div className="some-con">
-        <img className="active-navbar-img" src={github} alt="Github" />
-        <img
-          className="active-navbar-img"
-          src={linkedin}
-          alt="Navbar image of me"
-        />
+        <a href="https://github.com/filipwieselgren">
+          <img className="active-navbar-img" src={github} alt="Github" />
+        </a>
+
+        <a href="https://www.linkedin.com/in/filipwieselgren/">
+          <img
+            className="active-navbar-img"
+            src={linkedin}
+            alt="Navbar image of me"
+          />
+        </a>
       </div>
     </>
   );
