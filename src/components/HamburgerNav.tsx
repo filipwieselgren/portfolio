@@ -71,11 +71,11 @@ export const HamburgerNav = (props: IActive) => {
   const gitLinkedActive = (
     <>
       <div className="some-con">
-        <a href="https://github.com/filipwieselgren">
+        <a href="https://github.com/filipwieselgren" target="_blank">
           <img className="active-navbar-img" src={github} alt="Github" />
         </a>
 
-        <a href="https://www.linkedin.com/in/filipwieselgren/">
+        <a href="https://www.linkedin.com/in/filipwieselgren/" target="_blank">
           <img
             className="active-navbar-img"
             src={linkedin}
