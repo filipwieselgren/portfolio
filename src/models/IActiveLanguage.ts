@@ -35,7 +35,7 @@ const heroEnglishText: IHeroText = {
   footerHome: "Home",
   footerResume: "Resume",
   footerAbout: "About",
-  footerProjects: "Project",
+  footerProjects: "Projects",
   btntext: [
     {
       btnid: 1,
