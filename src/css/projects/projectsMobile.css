@@ -8,7 +8,7 @@
   padding-top: 200px;
 }
 
-#projects::-webkit-scrollbar {
+.scroll::-webkit-scrollbar {
   display: none;
 }
 
