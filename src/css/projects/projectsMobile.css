@@ -3,31 +3,28 @@
   display: flex;
   align-items: flex-start;
   background-color: #121820;
-  position: relative;
   border: none;
   padding-top: 200px;
 }
 
-.scroll::-webkit-scrollbar {
-  display: none;
+.projectHeader-wrapper {
 }
 
 .projectHeader {
   border-radius: 5px;
   color: #affff7;
   font-size: 4rem;
-  left: 29%;
   padding: 10px 20px;
-  position: absolute;
   text-shadow: 30px 30px 100px, 0 0 20px;
   text-transform: uppercase;
-  top: 15%;
-  -webkit-transform: translate(-50%);
-  transform: translate(-50%);
   border-bottom: 1px solid;
   border-top: 1px solid;
   border-right: 1px solid;
   box-shadow: 10px 5px 1px black;
+}
+
+.scroll::-webkit-scrollbar {
+  display: none;
 }
 
 .scroll {
