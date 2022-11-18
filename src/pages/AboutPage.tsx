@@ -30,14 +30,14 @@ export const AboutPage = () => {
       <div id="projects" className="project-wrapper">
         <div className="projectHeader-wrapper" ref={projectSection}>
           <div className="projectHeader left">Projects</div>
-          <div className="projectHeader right">
-            More projects{" "}
+          {/* <div className="projectHeader right">
+            More projects
             <img
               src={github}
               alt="github logo"
               className="github-logo-project"
             />
-          </div>
+          </div> */}
         </div>
         <Projets />
       </div>

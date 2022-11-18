@@ -31,14 +31,14 @@ export const HeroPage = () => {
       <div id="projects" className="project-wrapper">
         <div className="projectHeader-wrapper" ref={projectSection}>
           <div className="projectHeader left">Projects</div>
-          <div className="projectHeader right">
+          {/* <div className="projectHeader right">
             More projects here
             <img
               src={github}
               alt="github logo"
               className="github-logo-project"
             />
-          </div>
+          </div> */}
         </div>
         <Projets />
       </div>
