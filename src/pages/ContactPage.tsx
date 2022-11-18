@@ -29,6 +29,7 @@ export const ContactPage = () => {
       <div id="projects" className="project-wrapper">
         <div className="projectHeader-wrapper" ref={projectSection}>
           <div className="projectHeader">Projects</div>
+          <div className="projectHeader">Go to my github</div>
         </div>
         <Projets />
       </div>
