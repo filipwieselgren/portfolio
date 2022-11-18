@@ -4,6 +4,7 @@ import { Footer } from "../components/Footer";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import { Projets } from "../components/Projets";
+import github from "../assets/github.png";
 
 export const HeroPage = () => {
   const contactSection = useRef<any>(null);
@@ -30,6 +31,9 @@ export const HeroPage = () => {
       <div id="projects" className="project-wrapper">
         <div className="projectHeader-wrapper" ref={projectSection}>
           <div className="projectHeader">Projects</div>
+          <div className="projectHeader">
+            More projects <img src={github} alt="github logo" />
+          </div>
         </div>
         <Projets />
       </div>
