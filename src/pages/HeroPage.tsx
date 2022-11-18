@@ -30,9 +30,14 @@ export const HeroPage = () => {
       <Hero toProjects={toProjects} />
       <div id="projects" className="project-wrapper">
         <div className="projectHeader-wrapper" ref={projectSection}>
-          <div className="projectHeader">Projects</div>
-          <div className="projectHeader">
-            More projects <img src={github} alt="github logo" />
+          <div className="projectHeader left">Projects</div>
+          <div className="projectHeader right">
+            More projects here
+            <img
+              src={github}
+              alt="github logo"
+              className="github-logo-project"
+            />
           </div>
         </div>
         <Projets />
