@@ -1,5 +1,5 @@
 import { useSelector } from "react-redux";
-import resumeEn from "../assets/CV-En.png";
+import resumeEn from "../assets/CV-En.jpg";
 import resumeSv from "../assets/CV.SV.png";
 import { IState } from "../redux/reducers/reducer";
 import { NavBtnsHero } from "./NavBtnsHero";

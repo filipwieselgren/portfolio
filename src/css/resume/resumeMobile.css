@@ -12,6 +12,7 @@
   width: 80vw;
   margin-bottom: 20px;
   border-radius: 5px;
+  box-shadow: 5px 5px 31px #00000040;
 }
 
 .mobile {
