@@ -60,7 +60,8 @@ const heroEnglishText: IHeroText = {
       name: "Webshop",
       html_url: "https://webshop-seven.vercel.app/",
       gitHub_url: "https://github.com/filipwieselgren/webshop",
-      description: "A webshop for movies build with react and typescript.",
+      description:
+        "A fictional webshop for movies build with React and Typescript. Working with API, localStorage and various array methods.",
       img: webshopImg,
       buildTxt: "Built with",
       testAppBtnText: "Test app",
@@ -85,7 +86,8 @@ const heroEnglishText: IHeroText = {
       name: "Todo-app",
       html_url: "https://todo-eta-six.vercel.app/",
       gitHub_url: "https://github.com/filipwieselgren/TODO",
-      description: "My first project in JS. A todo-app.",
+      description:
+        "A todo-app where you can create a list with todos, set deadlines and sort by deadline. Working with localStorage, dates and various array methods.",
       img: todoImg,
       buildTxt: "Built with",
       testAppBtnText: "Test app",
@@ -111,7 +113,7 @@ const heroEnglishText: IHeroText = {
       html_url: "https://react-zoo-sable.vercel.app/",
       gitHub_url: "https://github.com/filipwieselgren/react-zoo",
       description:
-        "A game built using React, typescript and styled-components.",
+        "A game built with React, Typescript and Styled-Components. The aniamls needs to be fed after every third hour, it´s your job to keep track on that and feed them. Working with localStorage, dates and various array methods.",
       img: feedTheZooImg,
       buildTxt: "Built with",
       testAppBtnText: "Test app",
@@ -208,7 +210,8 @@ const heroSwedishText: IHeroText = {
       name: "Webshop",
       html_url: "https://webshop-seven.vercel.app/",
       gitHub_url: "https://github.com/filipwieselgren/webshop",
-      description: "En webbshop för filmer byggt med React och Typscript.",
+      description:
+        "En fiktiv webbshop för filmer byggd med React och Typscript. Arbetar med API, localStorage och diverse array-metoder.",
       img: webshopImg,
       buildTxt: "Byggd med",
       testAppBtnText: "Testa appen",
@@ -233,7 +236,8 @@ const heroSwedishText: IHeroText = {
       name: "Todo-app",
       html_url: "https://todo-eta-six.vercel.app/",
       gitHub_url: "https://github.com/filipwieselgren/TODO",
-      description: "Mitt första projekt i JS. En todo-app.",
+      description:
+        "En todo-app där du kan skapa en lista med todos, sätta deadlines och sortera efter deadline. Arbetar med localStorage, datum och diverse array-metoder.",
       img: todoImg,
       buildTxt: "Byggd med",
       testAppBtnText: "Testa appen",
@@ -259,7 +263,7 @@ const heroSwedishText: IHeroText = {
       html_url: "https://react-zoo-sable.vercel.app/",
       gitHub_url: "https://github.com/filipwieselgren/react-zoo",
       description:
-        "Ett spel byggt med React, Typescript och styled-components.",
+        "Ett spel byggt med React, Typscript och Styled-Components. Djuren behöver matas efter var tredje timme, det är ditt jobb att hålla koll på det och mata dem. Arbetat med localStorage, datum och diverse array-metoder.",
       img: feedTheZooImg,
       buildTxt: "Byggd med",
       testAppBtnText: "Testa appen",
