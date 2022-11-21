@@ -175,7 +175,7 @@ const heroSwedishText: IHeroText = {
   stayInTouch: "Jag håller gärna kontakten",
   phoneText: "Telefon",
   aboutMeIntroText:
-    "Nyfikenhet är alltid bra! Klicka på det du vill veta om mig ...",
+    "Nyfikenhet är alltid bra och jag berättar gärna mer om mig! Välj det du vill veta om mig ...",
   heroSeeMyProjects: "See mina projekt",
   heroReadAboutMe: "Läs mer om mig",
   heroResume: "Se mitt cv",
