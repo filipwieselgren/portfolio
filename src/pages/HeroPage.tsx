@@ -5,10 +5,18 @@ import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import { Projets } from "../components/Projets";
 import github from "../assets/github.png";
+import { useSelector } from "react-redux";
+import { IState } from "../redux/reducers/reducer";
 
 export const HeroPage = () => {
   const contactSection = useRef<any>(null);
   const projectSection = useRef<any>(null);
+
+  const languageArray = useSelector(
+    (state: IState) => state.changeLanguage.languages
+  );
+
+  let language = useSelector((state: IState) => state.changeLanguage.value);
 
   const scrollDown = () => {
     window.scrollTo({
@@ -30,15 +38,11 @@ export const HeroPage = () => {
       <Hero toProjects={toProjects} />
       <div id="projects" className="project-wrapper">
         <div className="projectHeader-wrapper" ref={projectSection}>
-          <div className="projectHeader left">Projects</div>
-          {/* <div className="projectHeader right">
-            More projects here
-            <img
-              src={github}
-              alt="github logo"
-              className="github-logo-project"
-            />
-          </div> */}
+          {language === "english" ? (
+            <div className="projectHeader left">Projects</div>
+          ) : (
+            <div className="projectHeader left">Projekt</div>
+          )}
         </div>
         <Projets />
       </div>
