@@ -286,25 +286,25 @@ const heroSwedishText: IHeroText = {
       id: 1,
       question: "Hur är du att jobba med?",
       answer:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "Jag kommer med ett analytiskt och problemlösande mind set. Att arbeta hårt för att uppnå det som förväntas av mig som medarbetare är något som kommer naturligt för mig och jag älskar att se oss uppnå fantastiska saker tillsammans som ett team.",
     },
     {
       id: 2,
-      question: "Hur är du att jobba med?",
+      question: "Vad kan du bidra med?",
       answer:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "Om du letar efter en utvecklare som har erfarenhet av Javascript/Typescript, React och Node.js har du kommit rätt. Utöver det bidrar jag med ett bra öga för UI/UX-design och ett analytiskt sätt att arbeta och tänka på, något jag har kunnat utveckla ännu mer vid mina tidigare anställningar på Leadoo och Trickle.",
     },
     {
       id: 3,
-      question: "Hur är du att jobba med?",
+      question: "Vad är din bakgrund?",
       answer:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "Jag har en bakgrund inom Saas, marknadsföring, kommunikation och onboarding. Under de senaste två och ett halvt åren har jag arbetat på Saas-företaget Leadoo Marketing Technologies där jag onbordat kunder till Leadoos plattform, hjälpt dem att implementera Leadoos lösning på deras hemsida och byggt chattbotar som påverkat tusentals människor för att få en bättre webbupplevelse. Dessförinnan arbetade jag på den digitala marknadsföringsbyrån Trickel där jag tog hand om kunders marknadsföringskampanjer på digitala plattformar, såsom Facebook, Instagram, LinkedIn och Snapchat. Om du vill veta mer om min bakgrund får du gärna klicka på knappen nedan för att se mitt CV.",
     },
     {
       id: 4,
-      question: "Hur är du att jobba med?",
+      question: "Vad tycker du om att göra när du inte jobbar?",
       answer:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "När jag inte jobbar gillar jag att spela golf på sommaren och på vintern byter jag ut klubborna till en snowboard. Musik har alltid varit en stor del av mitt liv så om en sportaktivitet inte är den utvalda aktiviteten plockar jag fram gitarren eller övar på mina kodningsfärdigheter.",
     },
   ],
 };
