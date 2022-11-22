@@ -3,9 +3,6 @@
     padding-top: 5%;
     padding-bottom: 20%;
   }
-  .resume {
-    width: 60vw;
-  }
 
   .mobile {
     display: none;
@@ -15,7 +12,7 @@
   }
 
   .resume {
-    width: 30vw;
+    width: 50vw;
     margin-bottom: 50px;
     border-radius: 5px;
   }
