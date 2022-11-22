@@ -1,6 +1,5 @@
 import { useSelector } from "react-redux";
-import resumeEn from "../assets/cv.jpg";
-import resumeSv from "../assets/CV-Sv.png";
+
 import { IState } from "../redux/reducers/reducer";
 import { NavBtnsHero } from "./NavBtnsHero";
 interface IScroll {
@@ -16,12 +15,6 @@ export const Resume = (props: IScroll) => {
 
   return (
     <div className="resume-container">
-      {language === "english" ? (
-        <img className="resume" src={resumeEn} alt="My resume" />
-      ) : (
-        <img className="resume" src={resumeSv} alt="Mitt CV" />
-      )}
-
       <NavBtnsHero toProjects={props.toProjects} />
     </div>
   );
