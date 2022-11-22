@@ -1,7 +1,7 @@
 import IHeroText from "./IHeroTextInterface";
 import todoImg from "../assets/todo.png";
 import webshopImg from "../assets/webshop.png";
-import feedTheZooImg from "../assets/feed-the-zoo.png";
+import feedTheZooImg from "../assets/game.png";
 import { FaReact, FaSass } from "react-icons/fa";
 
 import {
