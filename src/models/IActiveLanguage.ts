@@ -158,7 +158,7 @@ const heroEnglishText: IHeroText = {
       id: 4,
       question: "What do you like to do when you aren't working?",
       answer:
-        "When I'm not working I love to play golf during the summer. When there is an opportunity I also like practicing my skills in kike surfing. During the winter I switch out the clubs to a snowboard and also more frequently visit the gym. Music has always been a huge part of my life and I love to pick up my guitar or practice my coding skills.",
+        "When I'm not working I love to play golf during the summer. When there is an opportunity I also like practicing my skills in kite surfing. During the winter I switch out the clubs to a snowboard and also more frequently visit the gym. Music has always been a huge part of my life and I love to pick up my guitar or practice my coding skills.",
     },
   ],
 };
