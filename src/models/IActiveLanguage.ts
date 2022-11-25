@@ -140,25 +140,25 @@ const heroEnglishText: IHeroText = {
       id: 1,
       question: "How are you to work with?",
       answer:
-        "I come with an analytic and a problem solving mind set. Working hard to achieve what's expected of me as a co-worker is something that comes natural for me and I love to see us achieve great things as a team.",
+        "I come with an analytic and a problem solving mind set. Working hard to achieve what's expected of me as a co-worker. I am inspired by being part of an ambitious team that are aiming for great goals.",
     },
     {
       id: 2,
       question: "What can you bring to the table?",
       answer:
-        "If you´re looking for a developer that has experience with Javascript/Typescript, React and Node.js you have come to the right place. Besides that I can provide a good eye for UI/UX design and an analytical way of working and thinking, something I have been able to develop even more at my previous employments at Leadoo and Trickle.",
+        "If you are looking for a developer that have skills in JavaScript/Typescript, React and Node.js, you have come to the right place. I can also provide a good eye for UI/UX design. I am trained in an analytical way of working and thinking, something that I also have been able to develop at my earlier employments at Leadoo and Trickle.",
     },
     {
       id: 3,
       question: "What is your background?",
       answer:
-        "I have a background in Saas, marketing, communication and onboarding. For the last two and a half years I have been working at the Saas company Leadoo Marketing Technologies where I onboarded clients to Leadoo's platform, helped them implement Leadoo's solution to their website and built chabots which has affected thousands of people to get a better web experience. Prior to that I worked at a digital marketing agency called Trickel where I took care of clients marketing campaigns on digital platform, such as Facebook, Instagram, LinkedIn and Snapchat. If you want to know more about my background please click the button below to see my resume.",
+        "Jag har en bakgrund inom SaaS, marknadsföring, kommunikation och onboarding. De senaste två och ett halvt åren har jag arbetat på SaaS-företaget Leadoo Marketing Technologies där jag onboardade dem till Leadoos plattform, hjälpte dem att implementera Leadoos lösning på deras hemsida och byggde chatbotar som har påverkat tusentals människor för att få en bättre webbupplevelse. Innan dess arbetade jag på en digital marknadsföringsbyrå som heter Trickle, där jag tog hand om kunders marknadsföringskampanjer på digitala plattformar, såsom Facebook, Instagram, LinkedIn och Snapchat. För mer information, klicka på knappen nedan för att se mitt CV.",
     },
     {
       id: 4,
       question: "What do you like to do when you aren't working?",
       answer:
-        "When I'm not working I love to play golf during summer and during winter I switch out the clubs to a snowboard. Music has been a huge part of my life so if a sport activity isn't the choosen active I love to pic up the guitar or practice my coding skills.",
+        "When I'm not working I love to play golf during the summer. When there is an opportunity I also like practicing my skills in kike surfing. During the winter I switch out the clubs to a snowboard and also more frequently visit the gym. Music has always been a huge part of my life and I love to pick up my guitar or practice my coding skills.",
     },
   ],
 };
@@ -290,13 +290,13 @@ const heroSwedishText: IHeroText = {
       id: 1,
       question: "Hur är du att jobba med?",
       answer:
-        "Jag kommer med ett analytiskt och problemlösande mind set. Att arbeta hårt för att uppnå det som förväntas av mig som medarbetare är något som kommer naturligt för mig och jag älskar att se oss uppnå fantastiska saker tillsammans som ett team.",
+        "Jag bidrar med ett analytiskt och problemlösande tankesätt. Jobbar hårt för att uppnå det som förväntas av mig som medarbetare. Jag inspireras av att vara en del av ett ambitiöst team som siktar på stora mål.",
     },
     {
       id: 2,
       question: "Vad kan du bidra med?",
       answer:
-        "Om du letar efter en utvecklare som har erfarenhet av Javascript/Typescript, React och Node.js har du kommit rätt. Utöver det bidrar jag med ett bra öga för UI/UX-design och ett analytiskt sätt att arbeta och tänka på, något jag har kunnat utveckla ännu mer vid mina tidigare anställningar på Leadoo och Trickle.",
+        "Om du letar efter en utvecklare som har kunskaper inom JavaScript/Typescript, React och Node.js har du kommit till rätt plats. Jag bidrar också med ett bra öga för UI/UX-design. Jag är tränad i att arbeta och tänka analytiskt, något som jag även har kunnat utveckla vid mina tidigare anställningar på Leadoo och Trickle.",
     },
     {
       id: 3,
@@ -308,7 +308,7 @@ const heroSwedishText: IHeroText = {
       id: 4,
       question: "Vad tycker du om att göra när du inte jobbar?",
       answer:
-        "När jag inte jobbar gillar jag att spela golf på sommaren och på vintern byter jag ut klubborna till en snowboard. Musik har alltid varit en stor del av mitt liv så om en sportaktivitet inte är den utvalda aktiviteten plockar jag fram gitarren eller övar på mina kodningsfärdigheter.",
+        "När jag inte jobbar älskar jag att spela golf på sommaren. När det finns en möjlighet gillar jag också att träna för att bli en bättre kitesurfare. Under vintern byter jag ut klubborna till mot snowboard och besöker även oftare gymmet. Musik har alltid varit en stor del av mitt liv och jag älskar att ta upp min gitarr eller öva på mina kunskaper inom programmering.",
     },
   ],
 };
