@@ -140,7 +140,7 @@ const heroEnglishText: IHeroText = {
       id: 1,
       question: "How are you to work with?",
       answer:
-        "I come with an analytic and a problem solving mind set. Working hard to achieve what's expected of me as a co-worker. I am inspired by being part of an ambitious team that are aiming for great goals.",
+        "I come with an analytic and a problem solving mind set. Working hard to achieve what's expected of me as a co-worker comes natural for me. I am inspired by being part of an ambitious team that are aiming for great goals.",
     },
     {
       id: 2,
@@ -290,7 +290,7 @@ const heroSwedishText: IHeroText = {
       id: 1,
       question: "Hur är du att jobba med?",
       answer:
-        "Jag bidrar med ett analytiskt och problemlösande tankesätt. Jobbar hårt för att uppnå det som förväntas av mig som medarbetare. Jag inspireras av att vara en del av ett ambitiöst team som siktar på stora mål.",
+        "Jag bidrar med ett analytiskt och problemlösande tankesätt. Jobba hårt för att uppnå det som förväntas av mig som medarbetare kommer naturligt för mig. Jag inspireras av att vara en del av ett ambitiöst team som siktar på stora mål.",
     },
     {
       id: 2,
